@@ -479,10 +479,15 @@ function colorEval(parts){
     let d=Math.abs(hues[i]-hues[j]);d=Math.min(d,360-d);
     if(d>50&&d<150)return null;
   }
+  /* Бюджет акцента: два предмета одного яркого цвета допустимы (например, свитер и обувь), третий нет */
+  const grp=f=>f==='red'||f==='pink'?'красный':(['yellow','bright blue','green','rust'].includes(f)?f:null);
+  const cnt={};fs.forEach(f=>{const g=grp(f);if(g)cnt[g]=(cnt[g]||0)+1});
+  if(Object.values(cnt).some(n=>n>=3))return null;
+  const hasAccent=Object.keys(cnt).length>0;
   let sc=0;const why=[];
   const set=new Set(fs);
   const cool=set.has('navy')||set.has('blue');
-  const warm=['brown','beige','rust','cream'].some(f=>set.has(f));
+  const warm=['brown','beige','rust','cream','red','pink'].some(f=>set.has(f));
   if(cool&&warm){sc+=2;why.push('синий и тёплый тон, дополнительные цвета')}
   const shoe=parts.find(p=>SH.includes(p));
   const sf=shoe&&shoe.c?fam(shoe.c):null;
@@ -491,6 +496,7 @@ function colorEval(parts){
   if(hues.length===1){sc+=1;why.push('один яркий акцент на спокойной базе')}
   else if(hues.length>1){sc+=1;why.push('яркие цвета соседние или дополнительные')}
   else why.push('без ярких акцентов');
+  if(hasAccent){const nn=Math.min(2,fs.filter(f=>f==='black'||f==='grey'||f==='white'||f==='cream').length);if(nn){sc+=nn;why.push('нейтральная база к акценту')}}
   const dull=fs.filter(f=>f==='black'||f==='grey').length;
   if(dull>=4)sc-=1;
   return {sc,why};
