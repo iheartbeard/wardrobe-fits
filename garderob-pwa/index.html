@@ -97,6 +97,7 @@ section.sec>h2{font:600 15px var(--f-display);margin:0 0 4px}
 .rl{line-height:1.45}
 .rl b{font-weight:600;color:var(--muted)}
 .legend .l-off{border-style:dashed;background:repeating-linear-gradient(135deg,transparent 0 3px,var(--hatch) 3px 4px)}
+.randtop{padding-block:14px 0}
 @media(prefers-reduced-motion:reduce){.card,.look{transition:none}.card:hover:not(:disabled),.look:hover{transform:none}}
 /* Телефон: фильтры идут обычным потоком, а прилипает только строка со счётчиком, выбранными вещами и сбросом */
 @media(max-width:719px){
@@ -136,12 +137,13 @@ section.sec>h2{font:600 15px var(--f-display);margin:0 0 4px}
   <div class="sum"><span class="count" id="count"></span><div class="chips" id="chips"></div><button class="btn" id="reset" type="button">Сбросить выбор</button></div>
 </div></div>
 
+<div class="wrap randtop"><div class="rand"><button class="btn" id="rnd" type="button">Случайное сочетание с проверкой цвета</button><div id="rndout"></div></div></div>
+
 <main class="wrap" id="sections"></main>
 
 <div class="wrap looks" id="looks">
   <h2>Готовые образы</h2>
   <p class="hint">Образы подобраны по цвету. Нажми на образ, и он выберется выше. Диапазон температур считает сама страница по правилам слоёв.</p>
-  <div class="rand"><button class="btn" id="rnd" type="button">Случайное сочетание с проверкой цвета</button><div id="rndout"></div></div>
   <div class="lgrid" id="lgrid"></div>
   <p class="note" id="foot"></p>
 </div>
@@ -260,7 +262,8 @@ BOT.forEach(b=>b.mask=M(...b.r));
 SH.forEach(s=>{s.dm=s.d?M(...s.d):0;s.rmk=s.r?M(...s.r):0});
 HEAD.forEach(h=>h.mask=M(...h.r));
 SCARF.forEach(h=>h.mask=M(...h.r));
-const ID={};[...OUT,...MID,...BOT,...SH,...HEAD,...SCARF,NONE].forEach(x=>ID[x.id]=x);
+const NOSC={id:'nosc',n:'Без шарфа',cn:'пропустить шарф',c:null,none:1,mask:ALL};
+const ID={};[...OUT,...MID,...BOT,...SH,...HEAD,...SCARF,NONE,NOSC].forEach(x=>ID[x.id]=x);
 
 function pair(j,m){
   if(!j||j.none)return m.outM;
@@ -345,7 +348,7 @@ function build(){
    `<section class="sec"><h2>Средний слой</h2><p class="hint" style="margin:4px 0 0">Футболка и слой поверх неё выбираются отдельно, в каждой группе можно выбрать одну вещь.</p>${groups(MID.filter(x=>x.k==='tee'),'t')}${groups(MID.filter(x=>x.k!=='tee'),'m')}</section>`+
    `<section class="sec"><h2>Низ</h2><div class="grp"><div class="cards">${BOT.map(x=>card(x,'b')).join('')}</div></div></section>`+
    `<section class="sec"><h2>Обувь</h2>${groups(SH,'s')}</section>`+
-   `<section class="sec"><h2>Аксессуары</h2>${groups(HEAD,'h')}<div class="grp"><h3>Шарфы (+5…+10)</h3><div class="cards">${SCARF.map(x=>card(x,'sc')).join('')}</div></div></section>`;
+   `<section class="sec"><h2>Аксессуары</h2>${groups(HEAD,'h')}<div class="grp"><h3>Шарфы (+5…+10)</h3><div class="cards">${[NOSC,...SCARF].map(x=>card(x,'sc')).join('')}</div></div></section>`;
 }
 const isTee=id=>ID[id].k==='tee';
 function slotOk(of,k){
@@ -382,9 +385,10 @@ function compute(){
   if(teeAny)MID.filter(x=>x.k==='tee').forEach(x=>av.t.add(x.id));
   HEAD.forEach(h=>{if(uh&h.mask)av.h.add(h.id)});
   SCARF.forEach(h=>{if(us&h.mask)av.sc.add(h.id)});
+  if(SCARF.some(h=>av.sc.has(h.id)))av.sc.add('nosc');   /* если ни один шарф не подходит, весь раздел недоступен */
   return {av,cnt,hit};
 }
-const lookPairs=l=>{const [o,m,b,s,h,sc]=l.ids;return [['o',o],[isTee(m)?'t':'m',m],['b',b],['s',s],['h',h],['sc',sc]]};
+const lookPairs=l=>{const [o,m,b,s,h,sc]=l.ids;const r=[['o',o],[isTee(m)?'t':'m',m],['b',b],['s',s],['h',h],['sc',sc||'nosc']];if(l.tee&&!isTee(m))r.splice(1,0,['t',l.tee]);return r};
 let lastHit=[];
 function update(){
   const {av,cnt,hit}=compute();lastHit=hit;
@@ -423,8 +427,8 @@ function renderLooks(){
   const rows=[];
   LOOKS.forEach((l,i)=>{
     const m=lookOk(l);if(!m)return;
-    const xs=l.ids.map(x=>ID[lid(x)]).filter(Boolean);
-    rows.push(`<button type="button" class="look" data-look="${i}"><span class="dots">${xs.filter(x=>!x.none).map(x=>`<i class="${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>`).join('')}</span><ul>${xs.filter(x=>!x.none).map(x=>`<li>${x.none?'Без верхней одежды':x.n+' · '+x.cn}</li>`).join('')}</ul><span class="tag"><span class="pill ${l.wx==='rain'?'rain':''}">${l.wx==='rain'?'дождь':'сухо'}</span><span class="pill">${span(m)} °C</span></span><span class="note">${l.note}</span></button>`);
+    const xs=[ID[lid(l.ids[0])],...(l.tee?[ID[l.tee]]:[]),...l.ids.slice(1).map(x=>ID[lid(x)])].filter(Boolean);
+    rows.push(`<button type="button" class="look" data-look="${i}"><span class="dots">${xs.filter(x=>!x.none).map(x=>`<i class="${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>`).join('')}</span><ul>${xs.filter(x=>!x.none).map(x=>`<li class="rl"><b>${typeOf(x)}</b> — ${x.n+' · '+x.cn}</li>`).join('')}</ul><span class="tag"><span class="pill ${l.wx==='rain'?'rain':''}">${l.wx==='rain'?'дождь':'сухо'}</span><span class="pill">${span(m)} °C</span></span><span class="note">${l.note}</span></button>`);
   });
   $('lgrid').innerHTML=rows.join('')||'<p class="empty">Под текущий выбор готовых образов нет. Список сочетаний выше всё равно учитывает температуру, слои и погоду.</p>';
   $('foot').textContent='Недоступными страница отмечает вещи, которые не подходят по температуре, слоям или погоде. Готовые образы подобраны вручную. Случайное сочетание проходит проверку цвета по теории: отсекаются только пары ярких насыщенных цветов, которые не соседние и не дополнительные (например, чистый красный с насыщенным зелёным). Землистые и приглушённые тона сочетаются свободно. Hex у Barbour Rokig примерный.';
@@ -493,7 +497,7 @@ function colorEval(parts){
 }
 const TYPE_MID={tee:'Футболка',sw:'Свитер',ss:'Свитшот',hd:'Худи',rg:'Регби',os:'Овершот'};
 function typeOf(x){
-  if(x.none)return 'Куртка';
+  if(x.none)return x===NOSC?'Шарф':'Куртка';
   if(OUT.includes(x))return x.g==='Жилетки'?'Жилетка':'Куртка';
   if(MID.includes(x))return TYPE_MID[x.k]||'Слой';
   if(BOT.includes(x))return 'Штаны';
@@ -502,6 +506,7 @@ function typeOf(x){
   if(SCARF.includes(x))return 'Шарф';
   return '';
 }
+const TEES=MID.filter(x=>x.k==='tee');
 $('rnd').addEventListener('click',()=>{
   if(!lastHit.length){$('rndout').innerHTML='<p class="empty">Под текущий выбор сочетаний нет.</p>';return}
   let best=[],bs=-9;
@@ -512,8 +517,8 @@ $('rnd').addEventListener('click',()=>{
     const h=hs[Math.floor(Math.random()*hs.length)];
     const ss=SCARF.filter(x=>(x.mask&f&h.mask)&&(!sel.sc||sel.sc===x.id));
     const withScarf=ss.length&&(sel.sc||Math.random()<.5);
-    const parts=[ID[of.o],ID[of.m],ID[of.b],ID[of.s],h];
-    if(sel.t&&!isTee(of.m))parts.splice(2,0,ID[sel.t]);
+    const tx=isTee(of.m)?null:(sel.t?ID[sel.t]:TEES[Math.floor(Math.random()*TEES.length)]);
+    const parts=[ID[of.o],...(tx?[tx]:[]),ID[of.m],ID[of.b],ID[of.s],h];
     if(withScarf)parts.push(sel.sc?ID[sel.sc]:ss[Math.floor(Math.random()*ss.length)]);
     const mm=f&h.mask&(withScarf?parts[parts.length-1].mask:ALL);
     if(!mm)continue;
@@ -525,6 +530,19 @@ $('rnd').addEventListener('click',()=>{
   if(!best.length){$('rndout').innerHTML='<p class="empty">Под текущий выбор не нашлось сочетания, которое проходит проверку по цвету.</p>';return}
   const {parts,mm,ev}=best[Math.floor(Math.random()*best.length)];
   $('rndout').innerHTML=`<div class="look" style="cursor:default"><span class="dots">${parts.filter(x=>!x.none).map(x=>`<i class="${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>`).join('')}</span><ul>${parts.filter(x=>!x.none).map(x=>`<li class="rl"><b>${typeOf(x)}</b> — ${x.none?'без верхней одежды':x.n+' · '+x.cn}</li>`).join('')}</ul><span class="tag"><span class="pill">${span(mm)} °C</span></span><span class="note">Цвет проверен: ${ev.why.join('; ')}.</span></div>`;
+});
+/* Футболка под свитером, свитшотом, худи и т.п. в готовых образах: берём ту, что лучше всего проходит проверку цвета */
+LOOKS.forEach(l=>{
+  const [o,m]=l.ids;l.tee=null;
+  if(isTee(m))return;
+  let best=null,bs=-99;
+  TEES.forEach((t,i)=>{
+    const parts=[o,t.id,...l.ids.slice(1)].filter(Boolean).map(x=>typeof x==='string'?ID[x]:x);
+    const ev=colorEval(parts);if(!ev)return;
+    const v=ev.sc*10+(fam(t.c)!==fam(ID[m].c)?3:0)-i*.1;
+    if(v>bs){bs=v;best=t}
+  });
+  if(best)l.tee=best.id;
 });
 build();update();
 </script>
