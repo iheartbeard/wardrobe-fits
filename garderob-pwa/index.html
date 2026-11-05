@@ -9,7 +9,561 @@
 <link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <style>html{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Осенний гардероб</title>
+<link rel="stylesheet" href="https://fonts.googleapis<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1C261F">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Гардероб">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<style>html{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Осенний гардероб</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Unbounded:wght@600&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+/* Layout: gradient header, sticky filter/summary bar, five fixed sections of selectable cards, then ready looks. */
+:root{
+  --bg:#EDEFEA; --surface:#F8F9F6; --fg:#1C221E; --muted:#5C665F; --line:#D3D8D0;
+  --accent:#38553F; --accent-ink:#FFFFFF; --rain:#476A86; --sel:#E1EBDD; --hatch:#C9CEC6; --ideal:#B7791F; --ideal-bg:#FBEFD2; --ideal-ink:#FFFFFF; --fit:#4B5FC4; --fit-bg:#E7EAFA;
+  --shadow:0 1px 2px rgba(28,34,30,.08),0 6px 16px rgba(28,34,30,.06);
+  --f-display:'Unbounded','Onest',system-ui,sans-serif; --f-body:'Onest',system-ui,sans-serif; --f-mono:'JetBrains Mono',ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#151A17; --surface:#1E2521; --fg:#E6EBE4; --muted:#9AA59D; --line:#333D37;
+  --accent:#8DB596; --accent-ink:#10170F; --rain:#86AECB; --sel:#26382B; --hatch:#3A443E;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 16px rgba(0,0,0,.3); --ideal:#E0B35A; --ideal-bg:#3A3220; --ideal-ink:#1A1405; --fit:#9DAAF2; --fit-bg:#252A48; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#151A17; --surface:#1E2521; --fg:#E6EBE4; --muted:#9AA59D; --line:#333D37;
+  --accent:#8DB596; --accent-ink:#10170F; --rain:#86AECB; --sel:#26382B; --hatch:#3A443E;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 16px rgba(0,0,0,.3); --ideal:#E0B35A; --ideal-bg:#3A3220; --ideal-ink:#1A1405; --fit:#9DAAF2; --fit-bg:#252A48; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.45}
+*{box-sizing:border-box}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+.hero{background:linear-gradient(115deg,#6A3B24 0%,#8B5E3C 32%,#6B6B3C 68%,#31503C 100%);color:#F7F3E8;padding-block:28px 24px}
+.hero h1{font:600 clamp(26px,5vw,40px)/1.1 var(--f-display);margin:0 0 10px;letter-spacing:-.01em}
+.hero p{margin:0;max-width:62ch;color:#EFE8D6;font-size:15px}
+.bar{background:var(--surface);border-bottom:1px solid var(--line);box-shadow:var(--shadow);z-index:20}
+@media(min-width:720px){.bar{position:sticky;top:env(safe-area-inset-top,0px)}}
+.bar .wrap{display:grid;gap:10px;padding-block:12px}
+.row{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+.lab{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);min-width:76px}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button,.btn{font:500 13px var(--f-body);color:var(--fg);background:transparent;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer}
+.seg button:hover,.btn:hover{border-color:var(--accent)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn:disabled:hover{border-color:var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.seg button.rainb[aria-pressed="true"]{background:var(--rain);border-color:var(--rain);color:#fff}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sum{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.count{font:400 13px var(--f-mono)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;flex:1;min-width:0}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;background:var(--sel);border-radius:999px;padding:3px 10px 3px 4px}
+main{padding-block:8px 8px}
+section.sec{padding-block:18px 4px}
+section.sec>h2{font:600 15px var(--f-display);margin:0 0 4px}
+.grp{margin:12px 0 0}
+.grp>h3{font:500 12px var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:10px}
+.card{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;align-items:center;text-align:left;font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px;cursor:pointer;box-shadow:var(--shadow);transition:transform .15s,border-color .15s;min-width:0}
+.card:hover:not(:disabled){transform:translateY(-2px);border-color:var(--accent)}
+.card[aria-pressed="true"]{background:var(--sel);border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.card:disabled{cursor:not-allowed;background:repeating-linear-gradient(135deg,transparent 0 6px,var(--hatch) 6px 7px);box-shadow:none;color:var(--muted);border-style:dashed}
+.card:disabled .dot{filter:grayscale(1);opacity:.5}
+.dot{width:34px;height:34px;border-radius:50%;border:1px solid rgba(0,0,0,.25);grid-row:span 2}
+.dot.nc{background:repeating-linear-gradient(45deg,var(--hatch) 0 4px,transparent 4px 8px)}
+.nm{font-weight:600;font-size:13px;line-height:1.25;overflow-wrap:anywhere}
+.meta{font-size:12px;color:var(--muted);grid-column:2;display:flex;flex-wrap:wrap;gap:0 8px}
+.hex{font-family:var(--f-mono)}
+.card.none .dot{border-style:dashed;background:transparent}
+.looks{padding-block:24px 40px}
+.looks h2{font:600 15px var(--f-display);margin:0 0 4px}
+.hint{color:var(--muted);font-size:13px;margin:0 0 12px;max-width:70ch}
+.lgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.look{text-align:left;font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px;cursor:pointer;box-shadow:var(--shadow);display:grid;gap:8px;min-width:0}
+.look:hover{border-color:var(--accent);transform:translateY(-2px)}
+.dots{display:flex}.cd{width:18px;height:18px;border-radius:50%;border:1px solid rgba(0,0,0,.25);flex:none}.cd.nc{background:repeating-linear-gradient(45deg,var(--hatch) 0 3px,transparent 3px 6px)}
+.dots i{width:26px;height:26px;border-radius:50%;border:2px solid var(--surface);margin-right:-6px;box-shadow:0 0 0 1px rgba(0,0,0,.2)}
+.dots i.nc{background:repeating-linear-gradient(45deg,var(--hatch) 0 3px,transparent 3px 6px)}
+.look ul{margin:0;padding:0;list-style:none;font-size:13px;display:grid;gap:1px}
+.look .tag{display:flex;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.pill{border-radius:999px;padding:1px 8px;background:var(--sel);color:var(--fg)}
+.pill.rain{background:var(--rain);color:#fff}
+.note{font-size:12.5px;color:var(--muted)}
+.rand{margin-bottom:16px;display:grid;gap:10px;justify-items:start}
+.empty{color:var(--muted);padding:8px 0}
+.card{position:relative}
+.card.fit{border-color:var(--fit);background:var(--fit-bg);box-shadow:0 0 0 1px var(--fit)}
+.card.ideal{background:var(--ideal-bg);border-color:var(--ideal);box-shadow:0 0 0 2px var(--ideal)}
+.card.ideal::after{content:"идеально";position:absolute;top:-9px;right:10px;font-size:11px;font-weight:600;background:var(--ideal);color:var(--ideal-ink);padding:1px 8px;border-radius:999px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:14px;height:14px;border-radius:4px;border:1.5px solid var(--line)}
+.legend .l-fit{border-color:var(--fit);background:var(--fit-bg)}
+.legend .l-ideal{border-color:var(--ideal);background:var(--ideal-bg)}
+.legend .l-ok{background:var(--surface)}
+#rndout .look{gap:4px;padding:8px 12px;margin-top:8px}
+#rndout .look ul{gap:0}
+.rl{line-height:1.45}
+.rl b{font-weight:600;color:var(--muted)}
+.legend .l-off{border-style:dashed;background:repeating-linear-gradient(135deg,transparent 0 3px,var(--hatch) 3px 4px)}
+@media(prefers-reduced-motion:reduce){.card,.look{transition:none}.card:hover:not(:disabled),.look:hover{transform:none}}
+/* Телефон: фильтры идут обычным потоком, а прилипает только строка со счётчиком, выбранными вещами и сбросом */
+@media(max-width:719px){
+  .bar,.bar .wrap{display:contents}
+  .bar .row,.bar .legend{background:var(--surface);padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+  .bar .row{padding-block:6px;gap:6px 8px}
+  .bar .row:first-child{padding-top:12px}
+  .lab{min-width:0;width:100%}
+  .seg{gap:6px}
+  .seg button,.btn{padding:5px 10px;font-size:12.5px}
+  .bar .legend{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px;font-size:11.5px;padding-block:8px 10px;align-items:start}
+  .legend span{align-items:flex-start;line-height:1.3}
+  .legend i{flex:none;margin-top:1px}
+  .sum{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-block:1px solid var(--line);box-shadow:var(--shadow);padding:8px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));gap:6px 10px}
+  .sum .btn{margin-left:auto}
+  .sum .chips{order:3;flex:1 1 100%;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:1px}
+  .sum .chips::-webkit-scrollbar{display:none}
+  .chip{flex:none;white-space:nowrap}
+  .sum .note{white-space:nowrap;font-size:12px}
+  .cards{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+  .card{padding:9px}
+  .hero{padding-block:max(20px,env(safe-area-inset-top,0px)) 18px}
+  .hero p{font-size:14px}
+  .lgrid{grid-template-columns:1fr}
+}
+</style>
+
+<header class="hero"><div class="wrap">
+  <h1>Осенний гардероб</h1>
+  <p>Все вещи, которые ты носишь осенью, от +5 до +22 °C, сухо и в дождь. Выбери вещь, и несовместимые по температуре, слоям и погоде карточки станут недоступными.</p>
+</div></header>
+
+<div class="bar"><div class="wrap">
+  <div class="row"><span class="lab">Температура</span><div class="seg" id="bands"></div></div>
+  <div class="row"><span class="lab">Погода</span><div class="seg" id="wx"></div></div>
+  <div class="legend"><span><i class="l-off"></i>не подходит, недоступно</span><span><i class="l-fit"></i>подходит по цвету к выбранному</span><span><i class="l-ok"></i>доступно, но по цвету не лучший вариант</span><span><i class="l-ideal"></i>идеальное сочетание из готовых образов</span></div>
+  <div class="sum"><span class="count" id="count"></span><div class="chips" id="chips"></div><button class="btn" id="reset" type="button">Сбросить выбор</button></div>
+</div></div>
+
+<main class="wrap" id="sections"></main>
+
+<div class="wrap looks" id="looks">
+  <h2>Готовые образы</h2>
+  <p class="hint">Образы подобраны по цвету. Нажми на образ, и он выберется выше. Диапазон температур считает сама страница по правилам слоёв.</p>
+  <div class="rand"><button class="btn" id="rnd" type="button">Случайное сочетание с проверкой цвета</button><div id="rndout"></div></div>
+  <div class="lgrid" id="lgrid"></div>
+  <p class="note" id="foot"></p>
+</div>
+
+
+<script>
+const T0=5,T1=22,N=T1-T0+1;
+const M=(a,b)=>{let m=0;for(let t=Math.max(a,T0);t<=Math.min(b,T1);t++)m|=1<<(t-T0);return m};
+const ALL=M(T0,T1);
+const bits=m=>{const r=[];for(let i=0;i<N;i++)if(m&(1<<i))r.push(i+T0);return r};
+const span=m=>{const b=bits(m);return b.length?(b.length===1?`только +${b[0]}`:`+${b[0]}…+${b[b.length-1]}`):'—'};
+
+/* Верхняя одежда. lo: нижняя граница; hiL/hiH: верхняя граница над лёгким/плотным слоем; wb: ниже этой температуры нужен тёплый слой */
+const OUT=[
+{id:'rok',g:'Куртки',n:'Barbour Rokig (mac)',cn:'Washed Stone & Highland Loch',c:'#B8AE98',lo:8,hiL:18,hiH:15,wb:10,rain:1},
+{id:'tra',g:'Куртки',n:'Barbour OS Transport',cn:'тёмно-зелёный, почти чёрный',c:'#262B22',lo:5,hiL:15,hiH:15,wb:10,rain:1,ban:['hd']},
+{id:'for',g:'Куртки',n:'Foret Act Chore',cn:'хаки и армейский',c:'#6F6A48',lo:8,hiL:18,hiH:14,wb:10},
+{id:'ma1',g:'Куртки',n:'Alpha Industries MA-1 Heritage',cn:'Vintage Green',c:'#5F6B4B',lo:5,hiL:15,hiH:15,wb:10},
+{id:'chd',g:'Куртки',n:'Dickies Lined Canvas Chore',cn:'оливково-хаки',c:'#7C7857',lo:5,hiL:15,hiH:15,wb:10},
+{id:'det',g:'Куртки',n:'Carhartt WIP OG Detroit',cn:'Hamilton Brown',c:'#8B5E3C',lo:5,hiL:15,hiH:15,wb:10},
+{id:'tai',g:'Куртки',n:'Taion Military Zip (лайнер)',cn:'Light Mocha',c:'#B39B84',lo:8,hiL:15,hiH:15,wb:10,norain:1},
+{id:'eis',g:'Куртки',n:'Dickies Eisenhower',cn:'чёрный',c:'#1F1F1F',lo:7,hiL:15,hiH:15,wb:10,kinds:['ss','sw']},
+{id:'vd',g:'Жилетки',n:'Dickies Duck Canvas Gilet',cn:'тёмно-коричневый',c:'#6B4F3A',lo:8,hiL:15,hiH:15,wb:10},
+{id:'vc',g:'Жилетки',n:'Carhartt WIP Classic Vest',cn:'H Brown',c:'#A5733F',lo:8,hiL:15,hiH:15,wb:10}
+];
+/* Средний слой. out: диапазон, когда это верхний слой; und: когда он под курткой; w: вес (0 лёгкий … 3 плотный) */
+const mk=(id,k,g,n,cn,c,out,und,w,warm)=>({id,k,g,n,cn,c,out,und,w,warm});
+const MID=[
+mk('tb','tee','Футболки','Uniqlo U','чёрный','#1E1E1E',[18,22],[5,22],0),
+mk('tw','tee','Футболки','Uniqlo U','белый','#F3F3F0',[18,22],[5,22],0),
+mk('tg','tee','Футболки','Uniqlo U / AIRism','светло-серый','#CDCFD0',[18,22],[5,22],0),
+mk('tg2','tee','Футболки','Uniqlo AIRism','серый','#9A9C9E',[18,22],[5,22],0),
+mk('tm','tee','Футболки','Muji','коричневый','#6B4B3A',[18,22],[5,22],0),
+mk('swd','sw','Свитеры','Edwin Dun Textured','красный','#A8392E',[14,16],[5,15],3,1),
+mk('swf','sw','Свитеры','Finisterre Mora','Navy','#20304F',[14,16],[5,15],3,1),
+mk('sws','sw','Свитеры','Uniqlo Soufflé Yarn','Light Green','#B8D0A2',[14,16],[5,15],3,1),
+mk('swl','sw','Свитеры','Uniqlo Lambswool','Yellow','#E2B83B',[14,16],[5,15],3,1),
+mk('ssm','ss','Свитшоты','Mango','navy','#22304F',[15,18],[10,15],2),
+mk('ssu','ss','Свитшоты','Uniqlo crewneck','светло-серый меланж','#C9CACC',[15,18],[10,15],2),
+mk('ssh','ss','Свитшоты','Carhartt WIP Hudson','розовый','#E3B8B5',[15,18],[10,15],2),
+mk('ssn','ss','Свитшоты','Carhartt WIP Nelson','Black Garment Dyed','#4F4D4C',[15,18],[10,15],2),
+mk('ssc','ss','Свитшоты','Carhartt WIP Chase','коричневый','#6D4B36',[12,15],[10,15],2),
+mk('hc','hd','Худи','Camber USA','Ash Gray','#B7B8BA',[14,16],[10,15],3,1),
+mk('ha1','hd','Худи','A&F Essential Popover 2.0','Mauve','#A98BA8',[15,18],[10,15],3,1),
+mk('ha2','hd','Худи','A&F Essential Popover 2.0','Gris Oscuro','#5D6064',[15,18],[10,15],3,1),
+mk('hv','hd','Худи','Velour Garments 450 GSM','Jet Black','#191919',[14,16],[10,15],3,1),
+mk('r1','rg','Регби','МЕЧ','navy, кремовый и красный','#1F2745',[15,20],[10,15],1),
+mk('r2','rg','Регби','МЕЧ','коралловый и кремовый, тонкая чёрная полоса','#C4604F',[15,20],[10,15],1),
+mk('r3','rg','Регби','Uniqlo','тёмно-зелёный и navy, кремовые полоски','#1E5A3E',[15,20],[10,15],1),
+mk('o1','os','Вельветовые овершоты','Uniqlo','navy','#1F2A45',[13,15],null,1),
+mk('o2','os','Вельветовые овершоты','Uniqlo','cream','#E9E0C8',[13,15],null,1)
+];
+const BOT=[
+{id:'bw',n:'Gramicci Winter Twill',cn:'Deep Olive',c:'#4B5230',r:[5,15]},
+{id:'bn1',n:'Carhartt WIP Newel',cn:'Black Stone Washed',c:'#232323',r:[5,15]},
+{id:'bn2',n:'Carhartt WIP Newel',cn:'Maitland, Blue Stone Bleached',c:'#6286AE',r:[5,15]},
+{id:'be',n:'Edwin Loose Tapered',cn:'Blue Rinsed',c:'#2C4166',r:[5,15]},
+{id:'bd',n:'Carhartt WIP Double Knee',cn:'Wax Rinsed, молочно-белый',c:'#EDE8DC',r:[5,15]},
+{id:'bu',n:'Universal Works Pleated Track',cn:'чёрный',c:'#1D1D1D',r:[5,15]},
+{id:'bm',n:'Muji Corduroy',cn:'Dark Brown',c:'#4B3527',r:[5,15]},
+{id:'g1',n:'Gramicci G-Pants',cn:'olive',c:'#6B6B3C',r:[10,22]},
+{id:'g2',n:'Gramicci G-Pants',cn:'black',c:'#242424',r:[10,22]},
+{id:'g3',n:'Gramicci G-Pants',cn:'greige',c:'#A9A394',r:[10,22]},
+{id:'mb',n:'Muji Relaxed Elasticated',cn:'Beige',c:'#CDBFA3',r:[10,22]},
+{id:'ue',n:'Uniqlo Easy Pants',cn:'серый',c:'#8B8E92',r:[10,22]}
+];
+const SH=[
+{id:'w1',g:'Тёплая осень (+15…+20)',n:'Clarks Wallabee 2604',cn:'Green Suede',c:'#607A2F',d:[15,20]},
+{id:'w2',g:'Тёплая осень (+15…+20)',n:'Clarks Wallabee Lite',cn:'Maple Suede',c:'#C9A06A',d:[15,20]},
+{id:'p6',g:'Тёплая осень (+15…+20)',n:'Nike P-6000',cn:'Flat Pewter',c:'#9DA1A5',d:[15,20]},
+{id:'g11',g:'Тёплая осень (+15…+20)',n:'ASICS GEL-1130 x HAL Studio',cn:'Forest',c:'#31503C',d:[15,20]},
+{id:'pog',g:'Тёплая осень (+15…+20)',n:'Saucony Pro Omni Grid 9 x FootPatrol',cn:'Blue / Brown',c:'#7C5632',d:[15,20]},
+{id:'n860',g:'Тёплая осень (+15…+20)',n:'New Balance 860v2',cn:'Mars-Timberwolf',c:'#CFC7B1',d:[15,20]},
+{id:'n990s',g:'Холодная осень (+5…+18)',n:'New Balance 990v3',cn:'Scarlet / Marblehead, бордово-красная замша с серым',c:'#9C2B3D',d:[5,18]},
+{id:'n990t',g:'Холодная осень (+5…+18)',n:'New Balance 990v3',cn:'оливково-хаки замша',c:'#8B8A5C',d:[5,18]},
+{id:'n993',g:'Холодная осень (+5…+18)',n:'New Balance 993 Made in USA',cn:'Black with Grey and White',c:'#26262A',d:[5,18]},
+{id:'kj1',g:'Холодная осень (+5…+18)',n:'Keen Jasper Zionic',cn:'Black / Alloy',c:'#1F1F1F',d:[5,18]},
+{id:'kj2',g:'Холодная осень (+5…+18)',n:'Keen Jasper Zionic',cn:'Dark Olive / Birch',c:'#5C5B3B',d:[5,18]},
+{id:'rc',g:'Холодная осень (+5…+18)',n:'Reebok Club C 85 Vintage',cn:'Chalk / Glen Green',c:'#EAE5D6',d:[5,18],r:[8,17]},
+{id:'van',g:'Холодная осень (+5…+18)',n:'Vans Classic Slip-on',cn:'чёрно-белая шашка',c:'#2B2B2B',d:[5,18]},
+{id:'pal',g:'Холодная осень (+5…+18)',n:'Puma Palermo Vintage',cn:'Hyperlink Blue / Frosted Ivory',c:'#2F5FAA',d:[5,18]},
+{id:'bos',g:'Холодная осень (+5…+18)',n:'Birkenstock Boston',cn:'Tobacco Brown',c:'#7B6B50',d:[5,18]},
+{id:'gnyc',g:'Холодная осень (+5…+18)',n:'ASICS GEL-NYC',cn:'Steeple Grey',c:'#9C9C9E',d:[5,18]},
+{id:'bl5',g:'Дождь',n:'Blundstone 585',cn:'Rustic Brown',c:'#7C4B2B',r:[5,17]},
+{id:'bl7',g:'Дождь',n:'Blundstone 587',cn:'Rustic Black',c:'#1E1E1E',r:[5,17]},
+{id:'swc',g:'Дождь',n:'Stepney Workers Club Amiel S-Strike',cn:'Cordura Black',c:'#3B3B3D',r:[5,17]},
+{id:'sh6',g:'Дождь',n:'Saucony Shadow 6000 GTX',cn:'Black / Grey',c:'#2B2B2D',r:[8,17]},
+{id:'shp',g:'Холодная осень (+5…+18)',n:'New Balance 2002R Protection Pack',cn:'Shipyard, тон-в-тон серо-бежевый (greige)',c:'#BDB5A6',d:[8,15],r:[5,15]},
+{id:'c90',g:'Дождь',n:'Saucony Cross 90',cn:'кремовый',c:'#E7DEC7',r:[5,15]},
+{id:'tim',g:'Круглый год',n:'Timberland Authentic 3-Eye Boat Shoe',cn:'Burgundy',c:'#6E2230',d:[5,22],r:[5,22]}
+];
+const HEAD=[
+{id:'b1',g:'Шапки (+5…+12)',n:'P&Co Deck Beanie',cn:'чёрная',c:'#1D1D1D',r:[5,12]},
+{id:'b2',g:'Шапки (+5…+12)',n:'P&Co Deck Beanie',cn:'коричневая',c:'#5A3E2C',r:[5,12]},
+{id:'b3',g:'Шапки (+5…+12)',n:'P&Co Deck Beanie',cn:'Brick Red',c:'#9B3A2D',r:[5,12]},
+{id:'cDi',g:'Кепки',n:'Dickies Williston',cn:'Tibetan Red, вельвет',c:'#8E2E2B',r:[7,15]},
+{id:'cG',g:'Кепки',n:'Gramicci Nylon Cap',cn:'brown / dune',c:'#8C6C4B',r:[10,22]},
+{id:'cS',g:'Кепки',n:'Service Works Home Comforts',cn:'Rust',c:'#B0602E',r:[10,22]},
+{id:'cP1',g:'Кепки',n:'P&Co Script Cotton 5 Panel',cn:'Brick Red',c:'#A0412D',r:[7,22]},
+{id:'cP2',g:'Кепки',n:'P&Co Varsity Cotton 5 Panel',cn:'Ecru & Navy',c:'#E4DAC4',r:[7,22]},
+{id:'cK',g:'Кепки',n:'Maison Kitsuné Handwriting',cn:'чёрная',c:'#1C1C1C',r:[7,22]},
+{id:'cPa',g:'Кепки',n:'Patagonia Graphic Maclure',cn:'Pumice',c:'#D8CDB6',r:[7,22]},
+{id:'cSl',g:'Кепки',n:'Slow Sundays Cotton 5 Panel',cn:'Green',c:'#7F8A5C',r:[7,22]}
+];
+const SCARF=[
+{id:'sc1',n:'Barbour tartan',cn:'olive, navy, brown, mustard',c:'#5A5B3A',r:[5,10]},
+{id:'sc2',n:'Barbour large block-check',cn:'brown, camel, navy, grey',c:'#A98B63',r:[5,10]},
+{id:'sc3',n:'United Colors of Benetton',cn:'чёрный, ребристый',c:'#1E1E1E',r:[5,10]}
+];
+const NONE={id:'none',n:'Без верхней одежды',cn:'только средний слой',c:null,none:1};
+
+/* Маски температур */
+OUT.forEach(o=>{o.rm=o.rain?1:0});
+MID.forEach(m=>{m.outM=m.out?M(...m.out):0});
+BOT.forEach(b=>b.mask=M(...b.r));
+SH.forEach(s=>{s.dm=s.d?M(...s.d):0;s.rmk=s.r?M(...s.r):0});
+HEAD.forEach(h=>h.mask=M(...h.r));
+SCARF.forEach(h=>h.mask=M(...h.r));
+const ID={};[...OUT,...MID,...BOT,...SH,...HEAD,...SCARF,NONE].forEach(x=>ID[x.id]=x);
+
+function pair(j,m){
+  if(!j||j.none)return m.outM;
+  if(j.kinds&&!j.kinds.includes(m.k))return 0;
+  if(j.ban&&j.ban.includes(m.k))return 0;
+  if(!m.und)return 0;
+  const hi=m.w<=1?j.hiL:j.hiH;let r=0;
+  for(let t=Math.max(j.lo,m.und[0],T0);t<=Math.min(hi,m.und[1],T1);t++){
+    if(t>=j.wb||m.warm)r|=1<<(t-T0);
+  }
+  return r;
+}
+/* Все осмысленные сочетания: куртка (или без) + средний слой + низ + обувь */
+const OF=[];
+for(const j of [NONE,...OUT])for(const m of MID){
+  const p=pair(j,m);if(!p)continue;
+  const pr=j.norain?0:p;
+  for(const b of BOT){
+    const pb=p&b.mask,prb=pr&b.mask;if(!pb&&!prb)continue;
+    for(const s of SH){
+      const dry=pb&s.dm,rain=prb&s.rmk;
+      if(dry||rain)OF.push({o:j.id,m:m.id,b:b.id,s:s.id,dry,rain});
+    }
+  }
+}
+const maskFor=(of,wx,band)=>((wx==='dry'?of.dry:wx==='rain'?of.rain:(of.dry|of.rain))&band);
+
+/* Готовые образы: [куртка, средний слой, низ, обувь, головной убор, шарф] */
+const LOOKS=[
+['dry','none','r2','g3','w2','cP1',null,'Коралл и кирпич на песочной замше и серо-бежевых штанах.'],
+['dry','none','tw','g1','g11','cG',null,'Оливковые штаны, тёмно-зелёные Forest и тёплая кепка Gramicci. Один зелёно-коричневый тон.'],
+['dry','none','tb','mb','pog','cS',null,'Чёрная футболка и бежевые штаны. Ржавая кепка поддерживает коричневые панели Pro Omni Grid.'],
+['dry','none','r3','ue','p6','cPa',null,'Тёмно-зелёное и синее регби в полоску, серые штаны, серые P-6000 и кремовая кепка Patagonia.'],
+['dry','none','tg','g2','n860','cK',null,'Светло-серая футболка, чёрные штаны, светлые 860v2 и чёрная кепка.'],
+['dry','none','ssm','g3','w1','cP2',null,'Navy свитшот, greige штаны и зелёная замша. Кепка Ecru & Navy повторяет верх.'],
+['dry','none','hc','g2','pal','cPa',null,'Серое худи и чёрные штаны. Синий Palermo даёт единственный яркий акцент.'],
+['dry','none','r1','g1','rc','cSl',null,'Тёмно-синее регби с кремовыми и красными полосами, оливковые штаны и зелёные детали Club C.'],
+['dry','for','tw','mb','n990t','cPa',null,'Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.'],
+['dry','rok','tb','ue','gnyc','cK',null,'Мак поверх чёрной футболки, серые штаны и серые NYC.'],
+['dry','ma1','hc','be','n993','cDi',null,'Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.'],
+['dry','det','swf','be','rc','b3',null,'Коричневая Detroit поверх navy свитера, индиго и светлые Club C.'],
+['dry','vd','ha2','bw','van','cDi',null,'Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.'],
+['dry','vc','ssm','bu','pal','cPa',null,'Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.'],
+['dry','tai','swf','bn1','gnyc','b1',null,'Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.'],
+['dry','eis','ssu','bd','kj2','cS',null,'Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.'],
+['dry','tra','swl','bm','kj2','b2','sc1','Тёмно-зелёный Transport поверх жёлтого свитера, вельветовые Muji и тартановый шарф.'],
+['dry','chd','sws','bn1','n993','b1','sc3','Оливково-хаки куртка на светло-зелёном свитере. Всё остальное чёрное.'],
+['dry','vd','swf','bn2','kj1','b3','sc1','Жилетка на navy свитере, светлые Newel Maitland и чёрные Jasper.'],
+['rain','tra','swf','be','bl5','b2',null,'Transport, navy свитер, индиго и коричневые Blundstone.'],
+['rain','rok','ssn','bn1','bl7','cK',null,'Мак поверх тёмного свитшота. Всё чёрное и тёмное.'],
+['rain','tra','ssn','bw','swc','cDi',null,'Тёмный свитшот Nelson, оливковые штаны, SWC и красная кепка.'],
+['rain','rok','swl','bu','shp','cP2',null,'Жёлтый свитер под маком, чёрные штаны и серо-бежевые Shipyard.'],
+['rain','tra','swd','bm','bl5','b2','sc1','Красный свитер под Transport, вельвет Muji, тартан и коричневые Blundstone.'],
+['rain','rok','tg','ue','sh6','cK',null,'Мак на светлой футболке, серые штаны и Shadow 6000 GTX.']
+].map(a=>({wx:a[0],ids:a.slice(1,7),note:a[7]}));
+function lookMask(l){
+  const [o,m,b,s,h,sc]=l.ids.map(x=>x?ID[x]:null);
+  let p=pair(o,m);
+  if(l.wx==='rain'){if(o.norain)return 0;p&=b.mask&s.rmk}else p&=b.mask&s.dm;
+  if(h)p&=h.mask;if(sc)p&=sc.mask;return p;
+}
+/*UI*/
+const BANDS=[['all','Весь диапазон',ALL],['5','+5…+10',M(5,10)],['10','+10…+15',M(10,15)],['15','+15…+18',M(15,18)],['18','+18…+22',M(18,22)],['now','Сейчас в Эрандио: +17',M(17,17)]];
+const WX=[['any','Любая'],['dry','Сухо'],['rain','Дождь']];
+const SLOTS=['o','t','m','b','s','h','sc'];
+const newSel=()=>({o:null,t:null,m:null,b:null,s:null,h:null,sc:null});
+const SLOTNAME={o:'Верхняя одежда',m:'Средний слой',b:'Низ',s:'Обувь',h:'Головной убор',sc:'Шарф'};
+let band=ALL,bandKey='all',wx='any',sel=newSel();
+const $=id=>document.getElementById(id);
+const dot=(c,cls='')=>`<span class="dot ${c?'':'nc'} ${cls}" ${c?`style="background:${c}"`:''}></span>`;
+const card=(x,slot)=>`<button type="button" class="card ${x.none?'none':''}" data-slot="${slot}" data-id="${x.id}" aria-pressed="false">${dot(x.c)}<span class="nm">${x.n}</span><span class="meta"><span>${x.cn}</span>${x.c?`<span class="hex">${x.c}</span>`:''}</span></button>`;
+function groups(list,slot,key='g'){
+  const out=[];const seen=[];
+  list.forEach(x=>{const g=x[key]||'';let i=seen.indexOf(g);if(i<0){seen.push(g);out.push([g,[]]);i=out.length-1}out[i][1].push(x)});
+  return out.map(([g,xs])=>`<div class="grp">${g?`<h3>${g}</h3>`:''}<div class="cards">${xs.map(x=>card(x,slot)).join('')}</div></div>`).join('');
+}
+function build(){
+  $('bands').innerHTML=BANDS.map(b=>`<button type="button" data-band="${b[0]}" aria-pressed="${b[0]===bandKey}">${b[1]}</button>`).join('');
+  $('wx').innerHTML=WX.map(w=>`<button type="button" class="${w[0]==='rain'?'rainb':''}" data-wx="${w[0]}" aria-pressed="${w[0]===wx}">${w[1]}</button>`).join('');
+  $('sections').innerHTML=
+   `<section class="sec"><h2>Верхняя одежда</h2><div class="grp"><div class="cards">${card(NONE,'o')}</div></div>${groups(OUT,'o')}</section>`+
+   `<section class="sec"><h2>Средний слой</h2><p class="hint" style="margin:4px 0 0">Футболка и слой поверх неё выбираются отдельно, в каждой группе можно выбрать одну вещь.</p>${groups(MID.filter(x=>x.k==='tee'),'t')}${groups(MID.filter(x=>x.k!=='tee'),'m')}</section>`+
+   `<section class="sec"><h2>Низ</h2><div class="grp"><div class="cards">${BOT.map(x=>card(x,'b')).join('')}</div></div></section>`+
+   `<section class="sec"><h2>Обувь</h2>${groups(SH,'s')}</section>`+
+   `<section class="sec"><h2>Аксессуары</h2>${groups(HEAD,'h')}<div class="grp"><h3>Шарфы (+5…+10)</h3><div class="cards">${SCARF.map(x=>card(x,'sc')).join('')}</div></div></section>`;
+}
+const isTee=id=>ID[id].k==='tee';
+function slotOk(of,k){
+  if(k==='o')return !sel.o||sel.o===of.o;
+  if(k==='b')return !sel.b||sel.b===of.b;
+  if(k==='s')return !sel.s||sel.s===of.s;
+  if(k==='t')return !sel.t||!isTee(of.m)||of.m===sel.t;   /* футболка под слоем подразумевается всегда */
+  if(k==='m')return !sel.m||of.m===sel.m;
+}
+function compute(){
+  const H=sel.h?ID[sel.h].mask:ALL,S=sel.sc?ID[sel.sc].mask:ALL;
+  const av={o:new Set(),t:new Set(),m:new Set(),b:new Set(),s:new Set(),h:new Set(),sc:new Set()};
+  let uh=0,us=0,cnt=0,teeAny=false;const hit=[];
+  const KS=['o','t','m','b','s'];
+  for(const of of OF){
+    const f=maskFor(of,wx,band);if(!f)continue;
+    const f2=f&H&S;
+    let miss=0,mk=null;
+    for(const k of KS)if(!slotOk(of,k)){miss++;mk=k;if(miss>1)break}
+    const tee=isTee(of.m);
+    if(miss===0){
+      if(f2){av.o.add(of.o);av.b.add(of.b);av.s.add(of.s);
+        if(tee)av.t.add(of.m);else{av.m.add(of.m);teeAny=true}
+        cnt++;hit.push([of,f2])}
+      uh|=f&S;us|=f&H;
+    }else if(miss===1&&f2){
+      if(mk==='o')av.o.add(of.o);
+      else if(mk==='b')av.b.add(of.b);
+      else if(mk==='s')av.s.add(of.s);
+      else if(mk==='t'&&tee)av.t.add(of.m);
+      else if(mk==='m'&&!tee)av.m.add(of.m);
+    }
+  }
+  if(teeAny)MID.filter(x=>x.k==='tee').forEach(x=>av.t.add(x.id));
+  HEAD.forEach(h=>{if(uh&h.mask)av.h.add(h.id)});
+  SCARF.forEach(h=>{if(us&h.mask)av.sc.add(h.id)});
+  return {av,cnt,hit};
+}
+const lookPairs=l=>{const [o,m,b,s,h,sc]=l.ids;return [['o',o],[isTee(m)?'t':'m',m],['b',b],['s',s],['h',h],['sc',sc]]};
+let lastHit=[];
+function update(){
+  const {av,cnt,hit}=compute();lastHit=hit;
+  const any=SLOTS.some(k=>sel[k]);
+  const selParts=SLOTS.filter(k=>sel[k]).map(k=>ID[sel[k]]).filter(x=>!x.none);
+  const baseSc=selParts.length?((colorEval(selParts)||{sc:0}).sc):0;
+  const ideal={o:new Set(),t:new Set(),m:new Set(),b:new Set(),s:new Set(),h:new Set(),sc:new Set()};
+  if(any)LOOKS.forEach(l=>{if(!lookOk(l))return;lookPairs(l).forEach(([k,id])=>{if(id)ideal[k].add(id)})});
+  document.querySelectorAll('.card').forEach(c=>{
+    const s=c.dataset.slot,id=c.dataset.id,on=sel[s]===id;
+    const it=ID[id];const ev=on?null:colorEval(it.none?selParts:[...selParts,it]);
+    const dis=!on&&(sel[s]!==null||!av[s].has(id)||!ev);
+    c.setAttribute('aria-pressed',on);c.disabled=dis;
+    const idl=any&&!on&&!dis&&ideal[s].has(id);
+    c.classList.toggle('ideal',idl);
+    c.classList.toggle('fit',any&&!on&&!dis&&!idl&&!!ev&&ev.sc-baseSc>=1);
+  });
+  $('count').textContent=`Сочетаний: ${cnt.toLocaleString('ru-RU')}`;
+  const chips=SLOTS.filter(k=>sel[k]).map(k=>{const x=ID[sel[k]];return `<span class="chip"><i class="cd ${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>${x.n}</span>`});
+  $('chips').innerHTML=chips.join('')||'<span class="note">Ничего не выбрано. Нажми на любую карточку.</span>';
+  $('reset').disabled=!SLOTS.some(k=>sel[k])&&bandKey==='all'&&wx==='any';
+  renderLooks();$('rndout').innerHTML='';
+}
+function lookOk(l){
+  const m=lookMask(l);if(!m)return null;
+  if(wx!=='any'&&wx!==l.wx)return null;
+  if(!(m&band))return null;
+  const P=lookPairs(l);
+  for(const [k,id] of P){if(sel[k]&&sel[k]!==id)return null}
+  if(sel.m&&!P.some(([k])=>k==='m'))return null;
+  if(sel.t&&!P.some(([k])=>k==='t'))return null;
+  return m;
+}
+const lid=(x)=>x===null?'none':x;
+function renderLooks(){
+  const rows=[];
+  LOOKS.forEach((l,i)=>{
+    const m=lookOk(l);if(!m)return;
+    const xs=l.ids.map(x=>ID[lid(x)]).filter(Boolean);
+    rows.push(`<button type="button" class="look" data-look="${i}"><span class="dots">${xs.filter(x=>!x.none).map(x=>`<i class="${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>`).join('')}</span><ul>${xs.filter(x=>!x.none).map(x=>`<li>${x.none?'Без верхней одежды':x.n+' · '+x.cn}</li>`).join('')}</ul><span class="tag"><span class="pill ${l.wx==='rain'?'rain':''}">${l.wx==='rain'?'дождь':'сухо'}</span><span class="pill">${span(m)} °C</span></span><span class="note">${l.note}</span></button>`);
+  });
+  $('lgrid').innerHTML=rows.join('')||'<p class="empty">Под текущий выбор готовых образов нет. Список сочетаний выше всё равно учитывает температуру, слои и погоду.</p>';
+  $('foot').textContent='Недоступными страница отмечает вещи, которые не подходят по температуре, слоям или погоде. Готовые образы подобраны вручную. Случайное сочетание проходит проверку цвета по теории: отсекаются только пары ярких насыщенных цветов, которые не соседние и не дополнительные (например, чистый красный с насыщенным зелёным). Землистые и приглушённые тона сочетаются свободно. Hex у Barbour Rokig примерный.';
+}
+function pick(k,id){sel[k]=sel[k]===id?null:id;update()}
+document.addEventListener('click',e=>{
+  const c=e.target.closest('.card');if(c&&!c.disabled){pick(c.dataset.slot,c.dataset.id);return}
+  const b=e.target.closest('[data-band]');if(b){bandKey=b.dataset.band;band=BANDS.find(x=>x[0]===bandKey)[2];if(bandKey==='now')wx=window.NOW_RAIN?'rain':'dry';sel=newSel();build();update();return}
+  const w=e.target.closest('[data-wx]');if(w){wx=w.dataset.wx;sel=newSel();build();update();return}
+  const l=e.target.closest('.look[data-look]');if(l){const L=LOOKS[+l.dataset.look];sel=newSel();lookPairs(L).forEach(([k,id])=>{sel[k]=id});update();window.scrollTo({top:0,behavior:'smooth'});return}
+});
+$('reset').addEventListener('click',()=>{sel=newSel();bandKey='all';band=ALL;wx='any';build();update()});
+/* Цветовая проверка случайного сочетания */
+function hsl(hex){const r=parseInt(hex.slice(1,3),16)/255,g=parseInt(hex.slice(3,5),16)/255,b=parseInt(hex.slice(5,7),16)/255;
+  const mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2,d=mx-mn;let h=0,s=0;
+  if(d){s=d/(1-Math.abs(2*l-1));if(mx===r)h=((g-b)/d+6)%6;else if(mx===g)h=(b-r)/d+2;else h=(r-g)/d+4;h*=60}
+  return {h,s,l}}
+function fam(hex){
+  const {h,s,l}=hsl(hex);
+  if(l<.17)return 'black';
+  if(s<.12)return l>.8?'white':'grey';
+  if(l>.86&&s<.3)return 'white';
+  if(h>=190&&h<=255){if(s>=.5&&l>=.3)return 'bright blue';return l<.3?'navy':'blue'}
+  if(h>=270&&h<340)return 'pink';
+  if(l>=.8&&h>=30&&h<60)return 'cream';
+  if(h>=45&&h<170){
+    if(l>.7&&h>=60)return 'green';
+    if(h>=100)return 'green';
+    return s>=.4?'green':'olive';
+  }
+  // тёплые: 340..360 и 0..45
+  if(h>=340||h<=12){return l>=.7?'pink':(s>=.35?'red':'brown')}
+  if(h>12&&h<45){
+    if(l>=.8)return 'cream';
+    if(h>=38&&s>=.6&&l>=.45)return 'yellow';
+    if(s>=.5&&l>=.38&&h<=28)return 'rust';
+    if(l>=.5)return 'beige';
+    return 'brown';
+  }
+  return 'grey';
+}
+function loudHue(hex){const {h,s,l}=hsl(hex);return(s>=.5&&l>=.3&&l<=.75)?h:null}
+function colorEval(parts){
+  const fs=parts.filter(p=>p.c).map(p=>fam(p.c));
+  const hues=parts.filter(p=>p.c).map(p=>loudHue(p.c)).filter(h=>h!==null);
+  /* Отсекаем только пары ярких насыщенных цветов, которые не соседние (до 50°) и не дополнительные (от 150°) */
+  for(let i=0;i<hues.length;i++)for(let j=i+1;j<hues.length;j++){
+    let d=Math.abs(hues[i]-hues[j]);d=Math.min(d,360-d);
+    if(d>50&&d<150)return null;
+  }
+  let sc=0;const why=[];
+  const set=new Set(fs);
+  const cool=set.has('navy')||set.has('blue');
+  const warm=['brown','beige','rust','cream'].some(f=>set.has(f));
+  if(cool&&warm){sc+=2;why.push('синий и тёплый тон, дополнительные цвета')}
+  const shoe=parts.find(p=>SH.includes(p));
+  const sf=shoe&&shoe.c?fam(shoe.c):null;
+  const others=parts.filter(p=>p!==shoe&&p.c).map(p=>fam(p.c));
+  if(sf&&sf!=='black'&&sf!=='grey'&&others.includes(sf)){sc+=1;why.push('цвет обуви повторяется в образе')}
+  if(hues.length===1){sc+=1;why.push('один яркий акцент на спокойной базе')}
+  else if(hues.length>1){sc+=1;why.push('яркие цвета соседние или дополнительные')}
+  else why.push('без ярких акцентов');
+  const dull=fs.filter(f=>f==='black'||f==='grey').length;
+  if(dull>=4)sc-=1;
+  return {sc,why};
+}
+const TYPE_MID={tee:'Футболка',sw:'Свитер',ss:'Свитшот',hd:'Худи',rg:'Регби',os:'Овершот'};
+function typeOf(x){
+  if(x.none)return 'Куртка';
+  if(OUT.includes(x))return x.g==='Жилетки'?'Жилетка':'Куртка';
+  if(MID.includes(x))return TYPE_MID[x.k]||'Слой';
+  if(BOT.includes(x))return 'Штаны';
+  if(SH.includes(x))return 'Обувь';
+  if(HEAD.includes(x))return x.g==='Кепки'?'Кепка':'Шапка';
+  if(SCARF.includes(x))return 'Шарф';
+  return '';
+}
+$('rnd').addEventListener('click',()=>{
+  if(!lastHit.length){$('rndout').innerHTML='<p class="empty">Под текущий выбор сочетаний нет.</p>';return}
+  let best=[],bs=-9;
+  for(let i=0;i<1500;i++){
+    const [of,f]=lastHit[Math.floor(Math.random()*lastHit.length)];
+    const hs=HEAD.filter(h=>(h.mask&f)&&(!sel.h||sel.h===h.id));
+    if(!hs.length)continue;
+    const h=hs[Math.floor(Math.random()*hs.length)];
+    const ss=SCARF.filter(x=>(x.mask&f&h.mask)&&(!sel.sc||sel.sc===x.id));
+    const withScarf=ss.length&&(sel.sc||Math.random()<.5);
+    const parts=[ID[of.o],ID[of.m],ID[of.b],ID[of.s],h];
+    if(sel.t&&!isTee(of.m))parts.splice(2,0,ID[sel.t]);
+    if(withScarf)parts.push(sel.sc?ID[sel.sc]:ss[Math.floor(Math.random()*ss.length)]);
+    const mm=f&h.mask&(withScarf?parts[parts.length-1].mask:ALL);
+    if(!mm)continue;
+    const ev=colorEval(parts);if(!ev)continue;
+    if(best.length<600)best.push({parts,mm,ev});
+    if(ev.sc>bs)bs=ev.sc;
+  }
+  best=best.filter(b=>b.ev.sc>=bs-1);
+  if(!best.length){$('rndout').innerHTML='<p class="empty">Под текущий выбор не нашлось сочетания, которое проходит проверку по цвету.</p>';return}
+  const {parts,mm,ev}=best[Math.floor(Math.random()*best.length)];
+  $('rndout').innerHTML=`<div class="look" style="cursor:default"><span class="dots">${parts.filter(x=>!x.none).map(x=>`<i class="${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>`).join('')}</span><ul>${parts.filter(x=>!x.none).map(x=>`<li class="rl"><b>${typeOf(x)}</b> — ${x.none?'без верхней одежды':x.n+' · '+x.cn}</li>`).join('')}</ul><span class="tag"><span class="pill">${span(mm)} °C</span></span><span class="note">Цвет проверен: ${ev.why.join('; ')}.</span></div>`;
+});
+build();update();
+</script>
+
+<script>
+/* Текущая погода в Эрандио из Open-Meteo. Без сети берётся последнее сохранённое значение, а если его нет, остаётся снимок из файла */
+window.NOW_RAIN=false;
+(function(){
+  const KEY='garderob-weather',RAIN=[51,53,55,56,57,61,63,65,66,67,80,81,82,95,96,99];
+  function apply(w){
+    const t=Math.round(w.t),tt=Math.min(22,Math.max(5,t));
+    window.NOW_RAIN=!!w.rain;
+    const i=BANDS.findIndex(b=>b[0]==='now');
+    BANDS[i]=['now','Сейчас в Эрандио: '+(t>0?'+':'')+t+(w.rain?', дождь':''),M(tt,tt)];
+    if(bandKey==='now'){band=BANDS[i][2];wx=w.rain?'rain':'dry';sel=newSel();build();update()}else build();
+  }
+  try{const c=JSON.parse(localStorage.getItem(KEY)||'null');if(c)apply(c)}catch(e){}
+  fetch('https://api.open-meteo.com/v1/forecast?latitude=43.3036&longitude=-2.9742&current=temperature_2m,precipitation,weather_code&timezone=auto')
+    .then(r=>r.json()).then(j=>{
+      const c=j.current;if(!c)return;
+      const w={t:c.temperature_2m,rain:c.precipitation>0.1||RAIN.includes(c.weather_code)};
+      try{localStorage.setItem(KEY,JSON.stringify(w))}catch(e){}
+      apply(w);
+    }).catch(()=>{});
+})();
+</script>
+<script>if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));</script>
+</body></html>.com/css2?family=Onest:wght@400;500;600&family=Unbounded:wght@600&family=JetBrains+Mono:wght@400&display=swap">
 <style>
 /* Layout: gradient header, sticky filter/summary bar, five fixed sections of selectable cards, then ready looks. */
 :root{
