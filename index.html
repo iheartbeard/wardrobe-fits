@@ -269,8 +269,8 @@ function winterData(){
   const OUT=P(a.OUT,['tra','ma1','chd','tai','eis','vd','vc','tu']);
   OUT.splice(4,0,
    {id:'det2',g:'Куртки',n:'Carhartt WIP OG Detroit',cn:'Air Force Blue / Black, aged canvas',c:'#4A5F78',lo:5,hiL:15,hiH:15,wb:10},
-   {id:'rx',g:'Куртки',n:'Patagonia Classic Retro-X',cn:'Natural, флис',c:'#EDE6D3',lo:5,hiL:10,hiH:10,wb:0,kinds:['sw','vs']},
-   {id:'rxt',g:'Куртки',n:'Patagonia Retro-X поверх Taion',cn:'Natural, флис поверх пухового лайнера',c:'#EDE6D3',lo:0,hiL:8,hiH:8,wb:0,kinds:['sw','vs'],norain:1});
+   {id:'rx',g:'Куртки',n:'Patagonia Classic Retro-X',cn:'Natural, флис',c:'#EDE6D3',lo:0,loK:{sw:5},hiL:10,hiH:10,wb:0,kinds:['sw','vs']},
+   {id:'rxt',g:'Куртки',n:'Patagonia Retro-X поверх Taion',cn:'Natural, флис поверх пухового лайнера',c:'#EDE6D3',lo:0,hiL:8,hiH:8,wb:0,kinds:['sw'],norain:1});
   const MID=P(a.MID,['tb','tw','tg','tg2','tm','swd','swf','sws','swl','ssm','ssu','ssh','ssn','ssc','hc','ha1','ha2','hv','tuv']);
   MID.forEach(m=>{
     if(m.k==='tee')m.out=null;
@@ -309,7 +309,8 @@ function pair(j,m){
   if(j.ban&&j.ban.includes(m.k))return 0;
   if(!m.und)return 0;
   const hi=m.w<=1?j.hiL:j.hiH;let r=0;
-  for(let t=Math.max(j.lo,m.und[0],T0);t<=Math.min(hi,m.und[1],T1);t++){
+  const jl=(j.loK&&j.loK[m.k]!=null)?j.loK[m.k]:j.lo;
+  for(let t=Math.max(jl,m.und[0],T0);t<=Math.min(hi,m.und[1],T1);t++){
     if(t>=j.wb||m.warm)r|=1<<(t-T0);
   }
   return r;
