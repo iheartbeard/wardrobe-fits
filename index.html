@@ -172,8 +172,9 @@ const OUT=[
 {id:'det',g:'Куртки',n:'Carhartt WIP OG Detroit',cn:'Hamilton Brown',c:'#8B5E3C',lo:5,hiL:15,hiH:15,wb:10},
 {id:'tai',g:'Куртки',n:'Taion Military Zip (лайнер)',cn:'Light Mocha',c:'#B39B84',lo:8,hiL:15,hiH:15,wb:10,norain:1},
 {id:'eis',g:'Куртки',n:'Dickies Eisenhower',cn:'чёрный',c:'#1F1F1F',lo:7,hiL:15,hiH:15,wb:10,kinds:['ss','sw']},
-{id:'vd',g:'Жилетки',n:'Dickies Duck Canvas Gilet',cn:'тёмно-коричневый',c:'#6B4F3A',lo:8,hiL:15,hiH:15,wb:10},
-{id:'vc',g:'Жилетки',n:'Carhartt WIP Classic Vest',cn:'H Brown',c:'#A5733F',lo:8,hiL:15,hiH:15,wb:10}
+{id:'vd',g:'Жилетки',n:'Dickies Duck Canvas Gilet',cn:'тёмно-коричневый',c:'#6B4F3A',lo:8,hiL:15,hiH:15,wb:10,ban:['vs']},
+{id:'vc',g:'Жилетки',n:'Carhartt WIP Classic Vest',cn:'H Brown',c:'#A5733F',lo:8,hiL:15,hiH:15,wb:10,ban:['vs']},
+{id:'tu',g:'Жилетки',n:'Taion x Universal Works Reversible Down Vest',cn:'Black Check, цветной стороной наружу, как верхний слой',c:'#C27A5A',lo:10,hiL:17,hiH:17,wb:10,ban:['vs']}
 ];
 /* Средний слой. out: диапазон, когда это верхний слой; und: когда он под курткой; w: вес (0 лёгкий … 3 плотный) */
 const MID=[
@@ -199,7 +200,8 @@ mk('r1','rg','Регби','МЕЧ','navy, кремовый и красный','#
 mk('r2','rg','Регби','МЕЧ','коралловый и кремовый, тонкая чёрная полоса','#C4604F',[15,20],[10,15],1),
 mk('r3','rg','Регби','Uniqlo','тёмно-зелёный и navy, кремовые полоски','#1E5A3E',[15,20],[10,15],1),
 mk('o1','os','Вельветовые овершоты','Uniqlo','navy','#1F2A45',[13,15],null,1),
-mk('o2','os','Вельветовые овершоты','Uniqlo','cream','#E9E0C8',[13,15],null,1)
+mk('o2','os','Вельветовые овершоты','Uniqlo','cream','#E9E0C8',[13,15],null,1),
+mk('tuv','vs','Жилет под курткой','Taion x Universal Works Reversible Down Vest','Black Check, цветной стороной наружу, как средний слой','#C27A5A',null,[0,15],2,1)
 ];
 const BOT=[
 {id:'bw',n:'Gramicci Winter Twill',cn:'Deep Olive',c:'#4B5230',r:[5,15]},
@@ -264,12 +266,12 @@ return {OUT,MID,BOT,SH,HEAD,SCARF};
 function winterData(){
   const a=autumnData();
   const P=(list,ids)=>ids.map(id=>{const x=list.find(y=>y.id===id);if(!x)throw new Error('нет '+id);return {...x}});
-  const OUT=P(a.OUT,['tra','ma1','chd','tai','eis','vd','vc']);
+  const OUT=P(a.OUT,['tra','ma1','chd','tai','eis','vd','vc','tu']);
   OUT.splice(4,0,
    {id:'det2',g:'Куртки',n:'Carhartt WIP OG Detroit',cn:'Air Force Blue / Black, aged canvas',c:'#4A5F78',lo:5,hiL:15,hiH:15,wb:10},
    {id:'rx',g:'Куртки',n:'Patagonia Classic Retro-X',cn:'Natural, флис',c:'#EDE6D3',lo:5,hiL:10,hiH:10,wb:0,kinds:['sw']},
    {id:'rxt',g:'Куртки',n:'Patagonia Retro-X поверх Taion',cn:'Natural, флис поверх пухового лайнера',c:'#EDE6D3',lo:0,hiL:8,hiH:8,wb:0,kinds:['sw'],norain:1});
-  const MID=P(a.MID,['tb','tw','tg','tg2','tm','swd','swf','sws','swl','ssm','ssu','ssh','ssn','ssc','hc','ha1','ha2','hv']);
+  const MID=P(a.MID,['tb','tw','tg','tg2','tm','swd','swf','sws','swl','ssm','ssu','ssh','ssn','ssc','hc','ha1','ha2','hv','tuv']);
   MID.forEach(m=>{
     if(m.k==='tee')m.out=null;
     if(m.k==='sw')m.und=[0,15];
@@ -340,7 +342,8 @@ const AUT_LOOKS=[
 ['rain','tra','ssn','bw','swc','cDi',null,'Тёмный свитшот Nelson, оливковые штаны, SWC и красная кепка.'],
 ['rain','rok','swl','bu','shp','cP2',null,'Жёлтый свитер под маком, чёрные штаны и серо-бежевые Shipyard.'],
 ['rain','tra','swd','bm','bl5','b2','sc1','Красный свитер под Transport, вельвет Muji, тартан и коричневые Blundstone.'],
-['rain','rok','tg','ue','sh6','cK',null,'Мак на светлой футболке, серые штаны и Shadow 6000 GTX.']];
+['rain','rok','tg','ue','sh6','cK',null,'Мак на светлой футболке, серые штаны и Shadow 6000 GTX.'],
+['dry','tu','swf','bn1','gnyc','cK',null,'Цветная сторона жилета Taion x Universal Works на navy свитере. Терракота и тёмно-синий дополняют друг друга, чёрные штаны и кепка держат образ.']];
 const WIN_LOOKS=[
 ['dry','rxt','swf','be','n990n','b2','sc2','Кремовый Retro-X поверх лайнера Taion и navy свитер. Индиго и тёмно-синие 990v3, коричневая шапка и клетчатый шарф Barbour для самых холодных дней.'],
 ['dry','rxt','sws','bn1','swc','b1','sc3','Retro-X поверх лайнера на светло-зелёном свитере. Чёрные Newel, SWC, шапка и шарф держат всё остальное тёмным.'],
@@ -359,7 +362,9 @@ const WIN_LOOKS=[
 ['rain','tra','swf','be','bl5','b2',null,'Transport, navy свитер, индиго и коричневые Blundstone.'],
 ['rain','det2','ssn','bn1','bl7','b1',null,'Detroit цвета Air Force Blue поверх тёмного свитшота. Чёрные Newel и Blundstone.'],
 ['rain','chd','sws','bw','swc','b2',null,'Оливково-хаки Chore на светло-зелёном свитере, оливковые штаны, SWC и коричневая шапка.'],
-['rain','rx','swl','bu','shp','b1',null,'Кремовый Retro-X на жёлтом свитере, чёрные штаны и серо-бежевые Shipyard.']
+['rain','rx','swl','bu','shp','b1',null,'Кремовый Retro-X на жёлтом свитере, чёрные штаны и серо-бежевые Shipyard.'],
+['dry','chd','tuv','be','n990n','b1',null,'Жилет Taion x Universal Works как средний слой под оливково-хаки Chore. Индиго и тёмно-синие 990v3 к тёплой терракоте.'],
+['dry','tu','swf','bn1','n580','b1',null,'Цветная сторона жилета поверх navy свитера, чёрные штаны, светлые 580 и чёрная шапка.']
 ];
 
 const SEASONS={
@@ -561,7 +566,7 @@ function colorEval(parts){
   if(dull>=4)sc-=1;
   return {sc,why};
 }
-const TYPE_MID={tee:'Футболка',sw:'Свитер',ss:'Свитшот',hd:'Худи',rg:'Регби',os:'Овершот'};
+const TYPE_MID={tee:'Футболка',sw:'Свитер',ss:'Свитшот',hd:'Худи',rg:'Регби',os:'Овершот',vs:'Жилетка'};
 function typeOf(x){
   if(x.none)return x===NOSC?'Шарф':'Куртка';
   if(OUT.includes(x))return x.g==='Жилетки'?'Жилетка':'Куртка';
