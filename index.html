@@ -171,7 +171,7 @@ const OUT=[
 {id:'chd',g:'Куртки',n:'Dickies Lined Canvas Chore',cn:'оливково-хаки',c:'#7C7857',lo:5,hiL:15,hiH:15,wb:10},
 {id:'det',g:'Куртки',n:'Carhartt WIP OG Detroit',cn:'Hamilton Brown',c:'#8B5E3C',lo:5,hiL:15,hiH:15,wb:10},
 {id:'tai',g:'Куртки',n:'Taion Military Zip (лайнер)',cn:'Light Mocha',c:'#B39B84',lo:8,hiL:15,hiH:15,wb:10,norain:1},
-{id:'eis',g:'Куртки',n:'Dickies Eisenhower',cn:'чёрный',c:'#1F1F1F',lo:7,hiL:15,hiH:15,wb:10,kinds:['ss','sw']},
+{id:'eis',g:'Куртки',n:'Dickies Eisenhower',cn:'чёрный',c:'#1F1F1F',lo:7,hiL:15,hiH:15,wb:10,kinds:['ss','sw','vs']},
 {id:'vd',g:'Жилетки',n:'Dickies Duck Canvas Gilet',cn:'тёмно-коричневый',c:'#6B4F3A',lo:8,hiL:15,hiH:15,wb:10,ban:['vs']},
 {id:'vc',g:'Жилетки',n:'Carhartt WIP Classic Vest',cn:'H Brown',c:'#A5733F',lo:8,hiL:15,hiH:15,wb:10,ban:['vs']},
 {id:'tu',g:'Жилетки',n:'Taion x Universal Works Reversible Down Vest',cn:'Black Check, цветной стороной наружу, как верхний слой',c:'#C27A5A',lo:10,hiL:17,hiH:17,wb:10,ban:['vs']}
@@ -269,8 +269,8 @@ function winterData(){
   const OUT=P(a.OUT,['tra','ma1','chd','tai','eis','vd','vc','tu']);
   OUT.splice(4,0,
    {id:'det2',g:'Куртки',n:'Carhartt WIP OG Detroit',cn:'Air Force Blue / Black, aged canvas',c:'#4A5F78',lo:5,hiL:15,hiH:15,wb:10},
-   {id:'rx',g:'Куртки',n:'Patagonia Classic Retro-X',cn:'Natural, флис',c:'#EDE6D3',lo:5,hiL:10,hiH:10,wb:0,kinds:['sw']},
-   {id:'rxt',g:'Куртки',n:'Patagonia Retro-X поверх Taion',cn:'Natural, флис поверх пухового лайнера',c:'#EDE6D3',lo:0,hiL:8,hiH:8,wb:0,kinds:['sw'],norain:1});
+   {id:'rx',g:'Куртки',n:'Patagonia Classic Retro-X',cn:'Natural, флис',c:'#EDE6D3',lo:5,hiL:10,hiH:10,wb:0,kinds:['sw','vs']},
+   {id:'rxt',g:'Куртки',n:'Patagonia Retro-X поверх Taion',cn:'Natural, флис поверх пухового лайнера',c:'#EDE6D3',lo:0,hiL:8,hiH:8,wb:0,kinds:['sw','vs'],norain:1});
   const MID=P(a.MID,['tb','tw','tg','tg2','tm','swd','swf','sws','swl','ssm','ssu','ssh','ssn','ssc','hc','ha1','ha2','hv','tuv']);
   MID.forEach(m=>{
     if(m.k==='tee')m.out=null;
