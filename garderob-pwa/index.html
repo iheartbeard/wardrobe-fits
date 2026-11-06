@@ -8,7 +8,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <style>html{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Осенний гардероб</title>
+<title>Гардероб</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Unbounded:wght@600&family=JetBrains+Mono:wght@400&display=swap">
 <style>
 /* Layout: gradient header, sticky filter/summary bar, five fixed sections of selectable cards, then ready looks. */
@@ -123,14 +123,17 @@ section.sec>h2{font:600 15px var(--f-display);margin:0 0 4px}
   .hero p{font-size:14px}
   .lgrid{grid-template-columns:1fr}
 }
+.hero{transition:background .2s}
+body[data-season="winter"] .hero{background:linear-gradient(115deg,#26323F 0%,#3B4E60 38%,#5B7183 70%,#7E919D 100%)}
 </style>
 
 <header class="hero"><div class="wrap">
-  <h1>Осенний гардероб</h1>
-  <p>Все вещи, которые ты носишь осенью, от +5 до +22 °C, сухо и в дождь. Выбери вещь, и несовместимые по температуре, слоям и погоде карточки станут недоступными.</p>
+  <h1 id="h1">Осенний гардероб</h1>
+  <p id="heroP"></p>
 </div></header>
 
 <div class="bar"><div class="wrap">
+  <div class="row"><span class="lab">Сезон</span><div class="seg" id="seasons"></div></div>
   <div class="row"><span class="lab">Температура</span><div class="seg" id="bands"></div></div>
   <div class="row"><span class="lab">Погода</span><div class="seg" id="wx"></div></div>
   <div class="legend"><span><i class="l-off"></i>не подходит, недоступно</span><span><i class="l-fit"></i>подходит по цвету к выбранному</span><span><i class="l-ok"></i>доступно, но по цвету не лучший вариант</span><span><i class="l-ideal"></i>идеальное сочетание из готовых образов</span></div>
@@ -150,12 +153,15 @@ section.sec>h2{font:600 15px var(--f-display);margin:0 0 4px}
 
 
 <script>
-const T0=5,T1=22,N=T1-T0+1;
+let T0=5,T1=22,N=18,ALL=0;
 const M=(a,b)=>{let m=0;for(let t=Math.max(a,T0);t<=Math.min(b,T1);t++)m|=1<<(t-T0);return m};
-const ALL=M(T0,T1);
 const bits=m=>{const r=[];for(let i=0;i<N;i++)if(m&(1<<i))r.push(i+T0);return r};
-const span=m=>{const b=bits(m);return b.length?(b.length===1?`только +${b[0]}`:`+${b[0]}…+${b[b.length-1]}`):'—'};
+const sg=t=>t>0?'+'+t:''+t;
+const span=m=>{const b=bits(m);return b.length?(b.length===1?`только ${sg(b[0])}`:`${sg(b[0])}…${sg(b[b.length-1])}`):'—'};
+const mk=(id,k,g,n,cn,c,out,und,w,warm)=>({id,k,g,n,cn,c,out,und,w,warm});
 
+/* Данные по сезонам. Правило: вещь попадает на страницу сезона, только если отмечена на этот сезон, а её диапазон действует внутри сезона */
+function autumnData(){
 /* Верхняя одежда. lo: нижняя граница; hiL/hiH: верхняя граница над лёгким/плотным слоем; wb: ниже этой температуры нужен тёплый слой */
 const OUT=[
 {id:'rok',g:'Куртки',n:'Barbour Rokig (mac)',cn:'Washed Stone & Highland Loch',c:'#B8AE98',lo:8,hiL:18,hiH:15,wb:10,rain:1},
@@ -170,7 +176,6 @@ const OUT=[
 {id:'vc',g:'Жилетки',n:'Carhartt WIP Classic Vest',cn:'H Brown',c:'#A5733F',lo:8,hiL:15,hiH:15,wb:10}
 ];
 /* Средний слой. out: диапазон, когда это верхний слой; und: когда он под курткой; w: вес (0 лёгкий … 3 плотный) */
-const mk=(id,k,g,n,cn,c,out,und,w,warm)=>({id,k,g,n,cn,c,out,und,w,warm});
 const MID=[
 mk('tb','tee','Футболки','Uniqlo U','чёрный','#1E1E1E',[18,22],[5,22],0),
 mk('tw','tee','Футболки','Uniqlo U','белый','#F3F3F0',[18,22],[5,22],0),
@@ -253,17 +258,48 @@ const SCARF=[
 {id:'sc2',n:'Barbour large block-check',cn:'brown, camel, navy, grey',c:'#A98B63',r:[5,10]},
 {id:'sc3',n:'United Colors of Benetton',cn:'чёрный, ребристый',c:'#1E1E1E',r:[5,10]}
 ];
-const NONE={id:'none',n:'Без верхней одежды',cn:'только средний слой',c:null,none:1};
+return {OUT,MID,BOT,SH,HEAD,SCARF};
+}
 
-/* Маски температур */
-OUT.forEach(o=>{o.rm=o.rain?1:0});
-MID.forEach(m=>{m.outM=m.out?M(...m.out):0});
-BOT.forEach(b=>b.mask=M(...b.r));
-SH.forEach(s=>{s.dm=s.d?M(...s.d):0;s.rmk=s.r?M(...s.r):0});
-HEAD.forEach(h=>h.mask=M(...h.r));
-SCARF.forEach(h=>h.mask=M(...h.r));
-const NOSC={id:'nosc',n:'Без шарфа',cn:'пропустить шарф',c:null,none:1,mask:ALL};
-const ID={};[...OUT,...MID,...BOT,...SH,...HEAD,...SCARF,NONE,NOSC].forEach(x=>ID[x.id]=x);
+function winterData(){
+  const a=autumnData();
+  const P=(list,ids)=>ids.map(id=>{const x=list.find(y=>y.id===id);if(!x)throw new Error('нет '+id);return {...x}});
+  const OUT=P(a.OUT,['tra','ma1','chd','tai','eis','vd','vc']);
+  OUT.splice(4,0,
+   {id:'det2',g:'Куртки',n:'Carhartt WIP OG Detroit',cn:'Air Force Blue / Black, aged canvas',c:'#4A5F78',lo:5,hiL:15,hiH:15,wb:10},
+   {id:'rx',g:'Куртки',n:'Patagonia Classic Retro-X',cn:'Natural, флис',c:'#EDE6D3',lo:5,hiL:10,hiH:10,wb:0,kinds:['sw']},
+   {id:'rxt',g:'Куртки',n:'Patagonia Retro-X поверх Taion',cn:'Natural, флис поверх пухового лайнера',c:'#EDE6D3',lo:0,hiL:8,hiH:8,wb:0,kinds:['sw'],norain:1});
+  const MID=P(a.MID,['tb','tw','tg','tg2','tm','swd','swf','sws','swl','ssm','ssu','ssh','ssn','ssc','hc','ha1','ha2','hv']);
+  MID.forEach(m=>{
+    if(m.k==='tee')m.out=null;
+    if(m.k==='sw')m.und=[0,15];
+    if(m.k==='hd')m.und=[5,15];
+  });
+  const BOT=P(a.BOT,['bw','bn1','bn2','be','bd','bu','bm']);BOT.forEach(b=>b.r=[0,15]);
+  const W='Зима (0…+15)';
+  const SH=[
+   {id:'jor',g:W,n:'Nike Jordan Era CMFT',cn:'Obsidian / Lucky Green / Chile Red / Pale Ivory',c:'#2B3550',d:[0,15]},
+   {id:'gnyc',g:W,n:'ASICS GEL-NYC',cn:'Steeple Grey',c:'#9C9C9E',d:[0,15]},
+   {id:'n580',g:W,n:'New Balance 580',cn:'White / Nightwatch Green',c:'#EDEBE4',d:[0,15]},
+   {id:'n990n',g:W,n:'New Balance 990v3',cn:'Navy / Castlerock',c:'#2F3B57',d:[0,15]},
+   {id:'miz',g:W,n:'Mizuno Wave Rider Beta',cn:'Silver Cloud / White Sand / Cedar',c:'#BFC3C4',d:[5,12]},
+   {id:'swc',g:W,n:'Stepney Workers Club Amiel S-Strike',cn:'Cordura Black',c:'#3B3B3D',d:[0,15],r:[0,15]},
+   {id:'shp',g:W,n:'New Balance 2002R Protection Pack',cn:'Shipyard, тон-в-тон серо-бежевый (greige)',c:'#BDB5A6',d:[8,15],r:[0,15]},
+   {id:'c90',g:W,n:'Saucony Cross 90',cn:'кремовый',c:'#E7DEC7',d:[0,15],r:[0,15]},
+   {id:'tim',g:'Круглый год',n:'Timberland Authentic 3-Eye Boat Shoe',cn:'Burgundy',c:'#6E2230',d:[0,15],r:[0,15]},
+   {id:'bl5',g:'Дождь',n:'Blundstone 585',cn:'Rustic Brown',c:'#7C4B2B',r:[0,15]},
+   {id:'bl7',g:'Дождь',n:'Blundstone 587',cn:'Rustic Black',c:'#1E1E1E',r:[0,15]}
+  ];
+  const HEAD=P(a.HEAD,['b1','b2','b3','cDi']);HEAD.forEach(h=>{if(h.id[0]==='b')h.r=[0,12];});
+  HEAD.forEach(h=>{if(h.g.startsWith('Шапки'))h.g='Шапки (0…+12)'});
+  const SCARF=P(a.SCARF,['sc1','sc2','sc3']);SCARF.forEach(s=>s.r=[0,10]);
+  return {OUT,MID,BOT,SH,HEAD,SCARF};
+}
+
+const NONE={id:'none',n:'Без верхней одежды',cn:'только средний слой',c:null,none:1};
+const NOSC={id:'nosc',n:'Без шарфа',cn:'пропустить шарф',c:null,none:1,mask:0};
+let OUT,MID,BOT,SH,HEAD,SCARF,ID,OF,LOOKS,TEES,BANDS,season='autumn';
+let NOW={t:17,rain:false};
 
 function pair(j,m){
   if(!j||j.none)return m.outM;
@@ -276,23 +312,10 @@ function pair(j,m){
   }
   return r;
 }
-/* Все осмысленные сочетания: куртка (или без) + средний слой + низ + обувь */
-const OF=[];
-for(const j of [NONE,...OUT])for(const m of MID){
-  const p=pair(j,m);if(!p)continue;
-  const pr=j.norain?0:p;
-  for(const b of BOT){
-    const pb=p&b.mask,prb=pr&b.mask;if(!pb&&!prb)continue;
-    for(const s of SH){
-      const dry=pb&s.dm,rain=prb&s.rmk;
-      if(dry||rain)OF.push({o:j.id,m:m.id,b:b.id,s:s.id,dry,rain});
-    }
-  }
-}
 const maskFor=(of,wx,band)=>((wx==='dry'?of.dry:wx==='rain'?of.rain:(of.dry|of.rain))&band);
 
-/* Готовые образы: [куртка, средний слой, низ, обувь, головной убор, шарф] */
-const LOOKS=[
+/* Готовые образы: [погода, куртка, средний слой, низ, обувь, головной убор, шарф, заметка] */
+const AUT_LOOKS=[
 ['dry','none','r2','g3','w2','cP1',null,'Коралл и кирпич на песочной замше и серо-бежевых штанах.'],
 ['dry','none','tw','g1','g11','cG',null,'Оливковые штаны, тёмно-зелёные Forest и тёплая кепка Gramicci. Один зелёно-коричневый тон.'],
 ['dry','none','tb','mb','pog','cS',null,'Чёрная футболка и бежевые штаны. Ржавая кепка поддерживает коричневые панели Pro Omni Grid.'],
@@ -317,21 +340,56 @@ const LOOKS=[
 ['rain','tra','ssn','bw','swc','cDi',null,'Тёмный свитшот Nelson, оливковые штаны, SWC и красная кепка.'],
 ['rain','rok','swl','bu','shp','cP2',null,'Жёлтый свитер под маком, чёрные штаны и серо-бежевые Shipyard.'],
 ['rain','tra','swd','bm','bl5','b2','sc1','Красный свитер под Transport, вельвет Muji, тартан и коричневые Blundstone.'],
-['rain','rok','tg','ue','sh6','cK',null,'Мак на светлой футболке, серые штаны и Shadow 6000 GTX.']
-].map(a=>({wx:a[0],ids:a.slice(1,7),note:a[7]}));
+['rain','rok','tg','ue','sh6','cK',null,'Мак на светлой футболке, серые штаны и Shadow 6000 GTX.']];
+const WIN_LOOKS=[
+['dry','rxt','swf','be','n990n','b2','sc2','Кремовый Retro-X поверх лайнера Taion и navy свитер. Индиго и тёмно-синие 990v3, коричневая шапка и клетчатый шарф Barbour для самых холодных дней.'],
+['dry','rxt','sws','bn1','swc','b1','sc3','Retro-X поверх лайнера на светло-зелёном свитере. Чёрные Newel, SWC, шапка и шарф держат всё остальное тёмным.'],
+['dry','rx','swd','bn1','n580','b1',null,'Кремовый флис, красный свитер Edwin, чёрные Newel и светлые 580. Чёрная шапка уравновешивает красный.'],
+['dry','rx','sws','bn1','c90','b1',null,'Кремовый флис на светло-зелёном свитере, чёрные Newel и кремовые Cross 90. Мягкая светлая палитра с чёрной шапкой.'],
+['dry','tai','swf','bn1','gnyc','b1',null,'Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.'],
+['dry','tai','swl','be','jor','b2',null,'Лайнер Light Mocha на жёлтом свитере, индиго и тёмно-синие Jordan Era. Коричневая шапка поддерживает тёплый верх.'],
+['dry','chd','swd','bn1','swc','b2','sc1','Оливково-хаки Chore на красном свитере, чёрные Newel и SWC. Коричневая шапка и тартановый шарф Barbour.'],
+['dry','ma1','hv','be','n990n','b3',null,'Зелёный бомбер MA-1 на чёрном худи, индиго и тёмно-синие 990v3. Кирпичная шапка в пару к зелёному.'],
+['dry','det2','ha2','bd','miz','b1','sc3','Detroit цвета Air Force Blue на тёмно-сером худи, молочные Double Knee и светлые Mizuno. Чёрные шапка и шарф.'],
+['dry','tra','swl','bm','gnyc','b2','sc1','Тёмно-зелёный Transport на жёлтом свитере, вельвет Muji, серые NYC, коричневая шапка и тартан.'],
+['dry','vd','ha2','bw','n990n','b1',null,'Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.'],
+['dry','vc','ssm','bu','n580','b1',null,'Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.'],
+['dry','eis','ssu','bd','miz','b1',null,'Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.'],
+['dry','none','hc','bu','n580','cDi',null,'Серое худи без куртки на самый тёплый день зимы. Чёрные штаны, светлые 580 и красная вельветовая кепка.'],
+['rain','tra','swf','be','bl5','b2',null,'Transport, navy свитер, индиго и коричневые Blundstone.'],
+['rain','det2','ssn','bn1','bl7','b1',null,'Detroit цвета Air Force Blue поверх тёмного свитшота. Чёрные Newel и Blundstone.'],
+['rain','chd','sws','bw','swc','b2',null,'Оливково-хаки Chore на светло-зелёном свитере, оливковые штаны, SWC и коричневая шапка.'],
+['rain','rx','swl','bu','shp','b1',null,'Кремовый Retro-X на жёлтом свитере, чёрные штаны и серо-бежевые Shipyard.']
+];
+
+const SEASONS={
+ autumn:{label:'Осень',title:'Осенний гардероб',range:[5,22],hero:"Все вещи, которые ты носишь осенью, от +5 до +22 °C, сухо и в дождь. Выбери вещь, и несовместимые по температуре, слоям и погоде карточки станут недоступными.",data:autumnData,looks:AUT_LOOKS,scarf:'+5…+10',
+  bands:()=>[['all','Весь диапазон',ALL],['5','+5…+10',M(5,10)],['10','+10…+15',M(10,15)],['15','+15…+18',M(15,18)],['18','+18…+22',M(18,22)],['now','',0]]},
+ winter:{label:'Зима',title:'Зимний гардероб',range:[0,15],hero:"Вещи для зимы, от 0 до +15 °C, сухо и в дождь. Попадают только те, что отмечены на зиму. Выбери вещь, и несовместимые по температуре, слоям и погоде карточки станут недоступными.",data:winterData,looks:WIN_LOOKS,scarf:'0…+10',
+  bands:()=>[['all','Весь диапазон',ALL],['0','0…+5',M(0,5)],['5','+5…+10',M(5,10)],['10','+10…+15',M(10,15)],['now','',0]]}
+};
 function lookMask(l){
   const [o,m,b,s,h,sc]=l.ids.map(x=>x?ID[x]:null);
   let p=pair(o,m);
   if(l.wx==='rain'){if(o.norain)return 0;p&=b.mask&s.rmk}else p&=b.mask&s.dm;
   if(h)p&=h.mask;if(sc)p&=sc.mask;return p;
 }
-/*UI*/
-const BANDS=[['all','Весь диапазон',ALL],['5','+5…+10',M(5,10)],['10','+10…+15',M(10,15)],['15','+15…+18',M(15,18)],['18','+18…+22',M(18,22)],['now','Сейчас в Эрандио: +17',M(17,17)]];
+function setNowBand(){
+  const i=BANDS.findIndex(b=>b[0]==='now');if(i<0)return;
+  const t=NOW.t,inr=t>=T0&&t<=T1;
+  BANDS[i]=['now','Сейчас в Эрандио: '+(t>0?'+':'')+t+(NOW.rain?', дождь':'')+(inr?'':' (вне сезона)'),M(t,t)];
+  if(bandKey==='now')band=BANDS[i][2];
+}
+function setNow(w){
+  NOW={t:Math.round(w.t),rain:!!w.rain};setNowBand();
+  if(bandKey==='now'){wx=NOW.rain?'rain':'dry';sel=newSel()}
+  build();update();
+}
 const WX=[['any','Любая'],['dry','Сухо'],['rain','Дождь']];
 const SLOTS=['o','t','m','b','s','h','sc'];
 const newSel=()=>({o:null,t:null,m:null,b:null,s:null,h:null,sc:null});
 const SLOTNAME={o:'Верхняя одежда',m:'Средний слой',b:'Низ',s:'Обувь',h:'Головной убор',sc:'Шарф'};
-let band=ALL,bandKey='all',wx='any',sel=newSel();
+let band=0,bandKey='all',wx='any',sel=newSel();
 const $=id=>document.getElementById(id);
 const dot=(c,cls='')=>`<span class="dot ${c?'':'nc'} ${cls}" ${c?`style="background:${c}"`:''}></span>`;
 const card=(x,slot)=>`<button type="button" class="card ${x.none?'none':''}" data-slot="${slot}" data-id="${x.id}" aria-pressed="false">${dot(x.c)}<span class="nm">${x.n}</span><span class="meta"><span>${x.cn}</span>${x.c?`<span class="hex">${x.c}</span>`:''}</span></button>`;
@@ -341,6 +399,7 @@ function groups(list,slot,key='g'){
   return out.map(([g,xs])=>`<div class="grp">${g?`<h3>${g}</h3>`:''}<div class="cards">${xs.map(x=>card(x,slot)).join('')}</div></div>`).join('');
 }
 function build(){
+  $('seasons').innerHTML=Object.keys(SEASONS).map(k=>`<button type="button" data-season="${k}" aria-pressed="${k===season}">${SEASONS[k].label}</button>`).join('');
   $('bands').innerHTML=BANDS.map(b=>`<button type="button" data-band="${b[0]}" aria-pressed="${b[0]===bandKey}">${b[1]}</button>`).join('');
   $('wx').innerHTML=WX.map(w=>`<button type="button" class="${w[0]==='rain'?'rainb':''}" data-wx="${w[0]}" aria-pressed="${w[0]===wx}">${w[1]}</button>`).join('');
   $('sections').innerHTML=
@@ -348,7 +407,7 @@ function build(){
    `<section class="sec"><h2>Средний слой</h2><p class="hint" style="margin:4px 0 0">Футболка и слой поверх неё выбираются отдельно, в каждой группе можно выбрать одну вещь.</p>${groups(MID.filter(x=>x.k==='tee'),'t')}${groups(MID.filter(x=>x.k!=='tee'),'m')}</section>`+
    `<section class="sec"><h2>Низ</h2><div class="grp"><div class="cards">${BOT.map(x=>card(x,'b')).join('')}</div></div></section>`+
    `<section class="sec"><h2>Обувь</h2>${groups(SH,'s')}</section>`+
-   `<section class="sec"><h2>Аксессуары</h2>${groups(HEAD,'h')}<div class="grp"><h3>Шарфы (+5…+10)</h3><div class="cards">${[NOSC,...SCARF].map(x=>card(x,'sc')).join('')}</div></div></section>`;
+   `<section class="sec"><h2>Аксессуары</h2>${groups(HEAD,'h')}<div class="grp"><h3>Шарфы (${SEASONS[season].scarf})</h3><div class="cards">${[NOSC,...SCARF].map(x=>card(x,'sc')).join('')}</div></div></section>`;
 }
 const isTee=id=>ID[id].k==='tee';
 function slotOk(of,k){
@@ -436,7 +495,8 @@ function renderLooks(){
 function pick(k,id){sel[k]=sel[k]===id?null:id;update()}
 document.addEventListener('click',e=>{
   const c=e.target.closest('.card');if(c&&!c.disabled){pick(c.dataset.slot,c.dataset.id);return}
-  const b=e.target.closest('[data-band]');if(b){bandKey=b.dataset.band;band=BANDS.find(x=>x[0]===bandKey)[2];if(bandKey==='now')wx=window.NOW_RAIN?'rain':'dry';sel=newSel();build();update();return}
+  const sn=e.target.closest('button[data-season]');if(sn){if(sn.dataset.season!==season){try{localStorage.setItem('garderob-season',sn.dataset.season)}catch(_){}applySeason(sn.dataset.season)}return}
+  const b=e.target.closest('[data-band]');if(b){bandKey=b.dataset.band;band=BANDS.find(x=>x[0]===bandKey)[2];if(bandKey==='now')wx=NOW.rain?'rain':'dry';sel=newSel();build();update();return}
   const w=e.target.closest('[data-wx]');if(w){wx=w.dataset.wx;sel=newSel();build();update();return}
   const l=e.target.closest('.look[data-look]');if(l){const L=LOOKS[+l.dataset.look];sel=newSel();lookPairs(L).forEach(([k,id])=>{sel[k]=id});update();window.scrollTo({top:0,behavior:'smooth'});return}
 });
@@ -512,7 +572,6 @@ function typeOf(x){
   if(SCARF.includes(x))return 'Шарф';
   return '';
 }
-const TEES=MID.filter(x=>x.k==='tee');
 $('rnd').addEventListener('click',()=>{
   if(!lastHit.length){$('rndout').innerHTML='<p class="empty">Под текущий выбор сочетаний нет.</p>';return}
   let best=[],bs=-9;
@@ -537,41 +596,67 @@ $('rnd').addEventListener('click',()=>{
   const {parts,mm,ev}=best[Math.floor(Math.random()*best.length)];
   $('rndout').innerHTML=`<div class="look" style="cursor:default"><span class="dots">${parts.filter(x=>!x.none).map(x=>`<i class="${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>`).join('')}</span><ul>${parts.filter(x=>!x.none).map(x=>`<li class="rl"><b>${typeOf(x)}</b> — ${x.none?'без верхней одежды':x.n+' · '+x.cn}</li>`).join('')}</ul><span class="tag"><span class="pill">${span(mm)} °C</span></span><span class="note">Цвет проверен: ${ev.why.join('; ')}.</span></div>`;
 });
-/* Футболка под свитером, свитшотом, худи и т.п. в готовых образах: берём ту, что лучше всего проходит проверку цвета */
-LOOKS.forEach(l=>{
-  const [o,m]=l.ids;l.tee=null;
-  if(isTee(m))return;
-  let best=null,bs=-99;
-  TEES.forEach((t,i)=>{
-    const parts=[o,t.id,...l.ids.slice(1)].filter(Boolean).map(x=>typeof x==='string'?ID[x]:x);
-    const ev=colorEval(parts);if(!ev)return;
-    const v=ev.sc*10+(fam(t.c)!==fam(ID[m].c)?3:0)-i*.1;
-    if(v>bs){bs=v;best=t}
+function assignTees(){
+  /* Футболка под свитером, свитшотом, худи и т.п. в готовых образах: берём ту, что лучше всего проходит проверку цвета */
+  LOOKS.forEach(l=>{
+    const [o,m]=l.ids;l.tee=null;
+    if(isTee(m))return;
+    let best=null,bs=-99;
+    TEES.forEach((t,i)=>{
+      const parts=[o,t.id,...l.ids.slice(1)].filter(Boolean).map(x=>typeof x==='string'?ID[x]:x);
+      const ev=colorEval(parts);if(!ev)return;
+      const v=ev.sc*10+(fam(t.c)!==fam(ID[m].c)?3:0)-i*.1;
+      if(v>bs){bs=v;best=t}
+    });
+    if(best)l.tee=best.id;
   });
-  if(best)l.tee=best.id;
-});
-build();update();
+}
+function applySeason(name){
+  season=name;const S=SEASONS[name];
+  [T0,T1]=S.range;N=T1-T0+1;ALL=M(T0,T1);NOSC.mask=ALL;
+  ({OUT,MID,BOT,SH,HEAD,SCARF}=S.data());
+  MID.forEach(m=>{m.outM=m.out?M(...m.out):0});
+  BOT.forEach(b=>b.mask=M(...b.r));
+  SH.forEach(s=>{s.dm=s.d?M(...s.d):0;s.rmk=s.r?M(...s.r):0});
+  HEAD.forEach(h=>h.mask=M(...h.r));
+  SCARF.forEach(h=>h.mask=M(...h.r));
+  ID={};[...OUT,...MID,...BOT,...SH,...HEAD,...SCARF,NONE,NOSC].forEach(x=>ID[x.id]=x);
+  OF=[];
+  for(const j of [NONE,...OUT])for(const m of MID){
+    const p=pair(j,m);if(!p)continue;
+    const pr=j.norain?0:p;
+    for(const b of BOT){
+      const pb=p&b.mask,prb=pr&b.mask;if(!pb&&!prb)continue;
+      for(const s of SH){
+        const dry=pb&s.dm,rain=prb&s.rmk;
+        if(dry||rain)OF.push({o:j.id,m:m.id,b:b.id,s:s.id,dry,rain});
+      }
+    }
+  }
+  LOOKS=S.looks.map(a=>({wx:a[0],ids:a.slice(1,7),note:a[7]}));
+  TEES=MID.filter(x=>x.k==='tee');
+  assignTees();
+  BANDS=S.bands();setNowBand();
+  sel=newSel();bandKey='all';band=ALL;wx='any';
+  document.body.dataset.season=name;document.title='Гардероб';
+  $('h1').textContent=S.title;$('heroP').textContent=S.hero;
+  build();update();
+}
+let startSeason='autumn';
+try{const s=localStorage.getItem('garderob-season');if(s&&SEASONS[s])startSeason=s}catch(_){}
+applySeason(startSeason);
 </script>
-
 <script>
 /* Текущая погода в Эрандио из Open-Meteo. Без сети берётся последнее сохранённое значение, а если его нет, остаётся снимок из файла */
-window.NOW_RAIN=false;
 (function(){
   const KEY='garderob-weather',RAIN=[51,53,55,56,57,61,63,65,66,67,80,81,82,95,96,99];
-  function apply(w){
-    const t=Math.round(w.t),tt=Math.min(22,Math.max(5,t));
-    window.NOW_RAIN=!!w.rain;
-    const i=BANDS.findIndex(b=>b[0]==='now');
-    BANDS[i]=['now','Сейчас в Эрандио: '+(t>0?'+':'')+t+(w.rain?', дождь':''),M(tt,tt)];
-    if(bandKey==='now'){band=BANDS[i][2];wx=w.rain?'rain':'dry';sel=newSel();build();update()}else build();
-  }
-  try{const c=JSON.parse(localStorage.getItem(KEY)||'null');if(c)apply(c)}catch(e){}
+  try{const c=JSON.parse(localStorage.getItem(KEY)||'null');if(c)setNow(c)}catch(e){}
   fetch('https://api.open-meteo.com/v1/forecast?latitude=43.3036&longitude=-2.9742&current=temperature_2m,precipitation,weather_code&timezone=auto')
     .then(r=>r.json()).then(j=>{
       const c=j.current;if(!c)return;
       const w={t:c.temperature_2m,rain:c.precipitation>0.1||RAIN.includes(c.weather_code)};
       try{localStorage.setItem(KEY,JSON.stringify(w))}catch(e){}
-      apply(w);
+      setNow(w);
     }).catch(()=>{});
 })();
 </script>
