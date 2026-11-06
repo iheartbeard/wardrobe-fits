@@ -544,6 +544,18 @@ function fam(hex){
   return 'grey';
 }
 function loudHue(hex){const {h,s,l}=hsl(hex);return(s>=.5&&l>=.3&&l<=.75)?h:null}
+/* Личная подборка сочетаний из книги A Dictionary of Color Combinations (Sanzo Wada), добавляется вручную: {n:'название или номер',c:['#hex','#hex','#hex']}. Образ получает бонус, если его вещи близки по цвету минимум к двум цветам сочетания */
+const WADA=[];
+const rgb=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+const cd=(a,b)=>{const x=rgb(a),y=rgb(b);return Math.hypot(x[0]-y[0],x[1]-y[1],x[2]-y[2])};
+function wadaMatch(parts){
+  const cs=parts.filter(p=>p.c).map(p=>p.c);
+  for(const w of WADA){
+    const hit=w.c.filter(c=>cs.some(x=>cd(c,x)<70)).length;
+    if(hit>=Math.min(3,w.c.length)&&hit>=2)return w.n;
+  }
+  return null;
+}
 function colorEval(parts){
   const fs=parts.filter(p=>p.c).map(p=>fam(p.c));
   const hues=parts.filter(p=>p.c).map(p=>loudHue(p.c)).filter(h=>h!==null);
@@ -570,6 +582,13 @@ function colorEval(parts){
   else if(hues.length>1){sc+=1;why.push('яркие цвета соседние или дополнительные')}
   else why.push('без ярких акцентов');
   if(hasAccent){const nn=Math.min(2,fs.filter(f=>f==='black'||f==='grey'||f==='white'||f==='cream').length);if(nn){sc+=nn;why.push('нейтральная база к акценту')}}
+  /* Принципы из традиции Васо Санцо: палитра из 2–3 цветов, родственные оттенки хорошо ложатся друг к другу, */
+  const CHROM=['olive','green','red','pink','yellow','rust','blue','bright blue'];
+  const nch=new Set(fs.filter(f=>CHROM.includes(f))).size;
+  if(nch>=1&&nch<=3&&set.size<=5){sc+=1;why.push('собранная палитра из нескольких цветов')}
+  const hh=parts.filter(p=>p.c).map(p=>hsl(p.c)).filter(x=>x.s>=.25&&x.l>.17&&x.l<.86).map(x=>x.h);
+  if(hh.length>=2){let mx=0;for(let i=0;i<hh.length;i++)for(let j=i+1;j<hh.length;j++){const d=Math.abs(hh[i]-hh[j]);mx=Math.max(mx,Math.min(d,360-d))}if(mx<=40){sc+=1;why.push('родственные оттенки')}}
+  const wm=wadaMatch(parts);if(wm){sc+=2;why.push('похоже на сочетание «'+wm+'» из твоей подборки по книге Васо')}
   const dull=fs.filter(f=>f==='black'||f==='grey').length;
   if(dull>=4)sc-=1;
   return {sc,why};
