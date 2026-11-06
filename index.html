@@ -98,6 +98,12 @@ section.sec>h2{font:600 15px var(--f-display);margin:0 0 4px}
 .rl b{font-weight:600;color:var(--muted)}
 .legend .l-off{border-style:dashed;background:repeating-linear-gradient(135deg,transparent 0 3px,var(--hatch) 3px 4px)}
 .randtop{padding-block:14px 0}
+.brow{display:flex;gap:8px;flex-wrap:wrap}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;width:100%;min-width:0}
+.fgrid:empty{display:none}
+.fgrid .look{cursor:default;gap:4px;padding:8px 12px}
+.fgrid .look:hover{transform:none;border-color:var(--line)}
+.fgrid .why{font-size:12px;color:var(--muted)}
 @media(prefers-reduced-motion:reduce){.card,.look{transition:none}.card:hover:not(:disabled),.look:hover{transform:none}}
 /* Телефон: фильтры идут обычным потоком, а прилипает только строка со счётчиком, выбранными вещами и сбросом */
 @media(max-width:719px){
@@ -140,7 +146,7 @@ body[data-season="winter"] .hero{background:linear-gradient(115deg,#26323F 0%,#3
   <div class="sum"><span class="count" id="count"></span><div class="chips" id="chips"></div><button class="btn" id="reset" type="button">Сбросить выбор</button></div>
 </div></div>
 
-<div class="wrap randtop"><div class="rand"><button class="btn" id="rnd" type="button">Случайное сочетание с проверкой цвета</button><div id="rndout"></div></div></div>
+<div class="wrap randtop"><div class="rand"><div class="brow"><button class="btn" id="five" type="button">5 образов под выбранную обувь</button><button class="btn" id="rnd" type="button">Случайное сочетание с проверкой цвета</button></div><p class="note" id="fivehint" style="margin:0"></p><div class="fgrid" id="fiveout"></div><div id="rndout"></div></div></div>
 
 <main class="wrap" id="sections"></main>
 
@@ -475,7 +481,8 @@ function update(){
   const chips=SLOTS.filter(k=>sel[k]).map(k=>{const x=ID[sel[k]];return `<span class="chip"><i class="cd ${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>${x.n}</span>`});
   $('chips').innerHTML=chips.join('')||'<span class="note">Ничего не выбрано. Нажми на любую карточку.</span>';
   $('reset').disabled=!SLOTS.some(k=>sel[k])&&bandKey==='all'&&wx==='any';
-  renderLooks();$('rndout').innerHTML='';
+  renderLooks();$('rndout').innerHTML='';$('fiveout').innerHTML='';
+  $('five').disabled=!sel.s;$('fivehint').textContent=sel.s?'':'Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.';
 }
 function lookOk(l){
   const m=lookMask(l);if(!m)return null;
@@ -578,6 +585,72 @@ function typeOf(x){
   if(SCARF.includes(x))return 'Шарф';
   return '';
 }
+/* 5 образов под выбранную обувь: разброс по температуре, затем разнообразие по вещам и цвету */
+const pc=m=>bits(m).length;
+const rndOf=a=>a[Math.floor(Math.random()*a.length)];
+function fiveCands(){
+  const pool=[],seen=new Set();
+  const push=(slots,parts,mm,ev,cur,dry,rain)=>{const key=SLOTS.map(k=>slots[k]).join('|');if(seen.has(key))return;seen.add(key);pool.push({slots,parts,mm,ev,cur,dry,rain})};
+  LOOKS.forEach(l=>{
+    const m=lookOk(l);if(!m)return;
+    const slots=newSel();lookPairs(l).forEach(([k,id])=>{slots[k]=id});
+    const parts=lookPairs(l).map(([k,id])=>ID[id]).filter(x=>x&&!x.none);
+    const ev=colorEval(parts);if(!ev)return;
+    push(slots,parts,m,ev,1,l.wx==='dry',l.wx==='rain');
+  });
+  for(let i=0;i<4000&&lastHit.length;i++){
+    const [of,f]=rndOf(lastHit);
+    const hs=HEAD.filter(h=>(h.mask&f)&&(!sel.h||sel.h===h.id));if(!hs.length)continue;
+    const h=rndOf(hs);
+    const ss=SCARF.filter(x=>(x.mask&f&h.mask)&&(!sel.sc||sel.sc===x.id));
+    const sc=(ss.length&&(sel.sc||Math.random()<.4))?(sel.sc?ID[sel.sc]:rndOf(ss)):null;
+    const tm=isTee(of.m);
+    const tee=tm?null:(sel.t?ID[sel.t]:rndOf(TEES));
+    const mm=f&h.mask&(sc?sc.mask:ALL);if(!mm)continue;
+    const parts=[ID[of.o],...(tee?[tee]:[]),ID[of.m],ID[of.b],ID[of.s],h,...(sc?[sc]:[])].filter(x=>!x.none);
+    const ev=colorEval(parts);if(!ev)continue;
+    const slots={o:of.o,t:tm?of.m:tee.id,m:tm?null:of.m,b:of.b,s:of.s,h:h.id,sc:sc?sc.id:'nosc'};
+    push(slots,parts,mm,ev,0,wx!=='rain'&&!!(of.dry&mm),wx!=='dry'&&!!(of.rain&mm));
+  }
+  return pool;
+}
+function pickFive(){
+  const pool=fiveCands();if(!pool.length)return [];
+  let U=0;pool.forEach(c=>U|=c.mm);
+  const ts=bits(U),k=Math.min(5,ts.length);
+  const chunks=[];
+  for(let i=0;i<k;i++){const a=Math.floor(i*ts.length/k),b=Math.floor((i+1)*ts.length/k);let m=0;ts.slice(a,b).forEach(t=>{m|=1<<(t-T0)});chunks.push(m)}
+  const picked=[];
+  for(let i=0;i<5;i++){
+    let best=null;
+    for(const ch of [chunks[i%k],ALL]){
+      let bv=-1e9;
+      for(const c of pool){
+        if(picked.includes(c))continue;
+        const inCh=c.mm&ch;if(!inCh)continue;
+        let v=c.ev.sc*10+(c.cur?4:0)+Math.random()*3+pc(inCh)/pc(ch)*4;
+        for(const p of picked){
+          if(p.slots.o===c.slots.o)v-=7;
+          if(p.slots.m&&p.slots.m===c.slots.m)v-=5;
+          if(p.slots.b===c.slots.b)v-=5;
+          if(p.slots.h===c.slots.h)v-=3;
+          if(p.slots.t===c.slots.t)v-=2;
+        }
+        if(v>bv){bv=v;best=c}
+      }
+      if(best)break;
+    }
+    if(!best)break;
+    picked.push(best);
+  }
+  const mid=c=>{const b=bits(c.mm);return (b[0]+b[b.length-1])/2};
+  return picked.sort((a,b)=>mid(a)-mid(b));
+}
+$('five').addEventListener('click',()=>{
+  const r=pickFive();
+  if(!r.length){$('fiveout').innerHTML='<p class="empty">Под текущий выбор образов нет.</p>';return}
+  $('fiveout').innerHTML=r.map(c=>`<div class="look"><span class="dots">${c.parts.map(x=>`<i class="${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>`).join('')}</span><ul>${c.parts.map(x=>`<li class="rl"><b>${typeOf(x)}</b> — ${x.n+' · '+x.cn}</li>`).join('')}</ul><span class="tag">${c.dry?'<span class="pill">сухо</span>':''}${c.rain?'<span class="pill rain">дождь</span>':''}<span class="pill">${span(c.mm)} °C</span></span></div>`).join('');
+});
 $('rnd').addEventListener('click',()=>{
   if(!lastHit.length){$('rndout').innerHTML='<p class="empty">Под текущий выбор сочетаний нет.</p>';return}
   let best=[],bs=-9;
