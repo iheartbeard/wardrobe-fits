@@ -307,7 +307,7 @@ function winterData(){
 const NONE={id:'none',n:'Без верхней одежды',cn:'только средний слой',c:null,none:1};
 const NOSC={id:'nosc',n:'Без шарфа',cn:'пропустить шарф',c:null,none:1,mask:0};
 let OUT,MID,BOT,SH,HEAD,SCARF,ID,OF,LOOKS,TEES,BANDS,season='autumn';
-let NOW={t:17,rain:false};
+let NOW={t:17,rain:false,place:'Эрандио'};
 
 function pair(j,m){
   if(!j||j.none)return m.outM;
@@ -389,11 +389,11 @@ function lookMask(l){
 function setNowBand(){
   const i=BANDS.findIndex(b=>b[0]==='now');if(i<0)return;
   const t=NOW.t,inr=t>=T0&&t<=T1;
-  BANDS[i]=['now','Сейчас в Эрандио: '+(t>0?'+':'')+t+(NOW.rain?', дождь':'')+(inr?'':' (вне сезона)'),M(t,t)];
+  BANDS[i]=['now','Сейчас · '+NOW.place+': '+(t>0?'+':'')+t+(NOW.rain?', дождь':'')+(inr?'':' (вне сезона)'),M(t,t)];
   if(bandKey==='now')band=BANDS[i][2];
 }
 function setNow(w){
-  NOW={t:Math.round(w.t),rain:!!w.rain};setNowBand();
+  NOW={t:Math.round(w.t),rain:!!w.rain,place:w.place||NOW.place};setNowBand();
   if(bandKey==='now'){wx=NOW.rain?'rain':'dry';sel=newSel()}
   build();update();
 }
@@ -749,17 +749,31 @@ try{const s=localStorage.getItem('garderob-season');if(s&&SEASONS[s])startSeason
 applySeason(startSeason);
 </script>
 <script>
-/* Текущая погода в Эрандио из Open-Meteo. Без сети берётся последнее сохранённое значение, а если его нет, остаётся снимок из файла */
+/* Текущая погода по местоположению: координаты берутся у браузера (с разрешения), погода из Open-Meteo, название места из BigDataCloud.
+   Без разрешения или без сети берётся последнее сохранённое место, а если его нет, остаётся Эрандио. */
 (function(){
   const KEY='garderob-weather',RAIN=[51,53,55,56,57,61,63,65,66,67,80,81,82,95,96,99];
-  try{const c=JSON.parse(localStorage.getItem(KEY)||'null');if(c)setNow(c)}catch(e){}
-  fetch('https://api.open-meteo.com/v1/forecast?latitude=43.3036&longitude=-2.9742&current=temperature_2m,precipitation,weather_code&timezone=auto')
-    .then(r=>r.json()).then(j=>{
+  const DEF={lat:43.3036,lon:-2.9742,place:'Эрандио'};
+  const get=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'null')}catch(e){return null}};
+  const put=v=>{try{localStorage.setItem(KEY,JSON.stringify(v))}catch(e){}};
+  const cached=get();if(cached&&cached.t!=null)setNow(cached);
+  const getPos=()=>new Promise(res=>{
+    if(!navigator.geolocation)return res(null);
+    navigator.geolocation.getCurrentPosition(p=>res({lat:+p.coords.latitude.toFixed(2),lon:+p.coords.longitude.toFixed(2)}),()=>res(null),{timeout:8000,maximumAge:600000});
+  });
+  const placeOf=(lat,lon)=>fetch('https://api.bigdatacloud.net/data/reverse-geocode-client?latitude='+lat+'&longitude='+lon+'&localityLanguage=ru')
+    .then(r=>r.json()).then(j=>j.city||j.locality||null).catch(()=>null);
+  (async()=>{
+    const pos=await getPos();
+    const loc=pos?{lat:pos.lat,lon:pos.lon,place:(await placeOf(pos.lat,pos.lon))||'вы здесь'}
+      :(cached&&cached.lat!=null?{lat:cached.lat,lon:cached.lon,place:cached.place||DEF.place}:DEF);
+    try{
+      const j=await fetch('https://api.open-meteo.com/v1/forecast?latitude='+loc.lat+'&longitude='+loc.lon+'&current=temperature_2m,precipitation,weather_code&timezone=auto').then(r=>r.json());
       const c=j.current;if(!c)return;
-      const w={t:c.temperature_2m,rain:c.precipitation>0.1||RAIN.includes(c.weather_code)};
-      try{localStorage.setItem(KEY,JSON.stringify(w))}catch(e){}
-      setNow(w);
-    }).catch(()=>{});
+      const w={t:c.temperature_2m,rain:c.precipitation>0.1||RAIN.includes(c.weather_code),lat:loc.lat,lon:loc.lon,place:loc.place};
+      put(w);setNow(w);
+    }catch(e){}
+  })();
 })();
 </script>
 <script>if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));</script>
