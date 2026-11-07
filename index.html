@@ -389,11 +389,11 @@ function lookMask(l){
 function setNowBand(){
   const i=BANDS.findIndex(b=>b[0]==='now');if(i<0)return;
   const t=NOW.t,inr=t>=T0&&t<=T1;
-  BANDS[i]=['now','Сейчас · '+NOW.place+': '+(t>0?'+':'')+t+(NOW.rain?', дождь':'')+(inr?'':' (вне сезона)'),M(t,t)];
+  BANDS[i]=['now','Сейчас · '+NOW.place+': '+(t>0?'+':'')+t+' ощущ.'+(NOW.rain?(NOW.soon?', скоро дождь':', дождь'):'')+(inr?'':' (вне сезона)'),M(t,t)];
   if(bandKey==='now')band=BANDS[i][2];
 }
 function setNow(w){
-  NOW={t:Math.round(w.t),rain:!!w.rain,place:w.place||NOW.place};setNowBand();
+  NOW={t:Math.round(w.t),rain:!!w.rain,soon:!!w.soon,place:w.place||NOW.place};setNowBand();
   if(bandKey==='now'){wx=NOW.rain?'rain':'dry';sel=newSel()}
   build();update();
 }
@@ -768,9 +768,12 @@ applySeason(startSeason);
     const loc=pos?{lat:pos.lat,lon:pos.lon,place:(await placeOf(pos.lat,pos.lon))||'вы здесь'}
       :(cached&&cached.lat!=null?{lat:cached.lat,lon:cached.lon,place:cached.place||DEF.place}:DEF);
     try{
-      const j=await fetch('https://api.open-meteo.com/v1/forecast?latitude='+loc.lat+'&longitude='+loc.lon+'&current=temperature_2m,precipitation,weather_code&timezone=auto').then(r=>r.json());
+      const j=await fetch('https://api.open-meteo.com/v1/forecast?latitude='+loc.lat+'&longitude='+loc.lon+'&current=apparent_temperature,precipitation,weather_code&minutely_15=precipitation&forecast_minutely_15=8&timezone=auto').then(r=>r.json());
       const c=j.current;if(!c)return;
-      const w={t:c.temperature_2m,rain:c.precipitation>0.1||RAIN.includes(c.weather_code),lat:loc.lat,lon:loc.lon,place:loc.place};
+      /* для выбора слоёв берём ощущаемую температуру, а дождь считаем и сейчас, и в ближайшие 2 часа */
+      const now=c.precipitation>0.1||RAIN.includes(c.weather_code);
+      const soon=!now&&((j.minutely_15&&j.minutely_15.precipitation)||[]).reduce((a,b)=>a+(b||0),0)>=0.5;
+      const w={t:c.apparent_temperature,rain:now||soon,soon:soon,lat:loc.lat,lon:loc.lon,place:loc.place};
       put(w);setNow(w);
     }catch(e){}
   })();
