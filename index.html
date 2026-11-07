@@ -463,7 +463,11 @@ const lookPairs=l=>{const [o,m,b,s,h,sc]=l.ids;const r=[['o',o],[isTee(m)?'t':'m
 let lastHit=[];
 function update(){
   const {av,cnt,hit}=compute();lastHit=hit;
-  const any=SLOTS.some(k=>sel[k]);
+  /* «Без верхней одежды» сама по себе цвета не несёт, подсветка начинается, когда выбрано что-то ещё. Футболку подсвечиваем под слой поверх неё (свитшот, худи, свитер, овершот) или под куртку */
+  const real=k=>sel[k]&&!(k==='o'&&sel[k]==='none');
+  const any=SLOTS.some(real);
+  const jacket=!!sel.o&&sel.o!=='none';
+  const hl=sl=>any&&(sl!=='t'||!!sel.m||jacket);
   const selParts=SLOTS.filter(k=>sel[k]).map(k=>ID[sel[k]]).filter(x=>!x.none);
   const baseSc=selParts.length?((colorEval(selParts)||{sc:0}).sc):0;
   const ideal={o:new Set(),t:new Set(),m:new Set(),b:new Set(),s:new Set(),h:new Set(),sc:new Set()};
@@ -473,9 +477,9 @@ function update(){
     const it=ID[id];const ev=on?null:colorEval(it.none?selParts:[...selParts,it]);
     const dis=!on&&(sel[s]!==null||!av[s].has(id)||!ev);
     c.setAttribute('aria-pressed',on);c.disabled=dis;
-    const idl=any&&!on&&!dis&&ideal[s].has(id);
+    const idl=hl(s)&&!on&&!dis&&ideal[s].has(id);
     c.classList.toggle('ideal',idl);
-    c.classList.toggle('fit',any&&!on&&!dis&&!idl&&!!ev&&ev.sc-baseSc>=1);
+    c.classList.toggle('fit',hl(s)&&!on&&!dis&&!idl&&!!ev&&ev.sc-baseSc>=1);
   });
   $('count').textContent=`Сочетаний: ${cnt.toLocaleString('ru-RU')}`;
   const chips=SLOTS.filter(k=>sel[k]).map(k=>{const x=ID[sel[k]];return `<span class="chip"><i class="cd ${x.c?'':'nc'}" ${x.c?`style="background:${x.c}"`:''}></i>${x.n}</span>`});
