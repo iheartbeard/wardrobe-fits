@@ -1,0 +1,24 @@
+{
+  "name": "wardrobe-fits",
+  "version": "1.0.0",
+  "description": "Подбор образов из своего гардероба по температуре, слоям и погоде",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node --test tests/*.test.mjs",
+    "build:single": "node tools/build-single.mjs",
+    "test:e2e": "node --test tests/e2e/*.test.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "playwright": "^1.50.0",
+    "prettier": "^3.3.0"
+  }
+}

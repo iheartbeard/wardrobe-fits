@@ -1,1 +1,29 @@
-{"name":"Осенний гардероб","short_name":"Гардероб","description":"Осенние образы по температуре и погоде","lang":"ru","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#1C261F","theme_color":"#1C261F","icons":[{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png"},{"src":"icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}
+{
+  "name": "Гардероб",
+  "short_name": "Гардероб",
+  "description": "Подбор образов из своего гардероба по температуре, слоям и погоде",
+  "lang": "ru",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1C261F",
+  "theme_color": "#1C261F",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
