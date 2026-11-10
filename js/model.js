@@ -129,9 +129,9 @@ function assignTees(model) {
 
 /**
  * @param {string} seasonKey Ключ сезона из SEASONS
+ * @param {import('./data/seasons.js').SeasonConfig} [season] Описание сезона, если его нет в SEASONS (например, лето для поездок)
  */
-export function buildModel(seasonKey) {
-  const season = SEASONS[seasonKey];
+export function buildModel(seasonKey, season = SEASONS[seasonKey]) {
   const scale = createScale(...season.range);
   const data = season.data();
 

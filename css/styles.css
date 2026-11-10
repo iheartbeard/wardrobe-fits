@@ -111,6 +111,20 @@ body {
   color: #efe8d6;
   font-size: 15px;
 }
+.hero__trip {
+  display: inline-block;
+  margin-top: 14px;
+  color: #f7f3e8;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid rgba(247, 243, 232, 0.45);
+  border-radius: 999px;
+  padding: 5px 12px;
+  text-decoration: none;
+}
+.hero__trip:hover {
+  background: rgba(247, 243, 232, 0.12);
+}
 .bar {
   background: var(--surface);
   border-bottom: 1px solid var(--line);

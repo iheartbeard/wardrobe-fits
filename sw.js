@@ -1,5 +1,5 @@
 /* Service worker: приложение работает без сети. */
-const CACHE_VERSION = 'garderob-v15';
+const CACHE_VERSION = 'garderob-v16';
 
 const APP_FILES = [
   './',
@@ -42,7 +42,12 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE_VERSION).map((key) => caches.delete(key))))
+      .then((keys) =>
+        /* Кэш капсулы (trip/sw.js) живёт на том же сайте, его не трогаем */
+        Promise.all(
+          keys.filter((key) => key.startsWith('garderob-') && key !== CACHE_VERSION).map((key) => caches.delete(key)),
+        ),
+      )
       .then(() => self.clients.claim()),
   );
 });
