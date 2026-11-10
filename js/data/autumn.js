@@ -62,6 +62,8 @@ const outer = [
     maxOverLight: 15,
     maxOverHeavy: 15,
     warmBelow: 10,
+    /* утеплённая: свитшоты и свитеры под ней до +5 */
+    warmKinds: ['ss', 'sw'],
   },
   {
     id: 'det',
@@ -96,6 +98,8 @@ const outer = [
     maxOverLight: 15,
     maxOverHeavy: 15,
     warmBelow: 10,
+    /* носится только поверх свитшотов и свитеров, с ними до +7 */
+    warmKinds: ['ss', 'sw'],
     kinds: ['ss', 'sw', 'vs'],
   },
   /* Переходные вещи: носятся и поздней осенью, и зимой, в тех же диапазонах температур */
