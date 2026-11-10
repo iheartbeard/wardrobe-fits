@@ -82,7 +82,7 @@ export function lookMask(model, look) {
   const [outer, layer, bottom, shoe, head, scarf] = look.ids.map((id) => (id ? model.byId[id] : null));
   let mask = layerMask(model.scale, outer, layer);
   if (look.weather === 'rain') {
-    if (outer.noRain) {
+    if (outer.noRain || bottom.noRain) {
       return 0;
     }
     mask &= bottom.mask & shoe.rainMask;
@@ -211,7 +211,8 @@ export function buildModel(seasonKey, season = SEASONS[seasonKey]) {
       const inRain = jacket.noRain ? 0 : withLayer;
       for (const bottom of bottoms) {
         const dryBottom = withLayer & bottom.mask;
-        const rainBottom = inRain & bottom.mask;
+        /* Светлые штаны в дождь не предлагаются: брызги из-под ног */
+        const rainBottom = bottom.noRain ? 0 : inRain & bottom.mask;
         if (!dryBottom && !rainBottom) {
           continue;
         }
