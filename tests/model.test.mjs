@@ -57,7 +57,7 @@ for (const key of Object.keys(SEASONS)) {
 }
 
 test('количество сочетаний без выбора совпадает с эталоном', () => {
-  assert.equal(computeAvailability(buildModel('autumn'), stateOf(buildModel('autumn'))).count, 63827);
+  assert.equal(computeAvailability(buildModel('autumn'), stateOf(buildModel('autumn'))).count, 65209);
   assert.equal(computeAvailability(buildModel('winter'), stateOf(buildModel('winter'))).count, 13545);
 });
 

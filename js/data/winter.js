@@ -35,32 +35,8 @@ export function winterData() {
       maxOverHeavy: 15,
       warmBelow: 10,
     },
-    {
-      id: 'rx',
-      group: 'Куртки',
-      name: 'Patagonia Classic Retro-X',
-      colorName: 'Natural, флис',
-      hex: '#EDE6D3',
-      minTemp: 0,
-      minTempByKind: {sw: 5},
-      maxOverLight: 10,
-      maxOverHeavy: 10,
-      warmBelow: 0,
-      kinds: ['sw', 'vs'],
-    },
-    {
-      id: 'rxt',
-      group: 'Куртки',
-      name: 'Patagonia Retro-X поверх Taion',
-      colorName: 'Natural, флис поверх пухового лайнера',
-      hex: '#EDE6D3',
-      minTemp: 0,
-      maxOverLight: 8,
-      maxOverHeavy: 8,
-      warmBelow: 0,
-      kinds: ['sw'],
-      noRain: true,
-    },
+    /* Retro-X — переходная вещь между осенью и зимой, описана в осеннем гардеробе */
+    ...pick(autumn.outer, ['rx', 'rxt']),
   );
 
   const layers = pick(autumn.layers, [
