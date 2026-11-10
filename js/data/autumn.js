@@ -49,6 +49,8 @@ const outer = [
     maxOverLight: 15,
     maxOverHeavy: 15,
     warmBelow: 10,
+    /* Жилет Taion под бомбер не надевается */
+    ban: ['vs'],
   },
   {
     id: 'chd',
