@@ -2,114 +2,20 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Капсула в поездку</title>
-    <meta
-      name="description"
-      content="Капсульный гардероб на поездку из своих вещей: по погоде, дням и размеру багажа."
-    />
-    <meta name="theme-color" content="#24414A" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Капсула" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="icon" href="icons/icon-192.png" />
-    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Unbounded:wght@600&family=JetBrains+Mono:wght@400&display=swap"
-    />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="trip.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Капсула в поездку переехала</title>
+    <meta http-equiv="refresh" content="0; url=https://iheartbeard.github.io/wardrobe-trip/" />
+    <link rel="canonical" href="https://iheartbeard.github.io/wardrobe-trip/" />
   </head>
   <body>
-    <header class="hero hero--trip">
-      <div class="wrap">
-        <a class="hero__back" href="../">← Образы на каждый день</a>
-        <h1>Капсула в поездку</h1>
-        <p>
-          Небольшой набор вещей, которые сочетаются друг с другом и подходят под погоду поездки. Вещи берутся из
-          гардероба с теми же правилами слоёв, температур и цвета.
-        </p>
-      </div>
-    </header>
-
-    <form class="wrap trip-form" id="form" autocomplete="off">
-      <div class="seg" id="mode" role="group" aria-label="Откуда погода">
-        <button type="button" data-mode="place" aria-pressed="true">По месту и датам</button>
-        <button type="button" data-mode="manual" aria-pressed="false">Вручную</button>
-      </div>
-
-      <div class="fields" id="place-fields">
-        <label class="fld fld--wide">
-          <span>Куда</span>
-          <span class="combo">
-            <input id="q" type="search" placeholder="Город, например Лиссабон" enterkeyhint="search" />
-            <button class="btn" id="find" type="button">Найти</button>
-          </span>
-        </label>
-        <div class="places" id="places" hidden></div>
-        <label class="fld"><span>Туда</span><input id="start" type="date" required /></label>
-        <label class="fld"><span>Обратно</span><input id="end" type="date" required /></label>
-      </div>
-
-      <div class="fields" id="manual-fields" hidden>
-        <label class="fld"><span>Дней</span><input id="days" type="number" min="1" max="30" value="7" /></label>
-        <label class="fld"
-          ><span>Прохладнее всего, °C</span><input id="tmin" type="number" min="-5" max="35" value="12"
-        /></label>
-        <label class="fld"
-          ><span>Теплее всего, °C</span><input id="tmax" type="number" min="-5" max="35" value="20"
-        /></label>
-        <label class="tick"><input id="rain" type="checkbox" /> Возможен дождь</label>
-      </div>
-
-      <div class="row">
-        <span class="lab" id="lab-lug">Багаж</span>
-        <div class="seg" id="luggage" role="group" aria-labelledby="lab-lug"></div>
-      </div>
-
-      <div class="actions">
-        <button class="btn btn--primary" id="go" type="submit">Собрать капсулу</button>
-        <span class="status" id="status" aria-live="polite"></span>
-      </div>
-    </form>
-
-    <main class="wrap" id="out" hidden>
-      <section class="sec">
-        <div class="stats" id="stats"></div>
-        <div class="wx" id="wx"></div>
-        <p class="note" id="gaps" hidden></p>
-      </section>
-
-      <section class="sec" aria-labelledby="cap-title">
-        <h2 id="cap-title">Капсула</h2>
-        <p class="hint hint--tight">
-          Закрепи вещь, которую берёшь точно, или убери ту, что не хочешь брать, и капсула пересоберётся вокруг этого.
-        </p>
-        <div id="capsule"></div>
-        <div class="grp" id="excluded-wrap" hidden>
-          <h3>Убраны</h3>
-          <div class="chips" id="excluded"></div>
-        </div>
-      </section>
-
-      <section class="sec" aria-labelledby="plan-title">
-        <h2 id="plan-title">По дням</h2>
-        <div class="days" id="plan"></div>
-      </section>
-
-      <section class="sec pack" aria-labelledby="pack-title">
-        <h2 id="pack-title">Собрать в чемодан</h2>
-        <p class="hint hint--tight" id="pack-hint"></p>
-        <ul class="checklist" id="pack"></ul>
-        <button class="btn" id="unpack" type="button">Снять все отметки</button>
-      </section>
-    </main>
-
-    <script type="module" src="../js/trip/app.js"></script>
+    <p>Капсула в поездку переехала: <a href="https://iheartbeard.github.io/wardrobe-trip/">https://iheartbeard.github.io/wardrobe-trip/</a></p>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then((list) =>
+          list.filter((r) => r.scope.endsWith('/trip/')).forEach((r) => r.unregister()),
+        );
+      }
+      location.replace('https://iheartbeard.github.io/wardrobe-trip/');
+    </script>
   </body>
 </html>
