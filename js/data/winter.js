@@ -20,7 +20,7 @@ function pick(list, ids) {
 export function winterData() {
   const autumn = autumnData();
 
-  const outer = pick(autumn.outer, ['tra', 'ma1', 'chd', 'tai', 'eis', 'vd', 'vc', 'tu']);
+  const outer = pick(autumn.outer, ['tra', 'ma1', 'chd', 'tai', 'eis', 'bgt', 'vd', 'vc', 'tu']);
   outer.splice(
     4,
     0,
