@@ -503,11 +503,11 @@ const shoes = [
   },
   {
     id: 'gt2',
-    group: 'Тёплая осень (+15…+20)',
+    group: 'Тёплая осень (+12…+20)',
     name: 'Tomo Kogarashi x ASICS GT-2160',
     colorName: 'Glacier Grey / Steel Grey',
     hex: '#C9CED3',
-    dry: [15, 20],
+    dry: [12, 20],
   },
   {
     id: 'g11',
