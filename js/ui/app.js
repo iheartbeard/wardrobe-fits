@@ -54,11 +54,11 @@ export function createApp(doc) {
     band: 0,
     weather: 'any',
     selection: emptySelection(),
-    now: {t: 17, rain: false, soon: false, place: DEFAULT_LOCATION.place},
+    forecast: {now: {lo: 17, hi: 17, rain: false, soon: false, place: DEFAULT_LOCATION.place}, tomorrow: null},
     hits: [],
   };
 
-  /* Полосы температур: весь диапазон, полосы сезона и «Сейчас» с текущей погодой */
+  /* Полосы температур: весь диапазон, полосы сезона и полосы погоды («Сейчас», «Завтра») */
   function buildBands() {
     const {scale, season} = state.model;
     state.bands = [
@@ -68,24 +68,47 @@ export function createApp(doc) {
         label: `${formatTemp(lo)}…${formatTemp(hi)}`,
         mask: scale.mask(lo, hi),
       })),
-      {key: 'now', label: '', mask: 0},
     ];
-    updateNowBand();
+    updateWeatherBands();
   }
 
-  function updateNowBand() {
-    const band = state.bands.find((b) => b.key === 'now');
-    if (!band) {
-      return;
-    }
+  /** Подпись полосы погоды: место, диапазон ощущаемой температуры и дождь. */
+  function weatherLabel(title, data) {
     const {scale} = state.model;
-    const {t, rain, soon, place} = state.now;
-    const outOfSeason = t < scale.min || t > scale.max;
-    const rainNote = rain ? (soon ? ', скоро дождь' : ', дождь') : '';
-    band.label = `Сейчас · ${place}: ${formatTemp(t)} ощущ.${rainNote}${outOfSeason ? ' (вне сезона)' : ''}`;
-    band.mask = scale.mask(t, t);
-    if (state.bandKey === 'now') {
-      state.band = band.mask;
+    const span = data.lo === data.hi ? formatTemp(data.lo) : `${formatTemp(data.lo)}…${formatTemp(data.hi)}`;
+    const rain = data.rain ? (data.soon ? ', скоро дождь' : ', дождь') : '';
+    const outOfSeason = data.hi < scale.min || data.lo > scale.max;
+    return `${title} · ${data.place}: ${span} ощущ.${rain}${outOfSeason ? ' (вне сезона)' : ''}`;
+  }
+
+  /** Пересобирает полосы «Сейчас» и «Завтра» (завтра есть, только когда прогноз получен). */
+  function updateWeatherBands() {
+    const {scale} = state.model;
+    state.bands = state.bands.filter((band) => band.rain === undefined);
+    const make = (key, title, data) => ({
+      key,
+      label: weatherLabel(title, data),
+      mask: scale.mask(data.lo, data.hi),
+      rain: data.rain,
+    });
+    state.bands.push(make('now', 'Сейчас', state.forecast.now));
+    if (state.forecast.tomorrow) {
+      state.bands.push(make('tomorrow', 'Завтра', state.forecast.tomorrow));
+    }
+    const current = state.bands.find((band) => band.key === state.bandKey);
+    if (current) {
+      state.band = current.mask;
+    } else if (state.bandKey === 'tomorrow') {
+      state.bandKey = 'all';
+      state.band = scale.all;
+    }
+  }
+
+  /** Фильтр дождя подстраивается под выбранную полосу погоды. */
+  function syncWeatherFilter() {
+    const band = state.bands.find((b) => b.key === state.bandKey);
+    if (band && band.rain !== undefined) {
+      state.weather = band.rain ? 'rain' : 'dry';
     }
   }
 
@@ -185,9 +208,7 @@ export function createApp(doc) {
   function onBandClick(button) {
     state.bandKey = button.dataset.band;
     state.band = state.bands.find((b) => b.key === state.bandKey).mask;
-    if (state.bandKey === 'now') {
-      state.weather = state.now.rain ? 'rain' : 'dry';
-    }
+    syncWeatherFilter();
     resetSelection();
     render();
   }
@@ -266,17 +287,25 @@ export function createApp(doc) {
   applySeason(saved && SEASONS[saved] ? saved : DEFAULT_SEASON);
 
   return {
-    /** Текущая погода: обновляет полосу «Сейчас». Если она выбрана, подстраивает и фильтр дождя. */
+    /**
+     * Погода: полосы «Сейчас» и «Завтра». Если выбрана одна из них, обновляется и фильтр дождя.
+     * @param {{place?: string, now: {t: number, rain?: boolean, soon?: boolean}, tomorrow?: {lo: number, hi: number, rain?: boolean} | null}} weather
+     */
     setWeather(weather) {
-      state.now = {
-        t: Math.round(weather.t),
-        rain: Boolean(weather.rain),
-        soon: Boolean(weather.soon),
-        place: weather.place || state.now.place,
-      };
-      updateNowBand();
-      if (state.bandKey === 'now') {
-        state.weather = state.now.rain ? 'rain' : 'dry';
+      const place = weather.place || state.forecast.now.place;
+      const t = Math.round(weather.now.t);
+      state.forecast.now = {lo: t, hi: t, rain: Boolean(weather.now.rain), soon: Boolean(weather.now.soon), place};
+      state.forecast.tomorrow = weather.tomorrow
+        ? {
+            lo: Math.round(weather.tomorrow.lo),
+            hi: Math.round(weather.tomorrow.hi),
+            rain: Boolean(weather.tomorrow.rain),
+            place,
+          }
+        : null;
+      updateWeatherBands();
+      if (state.bandKey === 'now' || state.bandKey === 'tomorrow') {
+        syncWeatherFilter();
         resetSelection();
       }
       render();

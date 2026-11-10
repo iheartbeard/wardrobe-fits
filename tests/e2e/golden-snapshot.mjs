@@ -10,11 +10,21 @@ export async function takeSnapshot(url) {
   const p = await ctx.newPage();
   const errs = [];
   p.on('pageerror', (e) => errs.push(e.message));
+  /* Подмена прогноза: сейчас +17 без дождя, завтра с 8 до 22 часов от +9 до +14 без дождя */
+  const hours = Array.from(
+    {length: 48},
+    (_, i) => `2026-11-${i < 24 ? '10' : '11'}T${String(i % 24).padStart(2, '0')}:00`,
+  );
   await p.route('**/api.open-meteo.com/**', (r) =>
     r.fulfill({
       json: {
-        current: {apparent_temperature: 17, precipitation: 0, weather_code: 3},
+        current: {time: '2026-11-10T12:00', apparent_temperature: 17, precipitation: 0, weather_code: 3},
         minutely_15: {precipitation: [0, 0, 0, 0, 0, 0, 0, 0]},
+        hourly: {
+          time: hours,
+          apparent_temperature: hours.map((_, i) => (i < 24 ? 17 : 9 + Math.min(5, Math.abs(i - 24 - 8)))),
+          precipitation: hours.map(() => 0),
+        },
       },
     }),
   );

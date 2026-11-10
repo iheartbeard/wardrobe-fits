@@ -17,9 +17,9 @@
     "Футболка — Uniqlo U · чёрный Регби — МЕЧ · navy, кремовый и красный Штаны — Gramicci G-Pants · olive Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Кепка — Slow Sundays Cotton 5 Panel · Green сухо +15…+18 °C Тёмно-синее регби с кремовыми и красными полосами, оливковые штаны и зелёные детали Club C.",
     "Куртка — Foret Act Chore · хаки и армейский Футболка — Uniqlo U · белый Штаны — Muji Relaxed Elasticated · Beige Обувь — New Balance 990v3 · оливково-хаки замша Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+18 °C Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
     "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.",
     "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
@@ -38,7 +38,7 @@
    "reset": true,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "static": "o:none|Без верхней одежды только средний слой\no:rok|Barbour Rokig (mac) Washed Stone & Highland Loch #B8AE98\no:tra|Barbour OS Transport тёмно-зелёный, почти чёрный #262B22\no:for|Foret Act Chore хаки и армейский #6F6A48\no:ma1|Alpha Industries MA-1 Heritage Vintage Green #5F6B4B\no:chd|Dickies Lined Canvas Chore оливково-хаки #7C7857\no:det|Carhartt WIP OG Detroit Hamilton Brown #8B5E3C\no:tai|Taion Military Zip (лайнер) Light Mocha #B39B84\no:eis|Dickies Eisenhower чёрный #1F1F1F\no:bgt|Butter Goods Terrain Insulated Shirt Stone, нейлон с лёгким утеплителем #9DA09A\no:rx|Patagonia Classic Retro-X Natural, флис #EDE6D3\no:rxt|Patagonia Retro-X поверх Taion Natural, флис поверх пухового лайнера #EDE6D3\no:vd|Dickies Duck Canvas Gilet тёмно-коричневый #6B4F3A\no:vc|Carhartt WIP Classic Vest H Brown #A5733F\no:tu|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как верхний слой #C27A5A\nt:tb|Uniqlo U чёрный #1E1E1E\nt:tw|Uniqlo U белый #F3F3F0\nt:tg|Uniqlo U / AIRism светло-серый #CDCFD0\nt:tg2|Uniqlo AIRism серый #9A9C9E\nt:tm|Muji коричневый #6B4B3A\nm:swd|Edwin Dun Textured красный #A8392E\nm:swf|Finisterre Mora Navy #20304F\nm:sws|Uniqlo Soufflé Yarn Light Green #B8D0A2\nm:swl|Uniqlo Lambswool Yellow #E2B83B\nm:ssm|Mango navy #22304F\nm:ssu|Uniqlo crewneck светло-серый меланж #C9CACC\nm:ssh|Carhartt WIP Hudson розовый #E3B8B5\nm:ssn|Carhartt WIP Nelson Black Garment Dyed #4F4D4C\nm:ssc|Carhartt WIP Chase коричневый #6D4B36\nm:hc|Camber USA Ash Gray #B7B8BA\nm:ha1|A&F Essential Popover 2.0 Mauve #A98BA8\nm:ha2|A&F Essential Popover 2.0 Gris Oscuro #5D6064\nm:hv|Velour Garments 450 GSM Jet Black #191919\nm:r1|МЕЧ navy, кремовый и красный #1F2745\nm:r2|МЕЧ коралловый и кремовый, тонкая чёрная полоса #C4604F\nm:r3|Uniqlo тёмно-зелёный и navy, кремовые полоски #1E5A3E\nm:o1|Uniqlo navy #1F2A45\nm:o2|Uniqlo cream #E9E0C8\nm:tuv|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как средний слой #C27A5A\nb:bw|Gramicci Winter Twill Deep Olive #4B5230\nb:bn1|Carhartt WIP Newel Black Stone Washed #232323\nb:bn2|Carhartt WIP Newel Maitland, Blue Stone Bleached #6286AE\nb:be|Edwin Loose Tapered Blue Rinsed #2C4166\nb:bd|Carhartt WIP Double Knee Wax Rinsed, молочно-белый #EDE8DC\nb:bu|Universal Works Pleated Track чёрный #1D1D1D\nb:bm|Muji Corduroy Dark Brown #4B3527\nb:g1|Gramicci G-Pants olive #6B6B3C\nb:g2|Gramicci G-Pants black #242424\nb:g3|Gramicci G-Pants greige #A9A394\nb:mb|Muji Relaxed Elasticated Beige #CDBFA3\nb:ue|Uniqlo Easy Pants серый #8B8E92\ns:w1|Clarks Wallabee 2604 Green Suede #607A2F\ns:w2|Clarks Wallabee Lite Maple Suede #C9A06A\ns:p6|Nike P-6000 Flat Pewter #9DA1A5\ns:g11|ASICS GEL-1130 x HAL Studio Forest #31503C\ns:pog|Saucony Pro Omni Grid 9 x FootPatrol Blue / Brown #7C5632\ns:n860|New Balance 860v2 Mars-Timberwolf #CFC7B1\ns:gt2|Tomo Kogarashi x ASICS GT-2160 Glacier Grey / Steel Grey #C9CED3\ns:n990s|New Balance 990v3 Scarlet / Marblehead, бордово-красная замша с серым #9C2B3D\ns:n990t|New Balance 990v3 оливково-хаки замша #8B8A5C\ns:n993|New Balance 993 Made in USA Black with Grey and White #26262A\ns:kj1|Keen Jasper Zionic Black / Alloy #1F1F1F\ns:kj2|Keen Jasper Zionic Dark Olive / Birch #5C5B3B\ns:rc|Reebok Club C 85 Vintage Chalk / Glen Green #EAE5D6\ns:van|Vans Classic Slip-on чёрно-белая шашка #2B2B2B\ns:pal|Puma Palermo Vintage Hyperlink Blue / Frosted Ivory #2F5FAA\ns:bos|Birkenstock Boston Tobacco Brown #7B6B50\ns:gnyc|ASICS GEL-NYC Steeple Grey #9C9C9E\ns:shp|New Balance 2002R Protection Pack Shipyard, тон-в-тон серо-бежевый (greige) #BDB5A6\ns:bl5|Blundstone 585 Rustic Brown #7C4B2B\ns:bl7|Blundstone 587 Rustic Black #1E1E1E\ns:swc|Stepney Workers Club Amiel S-Strike Cordura Black #3B3B3D\ns:sh6|Saucony Shadow 6000 GTX Black / Grey #2B2B2D\ns:c90|Saucony Cross 90 кремовый #E7DEC7\ns:tim|Timberland Authentic 3-Eye Boat Shoe Burgundy #6E2230\nh:b1|P&Co Deck Beanie чёрная #1D1D1D\nh:b2|P&Co Deck Beanie коричневая #5A3E2C\nh:b3|P&Co Deck Beanie Brick Red #9B3A2D\nh:cDi|Dickies Williston Tibetan Red, вельвет #8E2E2B\nh:cG|Gramicci Nylon Cap brown / dune #8C6C4B\nh:cS|Service Works Home Comforts Rust #B0602E\nh:cP1|P&Co Script Cotton 5 Panel Brick Red #A0412D\nh:cP2|P&Co Varsity Cotton 5 Panel Ecru & Navy #E4DAC4\nh:cK|Maison Kitsuné Handwriting чёрная #1C1C1C\nh:cPa|Patagonia Graphic Maclure Pumice #D8CDB6\nh:cSl|Slow Sundays Cotton 5 Panel Green #7F8A5C\nsc:nosc|Без шарфа пропустить шарф\nsc:sc1|Barbour tartan olive, navy, brown, mustard #5A5B3A\nsc:sc2|Barbour large block-check brown, camel, navy, grey #A98B63\nsc:sc3|United Colors of Benetton чёрный, ребристый #1E1E1E",
@@ -59,9 +59,9 @@
     "Футболка — Uniqlo U · чёрный Регби — МЕЧ · navy, кремовый и красный Штаны — Gramicci G-Pants · olive Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Кепка — Slow Sundays Cotton 5 Panel · Green сухо +15…+18 °C Тёмно-синее регби с кремовыми и красными полосами, оливковые штаны и зелёные детали Club C.",
     "Куртка — Foret Act Chore · хаки и армейский Футболка — Uniqlo U · белый Штаны — Muji Relaxed Elasticated · Beige Обувь — New Balance 990v3 · оливково-хаки замша Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+18 °C Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
     "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.",
     "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
@@ -80,7 +80,7 @@
    "reset": true,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "band_5": {
@@ -103,9 +103,9 @@
    "looks": [
     "Куртка — Foret Act Chore · хаки и армейский Футболка — Uniqlo U · белый Штаны — Muji Relaxed Elasticated · Beige Обувь — New Balance 990v3 · оливково-хаки замша Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+18 °C Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
     "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.",
     "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
@@ -124,7 +124,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон|+5…+10*|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон|+5…+10*|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "band_10": {
@@ -143,9 +143,9 @@
     "Футболка — Uniqlo U · чёрный Регби — МЕЧ · navy, кремовый и красный Штаны — Gramicci G-Pants · olive Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Кепка — Slow Sundays Cotton 5 Panel · Green сухо +15…+18 °C Тёмно-синее регби с кремовыми и красными полосами, оливковые штаны и зелёные детали Club C.",
     "Куртка — Foret Act Chore · хаки и армейский Футболка — Uniqlo U · белый Штаны — Muji Relaxed Elasticated · Beige Обувь — New Balance 990v3 · оливково-хаки замша Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+18 °C Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
     "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.",
     "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
@@ -164,7 +164,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон|+5…+10|+10…+15*|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон|+5…+10|+10…+15*|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "band_15": {
@@ -194,8 +194,8 @@
     "Футболка — Uniqlo U · чёрный Регби — МЕЧ · navy, кремовый и красный Штаны — Gramicci G-Pants · olive Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Кепка — Slow Sundays Cotton 5 Panel · Green сухо +15…+18 °C Тёмно-синее регби с кремовыми и красными полосами, оливковые штаны и зелёные детали Club C.",
     "Куртка — Foret Act Chore · хаки и армейский Футболка — Uniqlo U · белый Штаны — Muji Relaxed Elasticated · Beige Обувь — New Balance 990v3 · оливково-хаки замша Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+18 °C Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
     "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Blundstone 587 · Rustic Black Кепка — Maison Kitsuné Handwriting · чёрная дождь +10…+15 °C Мак поверх тёмного свитшота. Всё чёрное и тёмное.",
@@ -208,7 +208,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон|+5…+10|+10…+15|+15…+18*|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон|+5…+10|+10…+15|+15…+18*|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "band_18": {
@@ -276,7 +276,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон|+5…+10|+10…+15|+15…+18|+18…+22*|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон|+5…+10|+10…+15|+15…+18|+18…+22*|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "band_now": {
@@ -338,7 +338,46 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.*",
+   "bands": "Весь диапазон|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.*|Завтра · Эрандио: +9…+14 ощущ.",
+   "h1": "Осенний гардероб"
+  },
+  "band_tomorrow": {
+   "count": "Сочетаний: 44 940",
+   "chips": "Ничего не выбрано. Нажми на любую карточку.",
+   "off": [
+    "o:rxt",
+    "s:c90",
+    "s:g11",
+    "s:n860",
+    "s:p6",
+    "s:pog",
+    "s:sh6",
+    "s:swc",
+    "s:w1",
+    "s:w2"
+   ],
+   "ideal": [],
+   "fit": [],
+   "looks": [
+    "Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Gramicci G-Pants · black Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +14…+16 °C Серое худи и чёрные штаны. Синий Palermo даёт единственный яркий акцент.",
+    "Куртка — Foret Act Chore · хаки и армейский Футболка — Uniqlo U · белый Штаны — Muji Relaxed Elasticated · Beige Обувь — New Balance 990v3 · оливково-хаки замша Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+18 °C Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.",
+    "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
+    "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
+    "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — Keen Jasper Zionic · Dark Olive / Birch Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport поверх жёлтого свитера, вельветовые Muji и тартановый шарф.",
+    "Куртка — Dickies Lined Canvas Chore · оливково-хаки Футболка — Uniqlo U · чёрный Свитер — Uniqlo Soufflé Yarn · Light Green Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — New Balance 993 Made in USA · Black with Grey and White Шапка — P&Co Deck Beanie · чёрная Шарф — United Colors of Benetton · чёрный, ребристый сухо +5…+10 °C Оливково-хаки куртка на светло-зелёном свитере. Всё остальное чёрное.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Maitland, Blue Stone Bleached Обувь — Keen Jasper Zionic · Black / Alloy Шапка — P&Co Deck Beanie · Brick Red Шарф — Barbour tartan · olive, navy, brown, mustard сухо +8…+10 °C Жилетка на navy свитере, светлые Newel Maitland и чёрные Jasper.",
+    "Жилетка — Taion x Universal Works Reversible Down Vest · Black Check, цветной стороной наружу, как верхний слой Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+15 °C Цветная сторона жилета Taion x Universal Works на navy свитере. Терракота и тёмно-синий дополняют друг друга, чёрные штаны и кепка держат образ."
+   ],
+   "lgridEmpty": false,
+   "reset": false,
+   "five": true,
+   "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
+   "bands": "Весь диапазон|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.*",
    "h1": "Осенний гардероб"
   },
   "wx_dry": {
@@ -362,9 +401,9 @@
     "Футболка — Uniqlo U · чёрный Регби — МЕЧ · navy, кремовый и красный Штаны — Gramicci G-Pants · olive Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Кепка — Slow Sundays Cotton 5 Panel · Green сухо +15…+18 °C Тёмно-синее регби с кремовыми и красными полосами, оливковые штаны и зелёные детали Club C.",
     "Куртка — Foret Act Chore · хаки и армейский Футболка — Uniqlo U · белый Штаны — Muji Relaxed Elasticated · Beige Обувь — New Balance 990v3 · оливково-хаки замша Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+18 °C Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
     "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.",
     "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
@@ -377,7 +416,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "wx_rain": {
@@ -419,7 +458,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "wx_any": {
@@ -439,9 +478,9 @@
     "Футболка — Uniqlo U · чёрный Регби — МЕЧ · navy, кремовый и красный Штаны — Gramicci G-Pants · olive Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Кепка — Slow Sundays Cotton 5 Panel · Green сухо +15…+18 °C Тёмно-синее регби с кремовыми и красными полосами, оливковые штаны и зелёные детали Club C.",
     "Куртка — Foret Act Chore · хаки и армейский Футболка — Uniqlo U · белый Штаны — Muji Relaxed Elasticated · Beige Обувь — New Balance 990v3 · оливково-хаки замша Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+18 °C Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
     "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.",
     "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
@@ -460,7 +499,7 @@
    "reset": true,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:none": {
@@ -503,7 +542,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:rok": {
@@ -583,7 +622,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:tra": {
@@ -657,7 +696,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:for": {
@@ -706,7 +745,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:ma1": {
@@ -751,13 +790,13 @@
     "s:pal"
    ],
    "looks": [
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному."
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:chd": {
@@ -808,7 +847,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:det": {
@@ -888,7 +927,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:tai": {
@@ -961,7 +1000,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:eis": {
@@ -1027,7 +1066,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:bgt": {
@@ -1086,7 +1125,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:rx": {
@@ -1158,7 +1197,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:rxt": {
@@ -1238,7 +1277,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:vd": {
@@ -1314,14 +1353,14 @@
     "t:tm"
    ],
    "looks": [
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Maitland, Blue Stone Bleached Обувь — Keen Jasper Zionic · Black / Alloy Шапка — P&Co Deck Beanie · Brick Red Шарф — Barbour tartan · olive, navy, brown, mustard сухо +8…+10 °C Жилетка на navy свитере, светлые Newel Maitland и чёрные Jasper."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:vc": {
@@ -1401,7 +1440,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_o:tu": {
@@ -1484,7 +1523,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_t:tb": {
@@ -1575,9 +1614,9 @@
     "Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Gramicci G-Pants · black Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +14…+16 °C Серое худи и чёрные штаны. Синий Palermo даёт единственный яркий акцент.",
     "Футболка — Uniqlo U · чёрный Регби — МЕЧ · navy, кремовый и красный Штаны — Gramicci G-Pants · olive Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Кепка — Slow Sundays Cotton 5 Panel · Green сухо +15…+18 °C Тёмно-синее регби с кремовыми и красными полосами, оливковые штаны и зелёные детали Club C.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
     "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — Keen Jasper Zionic · Dark Olive / Birch Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport поверх жёлтого свитера, вельветовые Muji и тартановый шарф.",
@@ -1592,7 +1631,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_t:tw": {
@@ -1661,7 +1700,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_t:tg": {
@@ -1720,7 +1759,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_t:tg2": {
@@ -1766,7 +1805,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_t:tm": {
@@ -1836,7 +1875,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:swd": {
@@ -1927,7 +1966,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:swf": {
@@ -2023,7 +2062,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:sws": {
@@ -2101,7 +2140,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:swl": {
@@ -2195,7 +2234,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:ssm": {
@@ -2283,7 +2322,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:ssu": {
@@ -2345,7 +2384,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:ssh": {
@@ -2432,7 +2471,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:ssn": {
@@ -2500,7 +2539,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:ssc": {
@@ -2573,7 +2612,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:hc": {
@@ -2636,13 +2675,13 @@
    ],
    "looks": [
     "Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Gramicci G-Pants · black Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +14…+16 °C Серое худи и чёрные штаны. Синий Palermo даёт единственный яркий акцент.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному."
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:ha1": {
@@ -2714,7 +2753,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:ha2": {
@@ -2773,13 +2812,13 @@
     "sc:sc1"
    ],
    "looks": [
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies."
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:hv": {
@@ -2837,7 +2876,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:r1": {
@@ -2923,7 +2962,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:r2": {
@@ -3015,7 +3054,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:r3": {
@@ -3093,7 +3132,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:o1": {
@@ -3178,7 +3217,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:o2": {
@@ -3259,7 +3298,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_m:tuv": {
@@ -3333,7 +3372,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:bw": {
@@ -3382,14 +3421,14 @@
     "sc:sc2"
    ],
    "looks": [
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · белый Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Gramicci Winter Twill · Deep Olive Обувь — Stepney Workers Club Amiel S-Strike · Cordura Black Кепка — Dickies Williston · Tibetan Red, вельвет дождь +10…+15 °C Тёмный свитшот Nelson, оливковые штаны, SWC и красная кепка."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:bn1": {
@@ -3457,7 +3496,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:bn2": {
@@ -3529,7 +3568,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:be": {
@@ -3608,7 +3647,7 @@
     "sc:sc2"
    ],
    "looks": [
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Blundstone 585 · Rustic Brown Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Transport, navy свитер, индиго и коричневые Blundstone."
    ],
@@ -3616,7 +3655,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:bd": {
@@ -3680,7 +3719,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:bu": {
@@ -3741,7 +3780,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:bm": {
@@ -3817,7 +3856,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:g1": {
@@ -3881,7 +3920,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:g2": {
@@ -3942,7 +3981,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:g3": {
@@ -4005,7 +4044,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:mb": {
@@ -4084,7 +4123,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_b:ue": {
@@ -4148,7 +4187,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:w1": {
@@ -4227,7 +4266,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:w2": {
@@ -4316,7 +4355,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:p6": {
@@ -4387,7 +4426,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:g11": {
@@ -4465,7 +4504,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:pog": {
@@ -4551,7 +4590,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:n860": {
@@ -4633,7 +4672,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:gt2": {
@@ -4696,7 +4735,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:n990s": {
@@ -4777,7 +4816,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:n990t": {
@@ -4835,7 +4874,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:n993": {
@@ -4896,14 +4935,14 @@
     "sc:sc1"
    ],
    "looks": [
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Dickies Lined Canvas Chore · оливково-хаки Футболка — Uniqlo U · чёрный Свитер — Uniqlo Soufflé Yarn · Light Green Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — New Balance 993 Made in USA · Black with Grey and White Шапка — P&Co Deck Beanie · чёрная Шарф — United Colors of Benetton · чёрный, ребристый сухо +5…+10 °C Оливково-хаки куртка на светло-зелёном свитере. Всё остальное чёрное."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:kj1": {
@@ -4966,7 +5005,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:kj2": {
@@ -5029,7 +5068,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:rc": {
@@ -5104,7 +5143,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:van": {
@@ -5162,13 +5201,13 @@
     "sc:sc1"
    ],
    "looks": [
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies."
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:pal": {
@@ -5244,7 +5283,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:bos": {
@@ -5314,7 +5353,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:gnyc": {
@@ -5386,7 +5425,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:shp": {
@@ -5462,7 +5501,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:bl5": {
@@ -5545,7 +5584,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:bl7": {
@@ -5611,7 +5650,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:swc": {
@@ -5679,7 +5718,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:sh6": {
@@ -5748,7 +5787,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:c90": {
@@ -5830,7 +5869,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_s:tim": {
@@ -5911,7 +5950,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:b1": {
@@ -5975,7 +6014,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:b2": {
@@ -6051,7 +6090,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:b3": {
@@ -6139,7 +6178,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:cDi": {
@@ -6218,15 +6257,15 @@
     "sc:sc3"
    ],
    "looks": [
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · белый Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Gramicci Winter Twill · Deep Olive Обувь — Stepney Workers Club Amiel S-Strike · Cordura Black Кепка — Dickies Williston · Tibetan Red, вельвет дождь +10…+15 °C Тёмный свитшот Nelson, оливковые штаны, SWC и красная кепка."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:cG": {
@@ -6299,7 +6338,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:cS": {
@@ -6386,7 +6425,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:cP1": {
@@ -6470,7 +6509,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:cP2": {
@@ -6547,7 +6586,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:cK": {
@@ -6614,7 +6653,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:cPa": {
@@ -6695,7 +6734,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_h:cSl": {
@@ -6735,7 +6774,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_sc:nosc": {
@@ -6829,9 +6868,9 @@
     "Футболка — Uniqlo U · чёрный Регби — МЕЧ · navy, кремовый и красный Штаны — Gramicci G-Pants · olive Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Кепка — Slow Sundays Cotton 5 Panel · Green сухо +15…+18 °C Тёмно-синее регби с кремовыми и красными полосами, оливковые штаны и зелёные детали Club C.",
     "Куртка — Foret Act Chore · хаки и армейский Футболка — Uniqlo U · белый Штаны — Muji Relaxed Elasticated · Beige Обувь — New Balance 990v3 · оливково-хаки замша Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+18 °C Foret поверх белой футболки, бежевые штаны, 990v3 оливково-хаки. Всё светлое и тёплое.",
     "Куртка — Barbour Rokig (mac) · Washed Stone & Highland Loch Футболка — Uniqlo U · чёрный Штаны — Uniqlo Easy Pants · серый Обувь — ASICS GEL-NYC · Steeple Grey Кепка — Maison Kitsuné Handwriting · чёрная сухо +10…+18 °C Мак поверх чёрной футболки, серые штаны и серые NYC.",
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному.",
     "Куртка — Carhartt WIP OG Detroit · Hamilton Brown Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Reebok Club C 85 Vintage · Chalk / Glen Green Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Коричневая Detroit поверх navy свитера, индиго и светлые Club C.",
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · чёрный Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — Puma Palermo Vintage · Hyperlink Blue / Frosted Ivory Кепка — Patagonia Graphic Maclure · Pumice сухо +10…+15 °C Карамельная жилетка на navy свитшоте, чёрные штаны и синие Palermo.",
     "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.",
     "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Keen Jasper Zionic · Dark Olive / Birch Кепка — Service Works Home Comforts · Rust сухо +10…+15 °C Чёрный Eisenhower, светло-серый свитшот, Double Knee и оливковые Jasper.",
@@ -6846,7 +6885,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_sc:sc1": {
@@ -6898,7 +6937,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_sc:sc2": {
@@ -6969,7 +7008,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "sel_sc:sc3": {
@@ -7027,7 +7066,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "combo_o:none+t:tw": {
@@ -7093,7 +7132,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "combo_o:none+m:ssm": {
@@ -7183,7 +7222,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "combo_o:ma1+s:n990t": {
@@ -7245,7 +7284,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "combo_o:rok+b:ue+s:gnyc": {
@@ -7333,7 +7372,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "combo_s:bl5+b:be": {
@@ -7411,7 +7450,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "combo_m:hc+s:pal": {
@@ -7496,7 +7535,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "combo_o:tu+m:swf": {
@@ -7571,7 +7610,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "combo_o:eis+m:tuv": {
@@ -7650,7 +7689,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_0": {
@@ -7750,7 +7789,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_1": {
@@ -7845,7 +7884,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_2": {
@@ -7940,7 +7979,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_3": {
@@ -8040,7 +8079,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_4": {
@@ -8135,7 +8174,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_5": {
@@ -8235,7 +8274,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_6": {
@@ -8335,7 +8374,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_7": {
@@ -8435,7 +8474,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_8": {
@@ -8528,7 +8567,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_9": {
@@ -8623,7 +8662,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_10": {
@@ -8717,13 +8756,13 @@
    "ideal": [],
    "fit": [],
    "looks": [
-    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному."
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · чёрный Худи — Camber USA · Ash Gray Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 993 Made in USA · Black with Grey and White Кепка — Dickies Williston · Tibetan Red, вельвет сухо +7…+15 °C Зелёный бомбер, серое худи и индиго. Красная вельветовая кепка работает как дополнительный цвет к зелёному."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_11": {
@@ -8823,7 +8862,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_12": {
@@ -8917,13 +8956,13 @@
    "ideal": [],
    "fit": [],
    "looks": [
-    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +10…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies."
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — Vans Classic Slip-on · чёрно-белая шашка Кепка — Dickies Williston · Tibetan Red, вельвет сухо +8…+15 °C Коричневая жилетка, серое худи, оливковые штаны и красная кепка Dickies."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_13": {
@@ -9023,7 +9062,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_14": {
@@ -9123,7 +9162,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_15": {
@@ -9223,7 +9262,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_16": {
@@ -9323,7 +9362,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_17": {
@@ -9423,7 +9462,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_18": {
@@ -9523,7 +9562,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_19": {
@@ -9623,7 +9662,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_20": {
@@ -9723,7 +9762,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_21": {
@@ -9823,7 +9862,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_22": {
@@ -9923,7 +9962,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_23": {
@@ -10023,7 +10062,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_24": {
@@ -10118,7 +10157,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
   "look_25": {
@@ -10218,7 +10257,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.",
+   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   }
  },
@@ -10242,7 +10281,7 @@
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport на жёлтом свитере, вельвет Muji, серые NYC, коричневая шапка и тартан.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · белый Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
     "Футболка — Uniqlo U · белый Худи — Camber USA · Ash Gray Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Кепка — Dickies Williston · Tibetan Red, вельвет сухо +14…+15 °C Серое худи без куртки на самый тёплый день зимы. Чёрные штаны, светлые 580 и красная вельветовая кепка.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Blundstone 585 · Rustic Brown Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Transport, navy свитер, индиго и коричневые Blundstone.",
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Muji · коричневый Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Blundstone 587 · Rustic Black Шапка — P&Co Deck Beanie · чёрная дождь +10…+12 °C Detroit цвета Air Force Blue поверх тёмного свитшота. Чёрные Newel и Blundstone.",
@@ -10255,7 +10294,7 @@
    "reset": true,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "static": "o:none|Без верхней одежды только средний слой\no:tra|Barbour OS Transport тёмно-зелёный, почти чёрный #262B22\no:ma1|Alpha Industries MA-1 Heritage Vintage Green #5F6B4B\no:chd|Dickies Lined Canvas Chore оливково-хаки #7C7857\no:tai|Taion Military Zip (лайнер) Light Mocha #B39B84\no:det2|Carhartt WIP OG Detroit Air Force Blue / Black, aged canvas #4A5F78\no:eis|Dickies Eisenhower чёрный #1F1F1F\no:bgt|Butter Goods Terrain Insulated Shirt Stone, нейлон с лёгким утеплителем #9DA09A\no:rx|Patagonia Classic Retro-X Natural, флис #EDE6D3\no:rxt|Patagonia Retro-X поверх Taion Natural, флис поверх пухового лайнера #EDE6D3\no:vd|Dickies Duck Canvas Gilet тёмно-коричневый #6B4F3A\no:vc|Carhartt WIP Classic Vest H Brown #A5733F\no:tu|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как верхний слой #C27A5A\nt:tb|Uniqlo U чёрный #1E1E1E\nt:tw|Uniqlo U белый #F3F3F0\nt:tg|Uniqlo U / AIRism светло-серый #CDCFD0\nt:tg2|Uniqlo AIRism серый #9A9C9E\nt:tm|Muji коричневый #6B4B3A\nm:swd|Edwin Dun Textured красный #A8392E\nm:swf|Finisterre Mora Navy #20304F\nm:sws|Uniqlo Soufflé Yarn Light Green #B8D0A2\nm:swl|Uniqlo Lambswool Yellow #E2B83B\nm:ssm|Mango navy #22304F\nm:ssu|Uniqlo crewneck светло-серый меланж #C9CACC\nm:ssh|Carhartt WIP Hudson розовый #E3B8B5\nm:ssn|Carhartt WIP Nelson Black Garment Dyed #4F4D4C\nm:ssc|Carhartt WIP Chase коричневый #6D4B36\nm:hc|Camber USA Ash Gray #B7B8BA\nm:ha1|A&F Essential Popover 2.0 Mauve #A98BA8\nm:ha2|A&F Essential Popover 2.0 Gris Oscuro #5D6064\nm:hv|Velour Garments 450 GSM Jet Black #191919\nm:tuv|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как средний слой #C27A5A\nb:bw|Gramicci Winter Twill Deep Olive #4B5230\nb:bn1|Carhartt WIP Newel Black Stone Washed #232323\nb:bn2|Carhartt WIP Newel Maitland, Blue Stone Bleached #6286AE\nb:be|Edwin Loose Tapered Blue Rinsed #2C4166\nb:bd|Carhartt WIP Double Knee Wax Rinsed, молочно-белый #EDE8DC\nb:bu|Universal Works Pleated Track чёрный #1D1D1D\nb:bm|Muji Corduroy Dark Brown #4B3527\ns:jor|Nike Jordan Era CMFT Obsidian / Lucky Green / Chile Red / Pale Ivory #2B3550\ns:gnyc|ASICS GEL-NYC Steeple Grey #9C9C9E\ns:n580|New Balance 580 White / Nightwatch Green #EDEBE4\ns:n990n|New Balance 990v3 Navy / Castlerock #2F3B57\ns:miz|Mizuno Wave Rider Beta Silver Cloud / White Sand / Cedar #BFC3C4\ns:swc|Stepney Workers Club Amiel S-Strike Cordura Black #3B3B3D\ns:shp|New Balance 2002R Protection Pack Shipyard, тон-в-тон серо-бежевый (greige) #BDB5A6\ns:c90|Saucony Cross 90 кремовый #E7DEC7\ns:tim|Timberland Authentic 3-Eye Boat Shoe Burgundy #6E2230\ns:bl5|Blundstone 585 Rustic Brown #7C4B2B\ns:bl7|Blundstone 587 Rustic Black #1E1E1E\nh:b1|P&Co Deck Beanie чёрная #1D1D1D\nh:b2|P&Co Deck Beanie коричневая #5A3E2C\nh:b3|P&Co Deck Beanie Brick Red #9B3A2D\nh:cDi|Dickies Williston Tibetan Red, вельвет #8E2E2B\nsc:nosc|Без шарфа пропустить шарф\nsc:sc1|Barbour tartan olive, navy, brown, mustard #5A5B3A\nsc:sc2|Barbour large block-check brown, camel, navy, grey #A98B63\nsc:sc3|United Colors of Benetton чёрный, ребристый #1E1E1E",
@@ -10278,7 +10317,7 @@
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport на жёлтом свитере, вельвет Muji, серые NYC, коричневая шапка и тартан.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · белый Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
     "Футболка — Uniqlo U · белый Худи — Camber USA · Ash Gray Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Кепка — Dickies Williston · Tibetan Red, вельвет сухо +14…+15 °C Серое худи без куртки на самый тёплый день зимы. Чёрные штаны, светлые 580 и красная вельветовая кепка.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Blundstone 585 · Rustic Brown Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Transport, navy свитер, индиго и коричневые Blundstone.",
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Muji · коричневый Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Blundstone 587 · Rustic Black Шапка — P&Co Deck Beanie · чёрная дождь +10…+12 °C Detroit цвета Air Force Blue поверх тёмного свитшота. Чёрные Newel и Blundstone.",
@@ -10291,19 +10330,14 @@
    "reset": true,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "band_0": {
-   "count": "Сочетаний: 3 016",
+   "count": "Сочетаний: 3 396",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "h:cDi",
-    "m:ssc",
-    "m:ssh",
-    "m:ssm",
-    "m:ssn",
-    "m:ssu",
     "o:bgt",
     "o:eis",
     "o:none",
@@ -10332,7 +10366,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон|0…+5*|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон|0…+5*|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "band_5": {
@@ -10356,7 +10390,7 @@
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport на жёлтом свитере, вельвет Muji, серые NYC, коричневая шапка и тартан.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · белый Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Blundstone 585 · Rustic Brown Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Transport, navy свитер, индиго и коричневые Blundstone.",
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Muji · коричневый Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Blundstone 587 · Rustic Black Шапка — P&Co Deck Beanie · чёрная дождь +10…+12 °C Detroit цвета Air Force Blue поверх тёмного свитшота. Чёрные Newel и Blundstone.",
     "Куртка — Dickies Lined Canvas Chore · оливково-хаки Футболка — Uniqlo U · чёрный Свитер — Uniqlo Soufflé Yarn · Light Green Штаны — Gramicci Winter Twill · Deep Olive Обувь — Stepney Workers Club Amiel S-Strike · Cordura Black Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Оливково-хаки Chore на светло-зелёном свитере, оливковые штаны, SWC и коричневая шапка.",
@@ -10368,7 +10402,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон|0…+5|+5…+10*|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон|0…+5|+5…+10*|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "band_10": {
@@ -10390,7 +10424,7 @@
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport на жёлтом свитере, вельвет Muji, серые NYC, коричневая шапка и тартан.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · белый Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
     "Футболка — Uniqlo U · белый Худи — Camber USA · Ash Gray Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Кепка — Dickies Williston · Tibetan Red, вельвет сухо +14…+15 °C Серое худи без куртки на самый тёплый день зимы. Чёрные штаны, светлые 580 и красная вельветовая кепка.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Blundstone 585 · Rustic Brown Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Transport, navy свитер, индиго и коричневые Blundstone.",
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Muji · коричневый Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Blundstone 587 · Rustic Black Шапка — P&Co Deck Beanie · чёрная дождь +10…+12 °C Detroit цвета Air Force Blue поверх тёмного свитшота. Чёрные Newel и Blundstone.",
@@ -10403,7 +10437,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон|0…+5|+5…+10|+10…+15*|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон|0…+5|+5…+10|+10…+15*|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "band_now": {
@@ -10476,7 +10510,38 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)*",
+   "bands": "Весь диапазон|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)*|Завтра · Эрандио: +9…+14 ощущ.",
+   "h1": "Зимний гардероб"
+  },
+  "band_tomorrow": {
+   "count": "Сочетаний: 13 587",
+   "chips": "Ничего не выбрано. Нажми на любую карточку.",
+   "off": [
+    "o:rxt"
+   ],
+   "ideal": [],
+   "fit": [],
+   "looks": [
+    "Куртка — Patagonia Classic Retro-X · Natural, флис Футболка — Uniqlo U · белый Свитер — Edwin Dun Textured · красный Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +5…+10 °C Кремовый флис, красный свитер Edwin, чёрные Newel и светлые 580. Чёрная шапка уравновешивает красный.",
+    "Куртка — Patagonia Classic Retro-X · Natural, флис Футболка — Uniqlo U · чёрный Свитер — Uniqlo Soufflé Yarn · Light Green Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Saucony Cross 90 · кремовый Шапка — P&Co Deck Beanie · чёрная сухо +5…+10 °C Кремовый флис на светло-зелёном свитере, чёрные Newel и кремовые Cross 90. Мягкая светлая палитра с чёрной шапкой.",
+    "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Лайнер Light Mocha поверх navy свитера, чёрные Newel, серые NYC и чёрная шапка.",
+    "Куртка — Taion Military Zip (лайнер) · Light Mocha Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Nike Jordan Era CMFT · Obsidian / Lucky Green / Chile Red / Pale Ivory Шапка — P&Co Deck Beanie · коричневая сухо +8…+12 °C Лайнер Light Mocha на жёлтом свитере, индиго и тёмно-синие Jordan Era. Коричневая шапка поддерживает тёплый верх.",
+    "Куртка — Dickies Lined Canvas Chore · оливково-хаки Футболка — Uniqlo U · чёрный Свитер — Edwin Dun Textured · красный Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Stepney Workers Club Amiel S-Strike · Cordura Black Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Оливково-хаки Chore на красном свитере, чёрные Newel и SWC. Коричневая шапка и тартановый шарф Barbour.",
+    "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · белый Худи — Velour Garments 450 GSM · Jet Black Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Зелёный бомбер MA-1 на чёрном худи, индиго и тёмно-синие 990v3. Кирпичная шапка в пару к зелёному.",
+    "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная Шарф — United Colors of Benetton · чёрный, ребристый сухо +5…+10 °C Detroit цвета Air Force Blue на тёмно-сером худи, молочные Double Knee и светлые Mizuno. Чёрные шапка и шарф.",
+    "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport на жёлтом свитере, вельвет Muji, серые NYC, коричневая шапка и тартан.",
+    "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
+    "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · белый Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Футболка — Uniqlo U · белый Худи — Camber USA · Ash Gray Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Кепка — Dickies Williston · Tibetan Red, вельвет сухо +14…+15 °C Серое худи без куртки на самый тёплый день зимы. Чёрные штаны, светлые 580 и красная вельветовая кепка.",
+    "Куртка — Dickies Lined Canvas Chore · оливково-хаки Футболка — Uniqlo U · чёрный Жилетка — Taion x Universal Works Reversible Down Vest · Black Check, цветной стороной наружу, как средний слой Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +5…+12 °C Жилет Taion x Universal Works как средний слой под оливково-хаки Chore. Индиго и тёмно-синие 990v3 к тёплой терракоте.",
+    "Жилетка — Taion x Universal Works Reversible Down Vest · Black Check, цветной стороной наружу, как верхний слой Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Цветная сторона жилета поверх navy свитера, чёрные штаны, светлые 580 и чёрная шапка."
+   ],
+   "lgridEmpty": false,
+   "reset": false,
+   "five": true,
+   "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
+   "bands": "Весь диапазон|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.*",
    "h1": "Зимний гардероб"
   },
   "wx_dry": {
@@ -10498,7 +10563,7 @@
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport на жёлтом свитере, вельвет Muji, серые NYC, коричневая шапка и тартан.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · белый Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
     "Футболка — Uniqlo U · белый Худи — Camber USA · Ash Gray Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Кепка — Dickies Williston · Tibetan Red, вельвет сухо +14…+15 °C Серое худи без куртки на самый тёплый день зимы. Чёрные штаны, светлые 580 и красная вельветовая кепка.",
     "Куртка — Dickies Lined Canvas Chore · оливково-хаки Футболка — Uniqlo U · чёрный Жилетка — Taion x Universal Works Reversible Down Vest · Black Check, цветной стороной наружу, как средний слой Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +5…+12 °C Жилет Taion x Universal Works как средний слой под оливково-хаки Chore. Индиго и тёмно-синие 990v3 к тёплой терракоте.",
     "Жилетка — Taion x Universal Works Reversible Down Vest · Black Check, цветной стороной наружу, как верхний слой Футболка — Uniqlo U · белый Свитер — Finisterre Mora · Navy Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Цветная сторона жилета поверх navy свитера, чёрные штаны, светлые 580 и чёрная шапка."
@@ -10507,7 +10572,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "wx_rain": {
@@ -10535,7 +10600,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "wx_any": {
@@ -10557,7 +10622,7 @@
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport на жёлтом свитере, вельвет Muji, серые NYC, коричневая шапка и тартан.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · белый Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
     "Футболка — Uniqlo U · белый Худи — Camber USA · Ash Gray Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Кепка — Dickies Williston · Tibetan Red, вельвет сухо +14…+15 °C Серое худи без куртки на самый тёплый день зимы. Чёрные штаны, светлые 580 и красная вельветовая кепка.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Blundstone 585 · Rustic Brown Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Transport, navy свитер, индиго и коричневые Blundstone.",
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Muji · коричневый Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Blundstone 587 · Rustic Black Шапка — P&Co Deck Beanie · чёрная дождь +10…+12 °C Detroit цвета Air Force Blue поверх тёмного свитшота. Чёрные Newel и Blundstone.",
@@ -10570,7 +10635,7 @@
    "reset": true,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:none": {
@@ -10604,7 +10669,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:tra": {
@@ -10658,7 +10723,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:ma1": {
@@ -10699,7 +10764,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:chd": {
@@ -10748,7 +10813,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:tai": {
@@ -10804,7 +10869,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:det2": {
@@ -10862,7 +10927,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:eis": {
@@ -10907,13 +10972,13 @@
     "sc:sc1"
    ],
    "looks": [
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:bgt": {
@@ -10956,7 +11021,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:rx": {
@@ -11021,7 +11086,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:rxt": {
@@ -11084,7 +11149,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:vd": {
@@ -11143,7 +11208,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:vc": {
@@ -11203,7 +11268,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_o:tu": {
@@ -11264,7 +11329,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_t:tb": {
@@ -11329,7 +11394,7 @@
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная Шарф — United Colors of Benetton · чёрный, ребристый сухо +5…+10 °C Detroit цвета Air Force Blue на тёмно-сером худи, молочные Double Knee и светлые Mizuno. Чёрные шапка и шарф.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Uniqlo Lambswool · Yellow Штаны — Muji Corduroy · Dark Brown Обувь — ASICS GEL-NYC · Steeple Grey Шапка — P&Co Deck Beanie · коричневая Шарф — Barbour tartan · olive, navy, brown, mustard сухо +5…+10 °C Тёмно-зелёный Transport на жёлтом свитере, вельвет Muji, серые NYC, коричневая шапка и тартан.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Blundstone 585 · Rustic Brown Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Transport, navy свитер, индиго и коричневые Blundstone.",
     "Куртка — Dickies Lined Canvas Chore · оливково-хаки Футболка — Uniqlo U · чёрный Свитер — Uniqlo Soufflé Yarn · Light Green Штаны — Gramicci Winter Twill · Deep Olive Обувь — Stepney Workers Club Amiel S-Strike · Cordura Black Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Оливково-хаки Chore на светло-зелёном свитере, оливковые штаны, SWC и коричневая шапка.",
     "Куртка — Dickies Lined Canvas Chore · оливково-хаки Футболка — Uniqlo U · чёрный Жилетка — Taion x Universal Works Reversible Down Vest · Black Check, цветной стороной наружу, как средний слой Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +5…+12 °C Жилет Taion x Universal Works как средний слой под оливково-хаки Chore. Индиго и тёмно-синие 990v3 к тёплой терракоте."
@@ -11338,7 +11403,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_t:tw": {
@@ -11397,7 +11462,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_t:tg": {
@@ -11432,7 +11497,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_t:tg2": {
@@ -11466,7 +11531,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_t:tm": {
@@ -11527,7 +11592,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:swd": {
@@ -11599,7 +11664,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:swf": {
@@ -11669,7 +11734,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:sws": {
@@ -11729,7 +11794,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:swl": {
@@ -11799,7 +11864,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:ssm": {
@@ -11862,7 +11927,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:ssu": {
@@ -11905,13 +11970,13 @@
     "sc:sc1"
    ],
    "looks": [
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:ssh": {
@@ -11976,7 +12041,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:ssn": {
@@ -12024,7 +12089,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:ssc": {
@@ -12076,7 +12141,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:hc": {
@@ -12127,7 +12192,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:ha1": {
@@ -12183,7 +12248,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:ha2": {
@@ -12238,7 +12303,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:hv": {
@@ -12288,7 +12353,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_m:tuv": {
@@ -12347,7 +12412,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_b:bw": {
@@ -12388,7 +12453,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_b:bn1": {
@@ -12446,7 +12511,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_b:bn2": {
@@ -12492,7 +12557,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_b:be": {
@@ -12554,7 +12619,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_b:bd": {
@@ -12598,13 +12663,13 @@
    ],
    "looks": [
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная Шарф — United Colors of Benetton · чёрный, ребристый сухо +5…+10 °C Detroit цвета Air Force Blue на тёмно-сером худи, молочные Double Knee и светлые Mizuno. Чёрные шапка и шарф.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_b:bu": {
@@ -12652,7 +12717,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_b:bm": {
@@ -12704,7 +12769,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:jor": {
@@ -12762,7 +12827,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:gnyc": {
@@ -12813,7 +12878,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:n580": {
@@ -12869,7 +12934,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:n990n": {
@@ -12933,7 +12998,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:miz": {
@@ -12977,13 +13042,13 @@
    ],
    "looks": [
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная Шарф — United Colors of Benetton · чёрный, ребристый сухо +5…+10 °C Detroit цвета Air Force Blue на тёмно-сером худи, молочные Double Knee и светлые Mizuno. Чёрные шапка и шарф.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:swc": {
@@ -13033,7 +13098,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:shp": {
@@ -13086,7 +13151,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:c90": {
@@ -13145,7 +13210,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:tim": {
@@ -13202,7 +13267,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:bl5": {
@@ -13257,7 +13322,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_s:bl7": {
@@ -13303,7 +13368,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_h:b1": {
@@ -13365,7 +13430,7 @@
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная Шарф — United Colors of Benetton · чёрный, ребристый сухо +5…+10 °C Detroit цвета Air Force Blue на тёмно-сером худи, молочные Double Knee и светлые Mizuno. Чёрные шапка и шарф.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · белый Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Muji · коричневый Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Blundstone 587 · Rustic Black Шапка — P&Co Deck Beanie · чёрная дождь +10…+12 °C Detroit цвета Air Force Blue поверх тёмного свитшота. Чёрные Newel и Blundstone.",
     "Куртка — Patagonia Classic Retro-X · Natural, флис Футболка — Muji · коричневый Свитер — Uniqlo Lambswool · Yellow Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 2002R Protection Pack · Shipyard, тон-в-тон серо-бежевый (greige) Шапка — P&Co Deck Beanie · чёрная дождь +5…+10 °C Кремовый Retro-X на жёлтом свитере, чёрные штаны и серо-бежевые Shipyard.",
     "Куртка — Dickies Lined Canvas Chore · оливково-хаки Футболка — Uniqlo U · чёрный Жилетка — Taion x Universal Works Reversible Down Vest · Black Check, цветной стороной наружу, как средний слой Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +5…+12 °C Жилет Taion x Universal Works как средний слой под оливково-хаки Chore. Индиго и тёмно-синие 990v3 к тёплой терракоте.",
@@ -13375,7 +13440,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_h:b2": {
@@ -13435,7 +13500,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_h:b3": {
@@ -13498,7 +13563,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_h:cDi": {
@@ -13560,7 +13625,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_sc:nosc": {
@@ -13628,7 +13693,7 @@
     "Куртка — Alpha Industries MA-1 Heritage · Vintage Green Футболка — Uniqlo U · белый Худи — Velour Garments 450 GSM · Jet Black Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · Brick Red сухо +5…+12 °C Зелёный бомбер MA-1 на чёрном худи, индиго и тёмно-синие 990v3. Кирпичная шапка в пару к зелёному.",
     "Жилетка — Dickies Duck Canvas Gilet · тёмно-коричневый Футболка — Uniqlo U · чёрный Худи — A&F Essential Popover 2.0 · Gris Oscuro Штаны — Gramicci Winter Twill · Deep Olive Обувь — New Balance 990v3 · Navy / Castlerock Шапка — P&Co Deck Beanie · чёрная сухо +8…+12 °C Коричневая жилетка на сером худи, оливковые штаны и тёмно-синие 990v3.",
     "Жилетка — Carhartt WIP Classic Vest · H Brown Футболка — Uniqlo U · белый Свитшот — Mango · navy Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Карамельная жилетка на navy свитшоте, чёрные штаны и светлые 580 с зелёной замшей.",
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno.",
     "Футболка — Uniqlo U · белый Худи — Camber USA · Ash Gray Штаны — Universal Works Pleated Track · чёрный Обувь — New Balance 580 · White / Nightwatch Green Кепка — Dickies Williston · Tibetan Red, вельвет сухо +14…+15 °C Серое худи без куртки на самый тёплый день зимы. Чёрные штаны, светлые 580 и красная вельветовая кепка.",
     "Куртка — Barbour OS Transport · тёмно-зелёный, почти чёрный Футболка — Uniqlo U · чёрный Свитер — Finisterre Mora · Navy Штаны — Edwin Loose Tapered · Blue Rinsed Обувь — Blundstone 585 · Rustic Brown Шапка — P&Co Deck Beanie · коричневая дождь +5…+12 °C Transport, navy свитер, индиго и коричневые Blundstone.",
     "Куртка — Carhartt WIP OG Detroit · Air Force Blue / Black, aged canvas Футболка — Muji · коричневый Свитшот — Carhartt WIP Nelson · Black Garment Dyed Штаны — Carhartt WIP Newel · Black Stone Washed Обувь — Blundstone 587 · Rustic Black Шапка — P&Co Deck Beanie · чёрная дождь +10…+12 °C Detroit цвета Air Force Blue поверх тёмного свитшота. Чёрные Newel и Blundstone.",
@@ -13641,7 +13706,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_sc:sc1": {
@@ -13676,7 +13741,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_sc:sc2": {
@@ -13728,7 +13793,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "sel_sc:sc3": {
@@ -13772,7 +13837,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "combo_o:rxt+m:swf": {
@@ -13829,7 +13894,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "combo_o:rx+m:tuv": {
@@ -13886,7 +13951,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "combo_o:tai+s:jor": {
@@ -13943,7 +14008,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "combo_o:chd+m:tuv": {
@@ -14004,7 +14069,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "combo_o:none+t:tg": {
@@ -14052,7 +14117,7 @@
    "reset": false,
    "five": true,
    "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "combo_s:swc+b:bn1": {
@@ -14103,7 +14168,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "combo_o:det2+m:ha2+s:miz": {
@@ -14167,7 +14232,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_0": {
@@ -14235,7 +14300,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_1": {
@@ -14303,7 +14368,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_2": {
@@ -14371,7 +14436,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_3": {
@@ -14439,7 +14504,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_4": {
@@ -14507,7 +14572,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_5": {
@@ -14575,7 +14640,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_6": {
@@ -14643,7 +14708,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_7": {
@@ -14711,7 +14776,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_8": {
@@ -14779,7 +14844,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_9": {
@@ -14847,7 +14912,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_10": {
@@ -14915,7 +14980,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_11": {
@@ -14983,7 +15048,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_12": {
@@ -15045,13 +15110,13 @@
    "ideal": [],
    "fit": [],
    "looks": [
-    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +10…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
+    "Куртка — Dickies Eisenhower · чёрный Футболка — Uniqlo U · чёрный Свитшот — Uniqlo crewneck · светло-серый меланж Штаны — Carhartt WIP Double Knee · Wax Rinsed, молочно-белый Обувь — Mizuno Wave Rider Beta · Silver Cloud / White Sand / Cedar Шапка — P&Co Deck Beanie · чёрная сухо +7…+12 °C Чёрный Eisenhower, светло-серый свитшот, молочные Double Knee и светлые Mizuno."
    ],
    "lgridEmpty": false,
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_13": {
@@ -15119,7 +15184,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_14": {
@@ -15187,7 +15252,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_15": {
@@ -15255,7 +15320,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_16": {
@@ -15323,7 +15388,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_17": {
@@ -15391,7 +15456,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_18": {
@@ -15459,7 +15524,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
   "look_19": {
@@ -15527,7 +15592,7 @@
    "reset": false,
    "five": false,
    "hint": "",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)",
+   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   }
  },

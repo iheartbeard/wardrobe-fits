@@ -1,5 +1,5 @@
 /* Service worker: приложение работает без сети. */
-const CACHE_VERSION = 'garderob-v23';
+const CACHE_VERSION = 'garderob-v24';
 
 const APP_FILES = [
   './',
@@ -12,6 +12,7 @@ const APP_FILES = [
   'js/selection.js',
   'js/suggest.js',
   'js/weather.js',
+  'js/location.js',
   'js/lib/color.js',
   'js/lib/temperature.js',
   'js/data/autumn.js',
@@ -20,6 +21,7 @@ const APP_FILES = [
   'js/data/seasons.js',
   'js/data/wada.js',
   'js/ui/app.js',
+  'js/ui/place.js',
   'js/ui/templates.js',
   'icons/icon-192.png',
   'icons/icon-512.png',

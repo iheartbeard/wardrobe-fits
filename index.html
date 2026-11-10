@@ -46,6 +46,17 @@
           <span class="lab" id="lab-wx">Погода</span>
           <div class="seg" id="wx" role="group" aria-labelledby="lab-wx"></div>
         </div>
+        <form class="row place" id="place" role="search" hidden>
+          <label class="lab" for="place-q">Место</label>
+          <div class="place__box">
+            <span class="place__cur" id="place-cur"></span>
+            <input id="place-q" type="search" placeholder="Город" autocomplete="off" enterkeyhint="search" />
+            <button class="btn" type="submit">Найти</button>
+            <button class="btn" type="button" id="place-geo">Определить</button>
+          </div>
+          <ul class="place__list" id="place-res"></ul>
+          <p class="note place__msg" id="place-msg" role="status"></p>
+        </form>
         <div class="legend">
           <span><i class="l-off"></i>не подходит, недоступно</span>
           <span><i class="l-fit"></i>подходит по цвету к выбранному</span>

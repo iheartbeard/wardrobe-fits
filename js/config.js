@@ -22,6 +22,7 @@ export const LAYER_LABELS = {
 export const STORAGE_KEYS = {
   season: 'garderob-season',
   weather: 'garderob-weather',
+  location: 'garderob-location',
 };
 
 export const DEFAULT_LOCATION = {lat: 43.3036, lon: -2.9742, place: 'Эрандио'};
