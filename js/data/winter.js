@@ -171,8 +171,24 @@ export function winterData() {
       dry: [0, 15],
       rain: [0, 15],
     },
-    {id: 'bl5', group: 'Дождь', name: 'Blundstone 585', colorName: 'Rustic Brown', hex: '#7C4B2B', rain: [0, 15]},
-    {id: 'bl7', group: 'Дождь', name: 'Blundstone 587', colorName: 'Rustic Black', hex: '#1E1E1E', rain: [0, 15]},
+    {
+      id: 'bl5',
+      group: 'Дождь и сухо',
+      name: 'Blundstone 585',
+      colorName: 'Rustic Brown',
+      hex: '#7C4B2B',
+      dry: [0, 15],
+      rain: [0, 15],
+    },
+    {
+      id: 'bl7',
+      group: 'Дождь и сухо',
+      name: 'Blundstone 587',
+      colorName: 'Rustic Black',
+      hex: '#1E1E1E',
+      dry: [0, 15],
+      rain: [0, 15],
+    },
   ];
 
   const headwear = pick(autumn.headwear, ['b1', 'b2', 'b3', 'cDi']);
