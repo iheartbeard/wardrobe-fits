@@ -40,6 +40,17 @@ const outer = [
     warmBelow: 10,
   },
   {
+    id: 'cov',
+    group: 'Куртки',
+    name: 'Service Works Moleskin Coverall 2.0',
+    colorName: 'Moss, молескин 350 г/м²',
+    hex: '#66704A',
+    minTemp: 8,
+    maxOverLight: 16,
+    maxOverHeavy: 14,
+    warmBelow: 10,
+  },
+  {
     id: 'ma1',
     group: 'Куртки',
     name: 'Alpha Industries MA-1 Heritage',
@@ -59,8 +70,8 @@ const outer = [
     colorName: 'оливково-хаки',
     hex: '#7C7857',
     minTemp: 5,
-    maxOverLight: 15,
-    maxOverHeavy: 15,
+    maxOverLight: 12,
+    maxOverHeavy: 12,
     warmBelow: 10,
     /* утеплённая: свитшоты и свитеры под ней до +5 */
     warmKinds: ['ss', 'sw'],
