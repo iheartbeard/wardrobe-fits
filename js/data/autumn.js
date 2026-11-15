@@ -565,11 +565,11 @@ const shoes = [
     dry: [5, 18],
   },
   {
-    id: 'n993',
+    id: 'n990g',
     group: 'Холодная осень (+5…+18)',
-    name: 'New Balance 993 Made in USA',
-    colorName: 'Black with Grey and White',
-    hex: '#26262A',
+    name: 'New Balance 990v4',
+    colorName: 'Grey, M990GR4',
+    hex: '#8F9296',
     dry: [5, 18],
   },
   {
