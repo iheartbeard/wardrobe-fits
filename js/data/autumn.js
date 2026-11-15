@@ -568,8 +568,8 @@ const shoes = [
     id: 'n990g',
     group: 'Холодная осень (+5…+18)',
     name: 'New Balance 990v4',
-    colorName: 'Grey, M990GR4',
-    hex: '#8F9296',
+    colorName: 'Grey, M990GR4, серая замша, белые шнурки',
+    hex: '#AEB0B3',
     dry: [5, 18],
   },
   {
