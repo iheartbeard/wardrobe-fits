@@ -14,10 +14,10 @@ export const ITEM_COLORS = {
   det2: ['#4A5F78', '#1E1E1E'],
   rx: ['#EDE6D3', '#26324D'],
   rxt: ['#EDE6D3', '#26324D', '#B39B84'],
-  vd: ['#6B4F3A', '#E9E0C8', '#1E1E1E'],
-  vc: ['#A5733F', '#1E1E1E'],
-  tu: ['#C27A5A', '#E9D9C4', '#1E1E1E'],
-  tuv: ['#C27A5A', '#E9D9C4', '#1E1E1E'],
+  vd: ['#6B4F3A'],
+  vc: ['#A5733F'],
+  tu: ['#C27A5A'],
+  tuv: ['#C27A5A'],
 
   /* Свитшоты, регби, овершоты */
   r1: ['#1F2745', '#E9E0C8', '#A8392E'],
@@ -48,7 +48,7 @@ export const ITEM_COLORS = {
   sh6: ['#2B2B2D', '#8B8E92'],
   shp: ['#BDB5A6', '#A39C8C', '#7A7A55'],
   c90: ['#E7DEC7', '#BFC1C3', '#E8D99A'],
-  tim: ['#6E2230', '#D9C8A8'],
+  tim: ['#6A2A25', '#C48A52', '#E6DFCF'],
   jor: ['#2B3550', '#3E8E55', '#B8333A', '#EDE6D3'],
   n580: ['#EDEBE4', '#2F5E3D', '#D9C58A'],
   n990n: ['#2F3B57', '#9C9EA0', '#EDE6D3'],
