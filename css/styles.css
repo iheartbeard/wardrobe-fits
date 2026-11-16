@@ -327,6 +327,9 @@ section.sec > h2 {
 }
 .dot {
   background: var(--swatch);
+  /* цвет только внутри рамки: рамка одного цвета, а разрезанный кружок не повторяется под ней квадратами */
+  background-clip: padding-box;
+  background-repeat: no-repeat;
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -398,6 +401,9 @@ section.sec > h2 {
 }
 .cd {
   background: var(--swatch);
+  /* цвет только внутри рамки: рамка одного цвета, а разрезанный кружок не повторяется под ней квадратами */
+  background-clip: padding-box;
+  background-repeat: no-repeat;
   width: 18px;
   height: 18px;
   border-radius: 50%;
@@ -409,6 +415,9 @@ section.sec > h2 {
 }
 .dots i {
   background: var(--swatch);
+  /* цвет только внутри рамки: рамка одного цвета, а разрезанный кружок не повторяется под ней квадратами */
+  background-clip: padding-box;
+  background-repeat: no-repeat;
   width: 26px;
   height: 26px;
   border-radius: 50%;
