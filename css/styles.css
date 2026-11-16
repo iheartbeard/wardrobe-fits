@@ -420,9 +420,10 @@ section.sec > h2 {
   /* цвет только внутри рамки: рамка одного цвета, а многоцветный фон не повторяется под ней кусками */
   background-clip: padding-box;
   background-repeat: no-repeat;
-  width: 16px;
-  height: 30px;
-  border-radius: 999px;
+  /* в готовых образах — скруглённый квадрат: основной цвет сверху, детали ниже */
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
   border: 2px solid var(--surface);
   margin-right: 4px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
