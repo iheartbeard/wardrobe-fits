@@ -327,12 +327,12 @@ section.sec > h2 {
 }
 .dot {
   background: var(--swatch);
-  /* цвет только внутри рамки: рамка одного цвета, а разрезанный кружок не повторяется под ней квадратами */
+  /* цвет только внутри рамки: рамка одного цвета, а многоцветный фон не повторяется под ней кусками */
   background-clip: padding-box;
   background-repeat: no-repeat;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
+  width: 48px;
+  height: 22px;
+  border-radius: 999px;
   border: 1px solid rgba(0, 0, 0, 0.25);
   grid-row: span 2;
 }
@@ -401,12 +401,12 @@ section.sec > h2 {
 }
 .cd {
   background: var(--swatch);
-  /* цвет только внутри рамки: рамка одного цвета, а разрезанный кружок не повторяется под ней квадратами */
+  /* цвет только внутри рамки: рамка одного цвета, а многоцветный фон не повторяется под ней кусками */
   background-clip: padding-box;
   background-repeat: no-repeat;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
+  width: 26px;
+  height: 14px;
+  border-radius: 999px;
   border: 1px solid rgba(0, 0, 0, 0.25);
   flex: none;
 }
@@ -415,14 +415,14 @@ section.sec > h2 {
 }
 .dots i {
   background: var(--swatch);
-  /* цвет только внутри рамки: рамка одного цвета, а разрезанный кружок не повторяется под ней квадратами */
+  /* цвет только внутри рамки: рамка одного цвета, а многоцветный фон не повторяется под ней кусками */
   background-clip: padding-box;
   background-repeat: no-repeat;
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
+  width: 34px;
+  height: 16px;
+  border-radius: 999px;
   border: 2px solid var(--surface);
-  margin-right: -6px;
+  margin-right: 4px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 .dots i.nc {

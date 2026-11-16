@@ -8,8 +8,11 @@ const ESCAPES = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#
 export const esc = (value) => String(value).replace(/[&<>"']/g, (ch) => ESCAPES[ch]);
 
 /** Цветной кружок. Цвет передаётся через CSS-переменную, у вещей без цвета рисуется штриховка. */
+/** Доля основного цвета в плашке, %; детали делят остаток поровну. */
+export const MAIN_COLOR_SHARE = 50;
+
 /**
- * Фон кружка: один цвет или несколько, разрезанных по диагонали на равные доли.
+ * Фон плашки цвета: один цвет или основной слева и детали справа равными долями.
  * @param {{hex: string|null, colors?: string[]}} item
  */
 export function swatchBackground(item) {
@@ -17,9 +20,10 @@ export function swatchBackground(item) {
   if (colors.length < 2) {
     return colors[0] || null;
   }
-  const step = 100 / colors.length;
-  const stops = colors.map((hex, i) => `${hex} ${+(i * step).toFixed(2)}% ${+((i + 1) * step).toFixed(2)}%`);
-  return `linear-gradient(135deg, ${stops.join(', ')})`;
+  const detail = (100 - MAIN_COLOR_SHARE) / (colors.length - 1);
+  const edges = [0, MAIN_COLOR_SHARE, ...colors.slice(2).map((_, i) => MAIN_COLOR_SHARE + detail * (i + 1)), 100];
+  const stops = colors.map((hex, i) => `${hex} ${+edges[i].toFixed(2)}% ${+edges[i + 1].toFixed(2)}%`);
+  return `linear-gradient(90deg, ${stops.join(', ')})`;
 }
 
 const swatchAttr = (item) => {
