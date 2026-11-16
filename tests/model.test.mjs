@@ -100,3 +100,21 @@ test('случайное сочетание проходит проверку ц
   const result = pickRandom(model, state, hits, seeded());
   assert.ok(result && result.evaluation);
 });
+
+test('дополнительные цвета: первый совпадает с основным hex, id существуют', async () => {
+  const {ITEM_COLORS} = await import('../js/data/colors.js');
+  const known = new Set();
+  for (const key of Object.keys(SEASONS)) {
+    const model = buildModel(key);
+    Object.values(model.byId).forEach((item) => {
+      known.add(item.id);
+      if (ITEM_COLORS[item.id]) {
+        assert.equal(ITEM_COLORS[item.id][0], item.hex, `${item.id}: первый цвет должен совпадать с hex`);
+      }
+      if (item.hex) {
+        assert.ok(item.colors.length >= 1);
+      }
+    });
+  }
+  Object.keys(ITEM_COLORS).forEach((id) => assert.ok(known.has(id), `нет вещи ${id}`));
+});

@@ -1,5 +1,5 @@
 /* Service worker: приложение работает без сети. */
-const CACHE_VERSION = 'garderob-v27';
+const CACHE_VERSION = 'garderob-v28';
 
 const APP_FILES = [
   './',
@@ -20,6 +20,7 @@ const APP_FILES = [
   'js/data/looks.js',
   'js/data/seasons.js',
   'js/data/wada.js',
+  'js/data/colors.js',
   'js/ui/app.js',
   'js/ui/place.js',
   'js/ui/templates.js',

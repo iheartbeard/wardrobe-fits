@@ -5,6 +5,7 @@
 import {SEASONS} from './data/seasons.js';
 import {LAYER_LABELS} from './config.js';
 import {createScale} from './lib/temperature.js';
+import {ITEM_COLORS} from './data/colors.js';
 import {evaluateColors, colorFamily} from './lib/color.js';
 
 /**
@@ -183,6 +184,7 @@ export function buildModel(seasonKey, season = SEASONS[seasonKey]) {
   const byId = {};
   [...outer, ...layers, ...bottoms, ...shoes, ...headwear, ...scarves, noJacket, noScarf].forEach((item) => {
     byId[item.id] = item;
+    item.colors = ITEM_COLORS[item.id] || (item.hex ? [item.hex] : []);
   });
 
   const model = {

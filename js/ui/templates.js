@@ -8,15 +8,35 @@ const ESCAPES = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#
 export const esc = (value) => String(value).replace(/[&<>"']/g, (ch) => ESCAPES[ch]);
 
 /** Цветной кружок. Цвет передаётся через CSS-переменную, у вещей без цвета рисуется штриховка. */
-const swatchAttr = (hex) => (hex ? ` style="--swatch:${esc(hex)}"` : '');
+/**
+ * Фон кружка: один цвет или несколько, разрезанных по диагонали на равные доли.
+ * @param {{hex: string|null, colors?: string[]}} item
+ */
+export function swatchBackground(item) {
+  const colors = item.colors && item.colors.length ? item.colors : item.hex ? [item.hex] : [];
+  if (colors.length < 2) {
+    return colors[0] || null;
+  }
+  const step = 100 / colors.length;
+  const stops = colors.map((hex, i) => `${hex} ${+(i * step).toFixed(2)}% ${+((i + 1) * step).toFixed(2)}%`);
+  return `linear-gradient(135deg, ${stops.join(', ')})`;
+}
 
-export const dotMarkup = (item) => `<span class="dot${item.hex ? '' : ' nc'}"${swatchAttr(item.hex)}></span>`;
+const swatchAttr = (item) => {
+  const background = swatchBackground(item);
+  return background ? ` style="--swatch:${esc(background)}"` : '';
+};
+
+/** Подпись цветов карточки: все hex через точку. */
+const hexLabel = (item) => (item.colors && item.colors.length ? item.colors : [item.hex]).join(' · ');
+
+export const dotMarkup = (item) => `<span class="dot${item.hex ? '' : ' nc'}"${swatchAttr(item)}></span>`;
 
 export const chipMarkup = (item) =>
-  `<span class="chip"><i class="cd${item.hex ? '' : ' nc'}"${swatchAttr(item.hex)}></i>${esc(item.name)}</span>`;
+  `<span class="chip"><i class="cd${item.hex ? '' : ' nc'}"${swatchAttr(item)}></i>${esc(item.name)}</span>`;
 
 export function cardMarkup(item) {
-  const hex = item.hex ? `<span class="hex">${esc(item.hex)}</span>` : '';
+  const hex = item.hex ? `<span class="hex">${esc(hexLabel(item))}</span>` : '';
   return (
     `<button type="button" class="card${item.isNone ? ' none' : ''}" data-slot="${item.slot}" data-id="${esc(item.id)}" aria-pressed="false">` +
     `${dotMarkup(item)}<span class="nm">${esc(item.name)}</span>` +
@@ -83,7 +103,7 @@ export const weatherButtonsMarkup = (filters, current) =>
 
 function lookBody(items, scale, mask, weatherPills, note) {
   const visible = items.filter((item) => item && !item.isNone);
-  const dots = visible.map((item) => `<i class="${item.hex ? '' : 'nc'}"${swatchAttr(item.hex)}></i>`).join('');
+  const dots = visible.map((item) => `<i class="${item.hex ? '' : 'nc'}"${swatchAttr(item)}></i>`).join('');
   const rows = visible
     .map((item) => `<li class="rl"><b>${esc(item.type)}</b> — ${esc(`${item.name} · ${item.colorName}`)}</li>`)
     .join('');
