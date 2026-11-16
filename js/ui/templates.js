@@ -13,7 +13,7 @@ export const esc = (value) => String(value).replace(/[&<>"']/g, (ch) => ESCAPES[
 export const mainColorShare = (count) => (count === 2 ? 60 : 52);
 
 /**
- * Фон плашки цвета: один цвет или основной слева и детали справа равными долями.
+ * Фон плашки цвета: один цвет или основной сверху и детали снизу равными долями.
  * @param {{hex: string|null, colors?: string[]}} item
  */
 export function swatchBackground(item) {
@@ -25,7 +25,7 @@ export function swatchBackground(item) {
   const detail = (100 - main) / (colors.length - 1);
   const edges = [0, main, ...colors.slice(2).map((_, i) => main + detail * (i + 1)), 100];
   const stops = colors.map((hex, i) => `${hex} ${+edges[i].toFixed(2)}% ${+edges[i + 1].toFixed(2)}%`);
-  return `linear-gradient(90deg, ${stops.join(', ')})`;
+  return `linear-gradient(180deg, ${stops.join(', ')})`;
 }
 
 const swatchAttr = (item) => {
@@ -33,20 +33,16 @@ const swatchAttr = (item) => {
   return background ? ` style="--swatch:${esc(background)}"` : '';
 };
 
-/** Подпись цветов карточки: все hex через точку. */
-const hexLabel = (item) => (item.colors && item.colors.length ? item.colors : [item.hex]).join(' · ');
-
 export const dotMarkup = (item) => `<span class="dot${item.hex ? '' : ' nc'}"${swatchAttr(item)}></span>`;
 
 export const chipMarkup = (item) =>
   `<span class="chip"><i class="cd${item.hex ? '' : ' nc'}"${swatchAttr(item)}></i>${esc(item.name)}</span>`;
 
 export function cardMarkup(item) {
-  const hex = item.hex ? `<span class="hex">${esc(hexLabel(item))}</span>` : '';
   return (
     `<button type="button" class="card${item.isNone ? ' none' : ''}" data-slot="${item.slot}" data-id="${esc(item.id)}" aria-pressed="false">` +
     `${dotMarkup(item)}<span class="nm">${esc(item.name)}</span>` +
-    `<span class="meta"><span>${esc(item.colorName)}</span>${hex}</span></button>`
+    `<span class="meta"><span>${esc(item.colorName)}</span></span></button>`
   );
 }
 

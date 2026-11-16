@@ -289,7 +289,10 @@ section.sec > h2 {
   position: relative;
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 4px 10px;
+  /* название и цвет держатся вместе по центру карточки, даже когда соседняя карточка в ряду выше */
+  grid-template-rows: auto auto;
+  align-content: center;
+  gap: 4px 12px;
   align-items: center;
   text-align: left;
   font: inherit;
@@ -330,8 +333,8 @@ section.sec > h2 {
   /* цвет только внутри рамки: рамка одного цвета, а многоцветный фон не повторяется под ней кусками */
   background-clip: padding-box;
   background-repeat: no-repeat;
-  width: 48px;
-  height: 22px;
+  width: 22px;
+  height: 44px;
   border-radius: 999px;
   border: 1px solid rgba(0, 0, 0, 0.25);
   grid-row: span 2;
@@ -340,21 +343,20 @@ section.sec > h2 {
   background: repeating-linear-gradient(45deg, var(--hatch) 0 4px, transparent 4px 8px);
 }
 .nm {
+  align-self: end;
   font-weight: 600;
   font-size: 13px;
   line-height: 1.25;
   overflow-wrap: anywhere;
 }
 .meta {
+  align-self: start;
   font-size: 12px;
   color: var(--muted);
   grid-column: 2;
   display: flex;
   flex-wrap: wrap;
   gap: 0 8px;
-}
-.hex {
-  font-family: var(--f-mono);
 }
 .card.none .dot {
   border-style: dashed;
@@ -404,8 +406,8 @@ section.sec > h2 {
   /* цвет только внутри рамки: рамка одного цвета, а многоцветный фон не повторяется под ней кусками */
   background-clip: padding-box;
   background-repeat: no-repeat;
-  width: 26px;
-  height: 14px;
+  width: 12px;
+  height: 20px;
   border-radius: 999px;
   border: 1px solid rgba(0, 0, 0, 0.25);
   flex: none;
@@ -418,8 +420,8 @@ section.sec > h2 {
   /* цвет только внутри рамки: рамка одного цвета, а многоцветный фон не повторяется под ней кусками */
   background-clip: padding-box;
   background-repeat: no-repeat;
-  width: 34px;
-  height: 16px;
+  width: 16px;
+  height: 30px;
   border-radius: 999px;
   border: 2px solid var(--surface);
   margin-right: 4px;
