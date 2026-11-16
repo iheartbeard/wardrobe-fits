@@ -9,7 +9,8 @@ export const esc = (value) => String(value).replace(/[&<>"']/g, (ch) => ESCAPES[
 
 /** Цветной кружок. Цвет передаётся через CSS-переменную, у вещей без цвета рисуется штриховка. */
 /** Доля основного цвета в плашке, %; детали делят остаток поровну. */
-export const MAIN_COLOR_SHARE = 50;
+/** Доля основного цвета: 60% при двух цветах, 52% при трёх и более (остальное делится поровну). */
+export const mainColorShare = (count) => (count === 2 ? 60 : 52);
 
 /**
  * Фон плашки цвета: один цвет или основной слева и детали справа равными долями.
@@ -20,8 +21,9 @@ export function swatchBackground(item) {
   if (colors.length < 2) {
     return colors[0] || null;
   }
-  const detail = (100 - MAIN_COLOR_SHARE) / (colors.length - 1);
-  const edges = [0, MAIN_COLOR_SHARE, ...colors.slice(2).map((_, i) => MAIN_COLOR_SHARE + detail * (i + 1)), 100];
+  const main = mainColorShare(colors.length);
+  const detail = (100 - main) / (colors.length - 1);
+  const edges = [0, main, ...colors.slice(2).map((_, i) => main + detail * (i + 1)), 100];
   const stops = colors.map((hex, i) => `${hex} ${+edges[i].toFixed(2)}% ${+edges[i + 1].toFixed(2)}%`);
   return `linear-gradient(90deg, ${stops.join(', ')})`;
 }
