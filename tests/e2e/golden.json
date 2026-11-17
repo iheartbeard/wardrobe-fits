@@ -1,7 +1,7 @@
 {
  "autumn": {
   "init": {
-   "count": "Сочетаний: 75 404",
+   "count": "Сочетаний: 71 456",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [],
    "ideal": [],
@@ -41,9 +41,9 @@
    "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
-  "static": "o:none|Без верхней одежды только средний слой\no:rok|Barbour Rokig (mac) Washed Stone & Highland Loch\no:tra|Barbour OS Transport тёмно-зелёный, почти чёрный\no:for|Foret Act Chore хаки и армейский\no:cov|Service Works Moleskin Coverall 2.0 Moss, молескин 350 г/м²\no:ma1|Alpha Industries MA-1 Heritage Vintage Green\no:chd|Dickies Lined Canvas Chore оливково-хаки\no:det|Carhartt WIP OG Detroit Hamilton Brown\no:tai|Taion Military Zip (лайнер) Light Mocha\no:eis|Dickies Eisenhower чёрный\no:bgt|Butter Goods Terrain Insulated Shirt Stone, нейлон с лёгким утеплителем\no:rx|Patagonia Classic Retro-X Natural, флис\no:rxt|Patagonia Retro-X поверх Taion Natural, флис поверх пухового лайнера\no:vd|Dickies Duck Canvas Gilet тёмно-коричневый\no:vc|Carhartt WIP Classic Vest H Brown\no:tu|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как верхний слой\nt:tb|Uniqlo U чёрный\nt:tw|Uniqlo U белый\nt:tg|Uniqlo U / AIRism светло-серый\nt:tg2|Uniqlo AIRism серый\nt:tm|Muji коричневый\nm:swd|Edwin Dun Textured красный\nm:swf|Finisterre Mora Navy\nm:sws|Uniqlo Soufflé Yarn Light Green\nm:swl|Uniqlo Lambswool Yellow\nm:ssm|Mango navy\nm:ssu|Uniqlo crewneck светло-серый меланж\nm:ssh|Carhartt WIP Hudson розовый\nm:ssn|Carhartt WIP Nelson Black Garment Dyed\nm:ssc|Carhartt WIP Chase коричневый\nm:hc|Camber USA Ash Gray\nm:ha1|A&F Essential Popover 2.0 Mauve\nm:ha2|A&F Essential Popover 2.0 Gris Oscuro\nm:hv|Velour Garments 450 GSM Jet Black\nm:r1|МЕЧ navy, кремовый и красный\nm:r2|МЕЧ коралловый и кремовый, тонкая чёрная полоса\nm:r3|Uniqlo тёмно-зелёный и navy, кремовые полоски\nm:o1|Uniqlo navy\nm:o2|Uniqlo cream\nm:tuv|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как средний слой\nb:bw|Gramicci Winter Twill Deep Olive\nb:bn1|Carhartt WIP Newel Black Stone Washed\nb:bn2|Carhartt WIP Newel Maitland, Blue Stone Bleached\nb:be|Edwin Loose Tapered Blue Rinsed\nb:bd|Carhartt WIP Double Knee Wax Rinsed, молочно-белый\nb:bu|Universal Works Pleated Track чёрный\nb:bm|Muji Corduroy Dark Brown\nb:g1|Gramicci G-Pants olive\nb:g2|Gramicci G-Pants black\nb:g3|Gramicci G-Pants greige\nb:mb|Muji Relaxed Elasticated Beige\nb:ue|Uniqlo Easy Pants серый\ns:w1|Clarks Wallabee 2604 Green Suede\ns:w2|Clarks Wallabee Lite Maple Suede\ns:p6|Nike P-6000 Flat Pewter\ns:g11|ASICS GEL-1130 x HAL Studio Forest\ns:pog|Saucony Pro Omni Grid 9 x FootPatrol Blue / Brown\ns:n860|New Balance 860v2 Mars-Timberwolf\ns:gt2|Tomo Kogarashi x ASICS GT-2160 Glacier Grey / Steel Grey\ns:n990s|New Balance 990v3 Scarlet / Marblehead, бордово-красная замша с серым\ns:n990t|New Balance 990v3 оливково-хаки замша\ns:n990g|New Balance 990v4 Grey, M990GR4, серая замша, белые шнурки\ns:kj1|Keen Jasper Zionic Black / Alloy\ns:kj2|Keen Jasper Zionic Dark Olive / Birch\ns:rc|Reebok Club C 85 Vintage Chalk / Glen Green\ns:van|Vans Classic Slip-on чёрно-белая шашка\ns:pal|Puma Palermo Vintage Hyperlink Blue / Frosted Ivory\ns:bos|Birkenstock Boston Tobacco Brown\ns:gnyc|ASICS GEL-NYC Steeple Grey\ns:shp|New Balance 2002R Protection Pack Shipyard, тон-в-тон серо-бежевый (greige)\ns:bl5|Blundstone 585 Rustic Brown\ns:bl7|Blundstone 587 Rustic Black\ns:swc|Stepney Workers Club Amiel S-Strike Cordura Black\ns:sh6|Saucony Shadow 6000 GTX Black / Grey\ns:c90|Saucony Cross 90 кремовый\ns:tim|Timberland Authentic 3-Eye Boat Shoe Burgundy, красно-коричневая кожа, медовая подошва\nh:b1|P&Co Deck Beanie чёрная\nh:b2|P&Co Deck Beanie коричневая\nh:b3|P&Co Deck Beanie Brick Red\nh:cDi|Dickies Williston Tibetan Red, вельвет\nh:cG|Gramicci Nylon Cap brown / dune\nh:cS|Service Works Home Comforts Rust\nh:cP1|P&Co Script Cotton 5 Panel Brick Red\nh:cP2|P&Co Varsity Cotton 5 Panel Ecru & Navy\nh:cK|Maison Kitsuné Handwriting чёрная\nh:cPa|Patagonia Graphic Maclure Pumice\nh:cSl|Slow Sundays Cotton 5 Panel Green\nsc:nosc|Без шарфа пропустить шарф\nsc:sc1|Barbour tartan olive, navy, brown, mustard\nsc:sc2|Barbour large block-check brown, camel, navy, grey\nsc:sc3|United Colors of Benetton чёрный, ребристый",
+  "static": "o:none|Без верхней одежды только средний слой\no:rok|Barbour Rokig (mac) Washed Stone & Highland Loch\no:tra|Barbour OS Transport тёмно-зелёный, почти чёрный\no:for|Foret Act Chore хаки и армейский\no:cov|Service Works Moleskin Coverall 2.0 Moss, молескин 350 г/м²\no:ma1|Alpha Industries MA-1 Heritage Vintage Green\no:chd|Dickies Lined Canvas Chore оливково-хаки\no:det|Carhartt WIP OG Detroit Hamilton Brown\no:tai|Taion Military Zip (лайнер) Light Mocha\no:eis|Dickies Eisenhower чёрный\no:rx|Patagonia Classic Retro-X Natural, флис\no:rxt|Patagonia Retro-X поверх Taion Natural, флис поверх пухового лайнера\no:vd|Dickies Duck Canvas Gilet тёмно-коричневый\no:vc|Carhartt WIP Classic Vest H Brown\no:tu|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как верхний слой\nt:tb|Uniqlo U чёрный\nt:tw|Uniqlo U белый\nt:tg|Uniqlo U / AIRism светло-серый\nt:tg2|Uniqlo AIRism серый\nt:tm|Muji коричневый\nm:swd|Edwin Dun Textured красный\nm:swf|Finisterre Mora Navy\nm:sws|Uniqlo Soufflé Yarn Light Green\nm:swl|Uniqlo Lambswool Yellow\nm:ssm|Mango navy\nm:ssu|Uniqlo crewneck светло-серый меланж\nm:ssh|Carhartt WIP Hudson розовый\nm:ssn|Carhartt WIP Nelson Black Garment Dyed\nm:ssc|Carhartt WIP Chase коричневый\nm:hc|Camber USA Ash Gray\nm:ha1|A&F Essential Popover 2.0 Mauve\nm:ha2|A&F Essential Popover 2.0 Gris Oscuro\nm:hv|Velour Garments 450 GSM Jet Black\nm:r1|МЕЧ navy, кремовый и красный\nm:r2|МЕЧ коралловый и кремовый, тонкая чёрная полоса\nm:r3|Uniqlo тёмно-зелёный и navy, кремовые полоски\nm:o1|Uniqlo navy\nm:o2|Uniqlo cream\nm:tuv|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как средний слой\nb:bw|Gramicci Winter Twill Deep Olive\nb:bn1|Carhartt WIP Newel Black Stone Washed\nb:bn2|Carhartt WIP Newel Maitland, Blue Stone Bleached\nb:be|Edwin Loose Tapered Blue Rinsed\nb:bd|Carhartt WIP Double Knee Wax Rinsed, молочно-белый\nb:bu|Universal Works Pleated Track чёрный\nb:bm|Muji Corduroy Dark Brown\nb:g1|Gramicci G-Pants olive\nb:g2|Gramicci G-Pants black\nb:g3|Gramicci G-Pants greige\nb:mb|Muji Relaxed Elasticated Beige\nb:ue|Uniqlo Easy Pants серый\ns:w1|Clarks Wallabee 2604 Green Suede\ns:w2|Clarks Wallabee Lite Maple Suede\ns:p6|Nike P-6000 Flat Pewter\ns:g11|ASICS GEL-1130 x HAL Studio Forest\ns:pog|Saucony Pro Omni Grid 9 x FootPatrol Blue / Brown\ns:n860|New Balance 860v2 Mars-Timberwolf\ns:gt2|Tomo Kogarashi x ASICS GT-2160 Glacier Grey / Steel Grey\ns:n990s|New Balance 990v3 Scarlet / Marblehead, бордово-красная замша с серым\ns:n990t|New Balance 990v3 оливково-хаки замша\ns:n990g|New Balance 990v4 Grey, M990GR4, серая замша, белые шнурки\ns:kj1|Keen Jasper Zionic Black / Alloy\ns:kj2|Keen Jasper Zionic Dark Olive / Birch\ns:rc|Reebok Club C 85 Vintage Chalk / Glen Green\ns:van|Vans Classic Slip-on чёрно-белая шашка\ns:pal|Puma Palermo Vintage Hyperlink Blue / Frosted Ivory\ns:bos|Birkenstock Boston Tobacco Brown\ns:gnyc|ASICS GEL-NYC Steeple Grey\ns:shp|New Balance 2002R Protection Pack Shipyard, тон-в-тон серо-бежевый (greige)\ns:bl5|Blundstone 585 Rustic Brown\ns:bl7|Blundstone 587 Rustic Black\ns:swc|Stepney Workers Club Amiel S-Strike Cordura Black\ns:sh6|Saucony Shadow 6000 GTX Black / Grey\ns:c90|Saucony Cross 90 кремовый\ns:tim|Timberland Authentic 3-Eye Boat Shoe Burgundy, красно-коричневая кожа, медовая подошва\nh:b1|P&Co Deck Beanie чёрная\nh:b2|P&Co Deck Beanie коричневая\nh:b3|P&Co Deck Beanie Brick Red\nh:cDi|Dickies Williston Tibetan Red, вельвет\nh:cG|Gramicci Nylon Cap brown / dune\nh:cS|Service Works Home Comforts Rust\nh:cP1|P&Co Script Cotton 5 Panel Brick Red\nh:cP2|P&Co Varsity Cotton 5 Panel Ecru & Navy\nh:cK|Maison Kitsuné Handwriting чёрная\nh:cPa|Patagonia Graphic Maclure Pumice\nh:cSl|Slow Sundays Cotton 5 Panel Green\nsc:nosc|Без шарфа пропустить шарф\nsc:sc1|Barbour tartan olive, navy, brown, mustard\nsc:sc2|Barbour large block-check brown, camel, navy, grey\nsc:sc3|United Colors of Benetton чёрный, ребристый",
   "band_all": {
-   "count": "Сочетаний: 75 404",
+   "count": "Сочетаний: 71 456",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [],
    "ideal": [],
@@ -84,7 +84,7 @@
    "h1": "Осенний гардероб"
   },
   "band_5": {
-   "count": "Сочетаний: 51 806",
+   "count": "Сочетаний: 49 034",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "m:o1",
@@ -128,7 +128,7 @@
    "h1": "Осенний гардероб"
   },
   "band_10": {
-   "count": "Сочетаний: 74 562",
+   "count": "Сочетаний: 70 614",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "o:rxt"
@@ -168,7 +168,7 @@
    "h1": "Осенний гардероб"
   },
   "band_15": {
-   "count": "Сочетаний: 63 522",
+   "count": "Сочетаний: 59 574",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "h:b1",
@@ -237,7 +237,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -306,7 +305,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -345,7 +343,7 @@
    "h1": "Осенний гардероб"
   },
   "band_tomorrow": {
-   "count": "Сочетаний: 48 900",
+   "count": "Сочетаний: 46 380",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "o:rxt",
@@ -384,7 +382,7 @@
    "h1": "Осенний гардероб"
   },
   "wx_dry": {
-   "count": "Сочетаний: 67 634",
+   "count": "Сочетаний: 64 106",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "s:c90",
@@ -423,7 +421,7 @@
    "h1": "Осенний гардероб"
   },
   "wx_rain": {
-   "count": "Сочетаний: 20 740",
+   "count": "Сочетаний: 19 620",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "b:bd",
@@ -465,7 +463,7 @@
    "h1": "Осенний гардероб"
   },
   "wx_any": {
-   "count": "Сочетаний: 75 404",
+   "count": "Сочетаний: 71 456",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [],
    "ideal": [],
@@ -510,7 +508,6 @@
    "chips": "Без верхней одежды",
    "off": [
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -555,7 +552,6 @@
    "off": [
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -640,7 +636,6 @@
     "m:hv",
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -711,7 +706,6 @@
    "off": [
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -761,7 +755,6 @@
    "off": [
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:det",
     "o:eis",
@@ -805,7 +798,6 @@
     "m:o1",
     "m:o2",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -856,7 +848,6 @@
    "off": [
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:cov",
     "o:det",
     "o:eis",
@@ -914,7 +905,6 @@
    "off": [
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:eis",
@@ -995,7 +985,6 @@
    "off": [
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -1076,7 +1065,6 @@
     "m:r1",
     "m:r2",
     "m:r3",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -1130,66 +1118,6 @@
    "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Осенний гардероб"
   },
-  "sel_o:bgt": {
-   "count": "Сочетаний: 3 948",
-   "chips": "Butter Goods Terrain Insulated Shirt",
-   "off": [
-    "m:ha1",
-    "m:ha2",
-    "m:hc",
-    "m:hv",
-    "m:o1",
-    "m:o2",
-    "m:swd",
-    "m:swf",
-    "m:swl",
-    "m:sws",
-    "o:chd",
-    "o:cov",
-    "o:det",
-    "o:eis",
-    "o:for",
-    "o:ma1",
-    "o:none",
-    "o:rok",
-    "o:rx",
-    "o:rxt",
-    "o:tai",
-    "o:tra",
-    "o:tu",
-    "o:vc",
-    "o:vd"
-   ],
-   "ideal": [],
-   "fit": [
-    "b:bn2",
-    "b:bw",
-    "b:g1",
-    "h:b3",
-    "h:cDi",
-    "h:cP1",
-    "h:cS",
-    "h:cSl",
-    "m:r2",
-    "m:r3",
-    "m:ssh",
-    "s:g11",
-    "s:kj2",
-    "s:n990s",
-    "s:n990t",
-    "s:pal",
-    "s:tim",
-    "s:w1",
-    "sc:sc1"
-   ],
-   "looks": [],
-   "lgridEmpty": true,
-   "reset": false,
-   "five": true,
-   "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|+5…+10|+10…+15|+15…+18|+18…+22|Сейчас · Эрандио: +17 ощущ.|Завтра · Эрандио: +9…+14 ощущ.",
-   "h1": "Осенний гардероб"
-  },
   "sel_o:rx": {
    "count": "Сочетаний: 990",
    "chips": "Patagonia Classic Retro-X",
@@ -1208,7 +1136,6 @@
     "m:ssm",
     "m:ssn",
     "m:ssu",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -1289,7 +1216,6 @@
     "m:ssn",
     "m:ssu",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -1351,7 +1277,6 @@
     "m:o1",
     "m:o2",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -1435,7 +1360,6 @@
     "m:o1",
     "m:o2",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -1516,7 +1440,6 @@
     "m:o1",
     "m:o2",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -1594,7 +1517,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_t:tb": {
-   "count": "Сочетаний: 61 916",
+   "count": "Сочетаний: 59 096",
    "chips": "Uniqlo U",
    "off": [
     "t:tg",
@@ -1703,7 +1626,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_t:tw": {
-   "count": "Сочетаний: 61 916",
+   "count": "Сочетаний: 59 096",
    "chips": "Uniqlo U",
    "off": [
     "t:tb",
@@ -1773,7 +1696,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_t:tg": {
-   "count": "Сочетаний: 61 916",
+   "count": "Сочетаний: 59 096",
    "chips": "Uniqlo U / AIRism",
    "off": [
     "t:tb",
@@ -1833,7 +1756,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_t:tg2": {
-   "count": "Сочетаний: 61 916",
+   "count": "Сочетаний: 59 096",
    "chips": "Uniqlo AIRism",
    "off": [
     "t:tb",
@@ -1880,7 +1803,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_t:tm": {
-   "count": "Сочетаний: 61 916",
+   "count": "Сочетаний: 59 096",
    "chips": "Muji",
    "off": [
     "t:tb",
@@ -1972,7 +1895,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "s:pal"
    ],
    "ideal": [
@@ -2062,8 +1984,7 @@
     "m:swd",
     "m:swl",
     "m:sws",
-    "m:tuv",
-    "o:bgt"
+    "m:tuv"
    ],
    "ideal": [
     "b:be",
@@ -2159,8 +2080,7 @@
     "m:swd",
     "m:swf",
     "m:swl",
-    "m:tuv",
-    "o:bgt"
+    "m:tuv"
    ],
    "ideal": [
     "b:bn1",
@@ -2238,7 +2158,6 @@
     "m:swf",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "s:n990s"
    ],
    "ideal": [
@@ -2311,7 +2230,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_m:ssm": {
-   "count": "Сочетаний: 3 702",
+   "count": "Сочетаний: 3 420",
    "chips": "Mango",
    "off": [
     "m:ha1",
@@ -2400,7 +2319,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_m:ssu": {
-   "count": "Сочетаний: 3 702",
+   "count": "Сочетаний: 3 420",
    "chips": "Uniqlo crewneck",
    "off": [
     "m:ha1",
@@ -2463,7 +2382,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_m:ssh": {
-   "count": "Сочетаний: 3 702",
+   "count": "Сочетаний: 3 420",
    "chips": "Carhartt WIP Hudson",
    "off": [
     "m:ha1",
@@ -2509,7 +2428,6 @@
     "h:cP2",
     "h:cPa",
     "h:cS",
-    "o:bgt",
     "o:det",
     "o:eis",
     "o:tra",
@@ -2550,7 +2468,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_m:ssn": {
-   "count": "Сочетаний: 3 702",
+   "count": "Сочетаний: 3 420",
    "chips": "Carhartt WIP Nelson",
    "off": [
     "m:ha1",
@@ -2619,7 +2537,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_m:ssc": {
-   "count": "Сочетаний: 3 702",
+   "count": "Сочетаний: 3 420",
    "chips": "Carhartt WIP Chase",
    "off": [
     "m:ha1",
@@ -2714,7 +2632,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -2784,7 +2701,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -2856,7 +2772,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -2922,7 +2837,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -2960,7 +2874,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_m:r1": {
-   "count": "Сочетаний: 3 564",
+   "count": "Сочетаний: 3 282",
    "chips": "МЕЧ",
    "off": [
     "m:ha1",
@@ -3047,7 +2961,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_m:r2": {
-   "count": "Сочетаний: 3 564",
+   "count": "Сочетаний: 3 282",
    "chips": "МЕЧ",
    "off": [
     "m:ha1",
@@ -3099,7 +3013,6 @@
     "h:cP2",
     "h:cPa",
     "h:cS",
-    "o:bgt",
     "o:det",
     "o:tra",
     "o:tu",
@@ -3139,7 +3052,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_m:r3": {
-   "count": "Сочетаний: 3 564",
+   "count": "Сочетаний: 3 282",
    "chips": "Uniqlo",
    "off": [
     "m:ha1",
@@ -3185,7 +3098,6 @@
     "h:cP1",
     "h:cP2",
     "h:cS",
-    "o:bgt",
     "o:tra",
     "s:bl7",
     "s:c90",
@@ -3241,7 +3153,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -3327,7 +3238,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -3385,7 +3295,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_m:tuv": {
-   "count": "Сочетаний: 2 490",
+   "count": "Сочетаний: 2 208",
    "chips": "Taion x Universal Works Reversible Down Vest",
    "off": [
     "m:ha1",
@@ -3460,7 +3370,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:bw": {
-   "count": "Сочетаний: 6 399",
+   "count": "Сочетаний: 6 063",
    "chips": "Gramicci Winter Twill",
    "off": [
     "b:bd",
@@ -3516,7 +3426,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:bn1": {
-   "count": "Сочетаний: 6 399",
+   "count": "Сочетаний: 6 063",
    "chips": "Carhartt WIP Newel",
    "off": [
     "b:bd",
@@ -3585,7 +3495,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:bn2": {
-   "count": "Сочетаний: 6 399",
+   "count": "Сочетаний: 6 063",
    "chips": "Carhartt WIP Newel",
    "off": [
     "b:bd",
@@ -3657,7 +3567,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:be": {
-   "count": "Сочетаний: 6 399",
+   "count": "Сочетаний: 6 063",
    "chips": "Edwin Loose Tapered",
    "off": [
     "b:bd",
@@ -3745,7 +3655,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:bd": {
-   "count": "Сочетаний: 5 622",
+   "count": "Сочетаний: 5 328",
    "chips": "Carhartt WIP Double Knee",
    "off": [
     "b:be",
@@ -3810,7 +3720,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:bu": {
-   "count": "Сочетаний: 6 399",
+   "count": "Сочетаний: 6 063",
    "chips": "Universal Works Pleated Track",
    "off": [
     "b:bd",
@@ -3872,7 +3782,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:bm": {
-   "count": "Сочетаний: 6 399",
+   "count": "Сочетаний: 6 063",
    "chips": "Muji Corduroy",
    "off": [
     "b:bd",
@@ -3949,7 +3859,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:g1": {
-   "count": "Сочетаний: 6 433",
+   "count": "Сочетаний: 6 097",
    "chips": "Gramicci G-Pants",
    "off": [
     "b:bd",
@@ -4013,7 +3923,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:g2": {
-   "count": "Сочетаний: 6 433",
+   "count": "Сочетаний: 6 097",
    "chips": "Gramicci G-Pants",
    "off": [
     "b:bd",
@@ -4075,7 +3985,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:g3": {
-   "count": "Сочетаний: 5 656",
+   "count": "Сочетаний: 5 362",
    "chips": "Gramicci G-Pants",
    "off": [
     "b:bd",
@@ -4139,7 +4049,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:mb": {
-   "count": "Сочетаний: 6 433",
+   "count": "Сочетаний: 6 097",
    "chips": "Muji Relaxed Elasticated",
    "off": [
     "b:bd",
@@ -4219,7 +4129,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_b:ue": {
-   "count": "Сочетаний: 6 433",
+   "count": "Сочетаний: 6 097",
    "chips": "Uniqlo Easy Pants",
    "off": [
     "b:bd",
@@ -4284,7 +4194,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:w1": {
-   "count": "Сочетаний: 2 737",
+   "count": "Сочетаний: 2 569",
    "chips": "Clarks Wallabee 2604",
    "off": [
     "h:b1",
@@ -4349,7 +4259,6 @@
     "m:swd",
     "m:swl",
     "m:sws",
-    "o:bgt",
     "o:eis",
     "o:tra"
    ],
@@ -4364,7 +4273,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:w2": {
-   "count": "Сочетаний: 2 737",
+   "count": "Сочетаний: 2 569",
    "chips": "Clarks Wallabee Lite",
    "off": [
     "h:b1",
@@ -4454,7 +4363,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:p6": {
-   "count": "Сочетаний: 2 737",
+   "count": "Сочетаний: 2 569",
    "chips": "Nike P-6000",
    "off": [
     "h:b1",
@@ -4526,7 +4435,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:g11": {
-   "count": "Сочетаний: 2 737",
+   "count": "Сочетаний: 2 569",
    "chips": "ASICS GEL-1130 x HAL Studio",
    "off": [
     "h:b1",
@@ -4590,7 +4499,6 @@
     "m:swd",
     "m:swl",
     "m:sws",
-    "o:bgt",
     "o:eis",
     "o:tra"
    ],
@@ -4605,7 +4513,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:pog": {
-   "count": "Сочетаний: 2 737",
+   "count": "Сочетаний: 2 569",
    "chips": "Saucony Pro Omni Grid 9 x FootPatrol",
    "off": [
     "h:b1",
@@ -4692,7 +4600,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:n860": {
-   "count": "Сочетаний: 2 737",
+   "count": "Сочетаний: 2 569",
    "chips": "New Balance 860v2",
    "off": [
     "h:b1",
@@ -4775,7 +4683,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:gt2": {
-   "count": "Сочетаний: 3 337",
+   "count": "Сочетаний: 3 169",
    "chips": "Tomo Kogarashi x ASICS GT-2160",
    "off": [
     "o:rx",
@@ -4839,7 +4747,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:n990s": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "New Balance 990v3",
    "off": [
     "m:swl",
@@ -4901,7 +4809,6 @@
     "m:swd",
     "m:swf",
     "m:tuv",
-    "o:bgt",
     "o:det",
     "o:eis",
     "o:rx",
@@ -4920,7 +4827,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:n990t": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "New Balance 990v3",
    "off": [
     "s:bl5",
@@ -4979,7 +4886,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:n990g": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "New Balance 990v4",
    "off": [
     "s:bl5",
@@ -5048,7 +4955,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:kj1": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "Keen Jasper Zionic",
    "off": [
     "s:bl5",
@@ -5112,7 +5019,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:kj2": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "Keen Jasper Zionic",
    "off": [
     "s:bl5",
@@ -5176,7 +5083,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:rc": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "Reebok Club C 85 Vintage",
    "off": [
     "s:bl5",
@@ -5252,7 +5159,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:van": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "Vans Classic Slip-on",
    "off": [
     "s:bl5",
@@ -5317,7 +5224,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:pal": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "Puma Palermo Vintage",
    "off": [
     "h:cDi",
@@ -5374,7 +5281,6 @@
     "m:ssn",
     "m:ssu",
     "m:swf",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -5393,7 +5299,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:bos": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "Birkenstock Boston",
    "off": [
     "s:bl5",
@@ -5464,7 +5370,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:gnyc": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "ASICS GEL-NYC",
    "off": [
     "s:bl5",
@@ -5537,7 +5443,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:shp": {
-   "count": "Сочетаний: 3 400",
+   "count": "Сочетаний: 3 232",
    "chips": "New Balance 2002R Protection Pack",
    "off": [
     "s:bl5",
@@ -5614,7 +5520,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:bl5": {
-   "count": "Сочетаний: 3 400",
+   "count": "Сочетаний: 3 232",
    "chips": "Blundstone 585",
    "off": [
     "s:bl7",
@@ -5698,7 +5604,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:bl7": {
-   "count": "Сочетаний: 3 400",
+   "count": "Сочетаний: 3 232",
    "chips": "Blundstone 587",
    "off": [
     "s:bl5",
@@ -5765,7 +5671,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:swc": {
-   "count": "Сочетаний: 2 590",
+   "count": "Сочетаний: 2 450",
    "chips": "Stepney Workers Club Amiel S-Strike",
    "off": [
     "b:bd",
@@ -5834,7 +5740,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:sh6": {
-   "count": "Сочетаний: 2 590",
+   "count": "Сочетаний: 2 450",
    "chips": "Saucony Shadow 6000 GTX",
    "off": [
     "b:bd",
@@ -5904,7 +5810,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:c90": {
-   "count": "Сочетаний: 2 590",
+   "count": "Сочетаний: 2 450",
    "chips": "Saucony Cross 90",
    "off": [
     "b:bd",
@@ -5987,7 +5893,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_s:tim": {
-   "count": "Сочетаний: 3 425",
+   "count": "Сочетаний: 3 257",
    "chips": "Timberland Authentic 3-Eye Boat Shoe",
    "off": [
     "s:bl5",
@@ -6052,7 +5958,6 @@
     "m:swf",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:det",
     "o:eis",
     "o:rx",
@@ -6073,7 +5978,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:b1": {
-   "count": "Сочетаний: 55 112",
+   "count": "Сочетаний: 52 172",
    "chips": "P&Co Deck Beanie",
    "off": [
     "h:b2",
@@ -6138,7 +6043,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:b2": {
-   "count": "Сочетаний: 55 112",
+   "count": "Сочетаний: 52 172",
    "chips": "P&Co Deck Beanie",
    "off": [
     "h:b1",
@@ -6215,7 +6120,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:b3": {
-   "count": "Сочетаний: 55 112",
+   "count": "Сочетаний: 52 172",
    "chips": "P&Co Deck Beanie",
    "off": [
     "h:b1",
@@ -6270,7 +6175,6 @@
     "m:swd",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -6303,7 +6207,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:cDi": {
-   "count": "Сочетаний: 74 954",
+   "count": "Сочетаний: 71 006",
    "chips": "Dickies Williston",
    "off": [
     "h:b1",
@@ -6354,7 +6258,6 @@
     "m:swd",
     "m:swf",
     "m:tuv",
-    "o:bgt",
     "o:det",
     "o:eis",
     "o:rx",
@@ -6390,7 +6293,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:cG": {
-   "count": "Сочетаний: 75 012",
+   "count": "Сочетаний: 71 064",
    "chips": "Gramicci Nylon Cap",
    "off": [
     "h:b1",
@@ -6464,7 +6367,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:cS": {
-   "count": "Сочетаний: 75 012",
+   "count": "Сочетаний: 71 064",
    "chips": "Service Works Home Comforts",
    "off": [
     "h:b1",
@@ -6514,7 +6417,6 @@
     "m:swf",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:det",
     "o:rx",
     "o:tra",
@@ -6551,7 +6453,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:cP1": {
-   "count": "Сочетаний: 75 404",
+   "count": "Сочетаний: 71 456",
    "chips": "P&Co Script Cotton 5 Panel",
    "off": [
     "h:b1",
@@ -6597,7 +6499,6 @@
     "m:swf",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:det",
     "o:eis",
     "o:rx",
@@ -6635,7 +6536,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:cP2": {
-   "count": "Сочетаний: 75 404",
+   "count": "Сочетаний: 71 456",
    "chips": "P&Co Varsity Cotton 5 Panel",
    "off": [
     "h:b1",
@@ -6713,7 +6614,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:cK": {
-   "count": "Сочетаний: 75 404",
+   "count": "Сочетаний: 71 456",
    "chips": "Maison Kitsuné Handwriting",
    "off": [
     "h:b1",
@@ -6781,7 +6682,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:cPa": {
-   "count": "Сочетаний: 75 404",
+   "count": "Сочетаний: 71 456",
    "chips": "Patagonia Graphic Maclure",
    "off": [
     "h:b1",
@@ -6863,7 +6764,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_h:cSl": {
-   "count": "Сочетаний: 75 404",
+   "count": "Сочетаний: 71 456",
    "chips": "Slow Sundays Cotton 5 Panel",
    "off": [
     "h:b1",
@@ -6903,7 +6804,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_sc:nosc": {
-   "count": "Сочетаний: 75 404",
+   "count": "Сочетаний: 71 456",
    "chips": "Без шарфа",
    "off": [
     "sc:sc1",
@@ -7015,7 +6916,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_sc:sc1": {
-   "count": "Сочетаний: 51 806",
+   "count": "Сочетаний: 49 034",
    "chips": "Barbour tartan",
    "off": [
     "m:o1",
@@ -7067,7 +6968,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_sc:sc2": {
-   "count": "Сочетаний: 51 806",
+   "count": "Сочетаний: 49 034",
    "chips": "Barbour large block-check",
    "off": [
     "m:o1",
@@ -7139,7 +7040,7 @@
    "h1": "Осенний гардероб"
   },
   "sel_sc:sc3": {
-   "count": "Сочетаний: 51 806",
+   "count": "Сочетаний: 49 034",
    "chips": "United Colors of Benetton",
    "off": [
     "m:o1",
@@ -7202,7 +7103,6 @@
    "chips": "Без верхней одежды\nUniqlo U",
    "off": [
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -7289,7 +7189,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -7362,7 +7261,6 @@
     "m:o1",
     "m:o2",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -7435,7 +7333,6 @@
     "b:mb",
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -7508,7 +7405,7 @@
    "h1": "Осенний гардероб"
   },
   "combo_s:bl5+b:be": {
-   "count": "Сочетаний: 285",
+   "count": "Сочетаний: 271",
    "chips": "Edwin Loose Tapered\nBlundstone 585",
    "off": [
     "b:bd",
@@ -7609,7 +7506,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -7693,7 +7589,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -7769,7 +7664,6 @@
     "m:swf",
     "m:swl",
     "m:sws",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -7870,7 +7764,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -7954,7 +7847,6 @@
     "h:cS",
     "h:cSl",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8050,7 +7942,6 @@
     "h:cPa",
     "h:cSl",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8163,7 +8054,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8247,7 +8137,6 @@
     "h:cS",
     "h:cSl",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8360,7 +8249,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8461,7 +8349,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8562,7 +8449,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8647,7 +8533,6 @@
     "h:cSl",
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8741,7 +8626,6 @@
     "h:cSl",
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8853,7 +8737,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -8954,7 +8837,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:eis",
@@ -9055,7 +8937,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -9156,7 +9037,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -9257,7 +9137,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -9358,7 +9237,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -9459,7 +9337,6 @@
     "m:swf",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -9560,7 +9437,6 @@
     "m:swf",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:cov",
     "o:det",
     "o:eis",
@@ -9661,7 +9537,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -9762,7 +9637,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -9863,7 +9737,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -9964,7 +9837,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -10065,7 +9937,6 @@
     "m:swf",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -10166,7 +10037,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -10251,7 +10121,6 @@
     "h:cSl",
     "m:o1",
     "m:o2",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -10363,7 +10232,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:cov",
     "o:det",
@@ -10424,7 +10292,7 @@
  },
  "winter": {
   "init": {
-   "count": "Сочетаний: 14 315",
+   "count": "Сочетаний: 13 468",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [],
    "ideal": [],
@@ -10458,9 +10326,9 @@
    "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
-  "static": "o:none|Без верхней одежды только средний слой\no:tra|Barbour OS Transport тёмно-зелёный, почти чёрный\no:ma1|Alpha Industries MA-1 Heritage Vintage Green\no:chd|Dickies Lined Canvas Chore оливково-хаки\no:tai|Taion Military Zip (лайнер) Light Mocha\no:det2|Carhartt WIP OG Detroit Air Force Blue / Black, aged canvas\no:eis|Dickies Eisenhower чёрный\no:bgt|Butter Goods Terrain Insulated Shirt Stone, нейлон с лёгким утеплителем\no:rx|Patagonia Classic Retro-X Natural, флис\no:rxt|Patagonia Retro-X поверх Taion Natural, флис поверх пухового лайнера\no:vd|Dickies Duck Canvas Gilet тёмно-коричневый\no:vc|Carhartt WIP Classic Vest H Brown\no:tu|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как верхний слой\nt:tb|Uniqlo U чёрный\nt:tw|Uniqlo U белый\nt:tg|Uniqlo U / AIRism светло-серый\nt:tg2|Uniqlo AIRism серый\nt:tm|Muji коричневый\nm:swd|Edwin Dun Textured красный\nm:swf|Finisterre Mora Navy\nm:sws|Uniqlo Soufflé Yarn Light Green\nm:swl|Uniqlo Lambswool Yellow\nm:ssm|Mango navy\nm:ssu|Uniqlo crewneck светло-серый меланж\nm:ssh|Carhartt WIP Hudson розовый\nm:ssn|Carhartt WIP Nelson Black Garment Dyed\nm:ssc|Carhartt WIP Chase коричневый\nm:hc|Camber USA Ash Gray\nm:ha1|A&F Essential Popover 2.0 Mauve\nm:ha2|A&F Essential Popover 2.0 Gris Oscuro\nm:hv|Velour Garments 450 GSM Jet Black\nm:tuv|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как средний слой\nb:bw|Gramicci Winter Twill Deep Olive\nb:bn1|Carhartt WIP Newel Black Stone Washed\nb:bn2|Carhartt WIP Newel Maitland, Blue Stone Bleached\nb:be|Edwin Loose Tapered Blue Rinsed\nb:bd|Carhartt WIP Double Knee Wax Rinsed, молочно-белый\nb:bu|Universal Works Pleated Track чёрный\nb:bm|Muji Corduroy Dark Brown\ns:jor|Nike Jordan Era CMFT Obsidian / Lucky Green / Chile Red / Pale Ivory\ns:gnyc|ASICS GEL-NYC Steeple Grey\ns:n580|New Balance 580 White / Nightwatch Green\ns:n990n|New Balance 990v3 Navy / Castlerock\ns:miz|Mizuno Wave Rider Beta Silver Cloud / White Sand / Cedar\ns:swc|Stepney Workers Club Amiel S-Strike Cordura Black\ns:shp|New Balance 2002R Protection Pack Shipyard, тон-в-тон серо-бежевый (greige)\ns:c90|Saucony Cross 90 кремовый\ns:tim|Timberland Authentic 3-Eye Boat Shoe Burgundy, красно-коричневая кожа, медовая подошва\ns:bl5|Blundstone 585 Rustic Brown\ns:bl7|Blundstone 587 Rustic Black\nh:b1|P&Co Deck Beanie чёрная\nh:b2|P&Co Deck Beanie коричневая\nh:b3|P&Co Deck Beanie Brick Red\nh:cDi|Dickies Williston Tibetan Red, вельвет\nsc:nosc|Без шарфа пропустить шарф\nsc:sc1|Barbour tartan olive, navy, brown, mustard\nsc:sc2|Barbour large block-check brown, camel, navy, grey\nsc:sc3|United Colors of Benetton чёрный, ребристый",
+  "static": "o:none|Без верхней одежды только средний слой\no:tra|Barbour OS Transport тёмно-зелёный, почти чёрный\no:ma1|Alpha Industries MA-1 Heritage Vintage Green\no:chd|Dickies Lined Canvas Chore оливково-хаки\no:tai|Taion Military Zip (лайнер) Light Mocha\no:det2|Carhartt WIP OG Detroit Air Force Blue / Black, aged canvas\no:eis|Dickies Eisenhower чёрный\no:rx|Patagonia Classic Retro-X Natural, флис\no:rxt|Patagonia Retro-X поверх Taion Natural, флис поверх пухового лайнера\no:vd|Dickies Duck Canvas Gilet тёмно-коричневый\no:vc|Carhartt WIP Classic Vest H Brown\no:tu|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как верхний слой\nt:tb|Uniqlo U чёрный\nt:tw|Uniqlo U белый\nt:tg|Uniqlo U / AIRism светло-серый\nt:tg2|Uniqlo AIRism серый\nt:tm|Muji коричневый\nm:swd|Edwin Dun Textured красный\nm:swf|Finisterre Mora Navy\nm:sws|Uniqlo Soufflé Yarn Light Green\nm:swl|Uniqlo Lambswool Yellow\nm:ssm|Mango navy\nm:ssu|Uniqlo crewneck светло-серый меланж\nm:ssh|Carhartt WIP Hudson розовый\nm:ssn|Carhartt WIP Nelson Black Garment Dyed\nm:ssc|Carhartt WIP Chase коричневый\nm:hc|Camber USA Ash Gray\nm:ha1|A&F Essential Popover 2.0 Mauve\nm:ha2|A&F Essential Popover 2.0 Gris Oscuro\nm:hv|Velour Garments 450 GSM Jet Black\nm:tuv|Taion x Universal Works Reversible Down Vest Black Check, цветной стороной наружу, как средний слой\nb:bw|Gramicci Winter Twill Deep Olive\nb:bn1|Carhartt WIP Newel Black Stone Washed\nb:bn2|Carhartt WIP Newel Maitland, Blue Stone Bleached\nb:be|Edwin Loose Tapered Blue Rinsed\nb:bd|Carhartt WIP Double Knee Wax Rinsed, молочно-белый\nb:bu|Universal Works Pleated Track чёрный\nb:bm|Muji Corduroy Dark Brown\ns:jor|Nike Jordan Era CMFT Obsidian / Lucky Green / Chile Red / Pale Ivory\ns:gnyc|ASICS GEL-NYC Steeple Grey\ns:n580|New Balance 580 White / Nightwatch Green\ns:n990n|New Balance 990v3 Navy / Castlerock\ns:miz|Mizuno Wave Rider Beta Silver Cloud / White Sand / Cedar\ns:swc|Stepney Workers Club Amiel S-Strike Cordura Black\ns:shp|New Balance 2002R Protection Pack Shipyard, тон-в-тон серо-бежевый (greige)\ns:c90|Saucony Cross 90 кремовый\ns:tim|Timberland Authentic 3-Eye Boat Shoe Burgundy, красно-коричневая кожа, медовая подошва\ns:bl5|Blundstone 585 Rustic Brown\ns:bl7|Blundstone 587 Rustic Black\nh:b1|P&Co Deck Beanie чёрная\nh:b2|P&Co Deck Beanie коричневая\nh:b3|P&Co Deck Beanie Brick Red\nh:cDi|Dickies Williston Tibetan Red, вельвет\nsc:nosc|Без шарфа пропустить шарф\nsc:sc1|Barbour tartan olive, navy, brown, mustard\nsc:sc2|Barbour large block-check brown, camel, navy, grey\nsc:sc3|United Colors of Benetton чёрный, ребристый",
   "band_all": {
-   "count": "Сочетаний: 14 315",
+   "count": "Сочетаний: 13 468",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [],
    "ideal": [],
@@ -10499,7 +10367,6 @@
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "h:cDi",
-    "o:bgt",
     "o:eis",
     "o:none",
     "o:tai",
@@ -10531,7 +10398,7 @@
    "h1": "Зимний гардероб"
   },
   "band_5": {
-   "count": "Сочетаний: 13 398",
+   "count": "Сочетаний: 12 551",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "o:none"
@@ -10567,7 +10434,7 @@
    "h1": "Зимний гардероб"
   },
   "band_10": {
-   "count": "Сочетаний: 14 007",
+   "count": "Сочетаний: 13 160",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "o:rxt"
@@ -10630,7 +10497,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -10675,7 +10541,7 @@
    "h1": "Зимний гардероб"
   },
   "band_tomorrow": {
-   "count": "Сочетаний: 13 587",
+   "count": "Сочетаний: 12 740",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "o:rxt"
@@ -10706,7 +10572,7 @@
    "h1": "Зимний гардероб"
   },
   "wx_dry": {
-   "count": "Сочетаний: 14 315",
+   "count": "Сочетаний: 13 468",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [],
    "ideal": [],
@@ -10737,7 +10603,7 @@
    "h1": "Зимний гардероб"
   },
   "wx_rain": {
-   "count": "Сочетаний: 5 904",
+   "count": "Сочетаний: 5 508",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [
     "b:bd",
@@ -10765,7 +10631,7 @@
    "h1": "Зимний гардероб"
   },
   "wx_any": {
-   "count": "Сочетаний: 14 315",
+   "count": "Сочетаний: 13 468",
    "chips": "Ничего не выбрано. Нажми на любую карточку.",
    "off": [],
    "ideal": [],
@@ -10804,7 +10670,6 @@
    "chips": "Без верхней одежды",
    "off": [
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -10841,7 +10706,6 @@
     "m:ha2",
     "m:hc",
     "m:hv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -10892,7 +10756,6 @@
    "chips": "Alpha Industries MA-1 Heritage",
    "off": [
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -10932,7 +10795,6 @@
    "count": "Сочетаний: 1 463",
    "chips": "Dickies Lined Canvas Chore",
    "off": [
-    "o:bgt",
     "o:det2",
     "o:eis",
     "o:ma1",
@@ -10981,7 +10843,6 @@
    "count": "Сочетаний: 1 463",
    "chips": "Taion Military Zip (лайнер)",
    "off": [
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -11037,7 +10898,6 @@
    "count": "Сочетаний: 1 463",
    "chips": "Carhartt WIP OG Detroit",
    "off": [
-    "o:bgt",
     "o:chd",
     "o:eis",
     "o:ma1",
@@ -11099,7 +10959,6 @@
     "m:ha2",
     "m:hc",
     "m:hv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:ma1",
@@ -11142,49 +11001,6 @@
    "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
    "h1": "Зимний гардероб"
   },
-  "sel_o:bgt": {
-   "count": "Сочетаний: 847",
-   "chips": "Butter Goods Terrain Insulated Shirt",
-   "off": [
-    "m:ha1",
-    "m:ha2",
-    "m:hc",
-    "m:hv",
-    "m:swd",
-    "m:swf",
-    "m:swl",
-    "m:sws",
-    "o:chd",
-    "o:det2",
-    "o:eis",
-    "o:ma1",
-    "o:none",
-    "o:rx",
-    "o:rxt",
-    "o:tai",
-    "o:tra",
-    "o:tu",
-    "o:vc",
-    "o:vd"
-   ],
-   "ideal": [],
-   "fit": [
-    "b:bn2",
-    "b:bw",
-    "h:b3",
-    "h:cDi",
-    "m:ssh",
-    "s:tim",
-    "sc:sc1"
-   ],
-   "looks": [],
-   "lgridEmpty": true,
-   "reset": false,
-   "five": true,
-   "hint": "Выбери пару обуви ниже, и я подберу пять разных образов с разбросом по температуре.",
-   "bands": "Весь диапазон*|0…+5|+5…+10|+10…+15|Сейчас · Эрандио: +17 ощущ. (вне сезона)|Завтра · Эрандио: +9…+14 ощущ.",
-   "h1": "Зимний гардероб"
-  },
   "sel_o:rx": {
    "count": "Сочетаний: 385",
    "chips": "Patagonia Classic Retro-X",
@@ -11198,7 +11014,6 @@
     "m:ssm",
     "m:ssn",
     "m:ssu",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -11264,7 +11079,6 @@
     "m:ssn",
     "m:ssu",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -11318,7 +11132,6 @@
    "chips": "Dickies Duck Canvas Gilet",
    "off": [
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -11377,7 +11190,6 @@
    "chips": "Carhartt WIP Classic Vest",
    "off": [
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -11437,7 +11249,6 @@
    "chips": "Taion x Universal Works Reversible Down Vest",
    "off": [
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -11494,7 +11305,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_t:tb": {
-   "count": "Сочетаний: 11 543",
+   "count": "Сочетаний: 11 004",
    "chips": "Uniqlo U",
    "off": [
     "t:tg",
@@ -11568,7 +11379,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_t:tw": {
-   "count": "Сочетаний: 11 543",
+   "count": "Сочетаний: 11 004",
    "chips": "Uniqlo U",
    "off": [
     "t:tb",
@@ -11627,7 +11438,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_t:tg": {
-   "count": "Сочетаний: 11 543",
+   "count": "Сочетаний: 11 004",
    "chips": "Uniqlo U / AIRism",
    "off": [
     "t:tb",
@@ -11662,7 +11473,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_t:tg2": {
-   "count": "Сочетаний: 11 543",
+   "count": "Сочетаний: 11 004",
    "chips": "Uniqlo AIRism",
    "off": [
     "t:tb",
@@ -11696,7 +11507,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_t:tm": {
-   "count": "Сочетаний: 11 543",
+   "count": "Сочетаний: 11 004",
    "chips": "Muji",
    "off": [
     "t:tb",
@@ -11772,8 +11583,7 @@
     "m:swf",
     "m:swl",
     "m:sws",
-    "m:tuv",
-    "o:bgt"
+    "m:tuv"
    ],
    "ideal": [
     "b:bn1",
@@ -11844,8 +11654,7 @@
     "m:swd",
     "m:swl",
     "m:sws",
-    "m:tuv",
-    "o:bgt"
+    "m:tuv"
    ],
    "ideal": [
     "b:be",
@@ -11914,8 +11723,7 @@
     "m:swd",
     "m:swf",
     "m:swl",
-    "m:tuv",
-    "o:bgt"
+    "m:tuv"
    ],
    "ideal": [
     "b:bn1",
@@ -11974,8 +11782,7 @@
     "m:swd",
     "m:swf",
     "m:sws",
-    "m:tuv",
-    "o:bgt"
+    "m:tuv"
    ],
    "ideal": [
     "b:be",
@@ -12029,7 +11836,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_m:ssm": {
-   "count": "Сочетаний: 840",
+   "count": "Сочетаний: 763",
    "chips": "Mango",
    "off": [
     "m:ha1",
@@ -12092,7 +11899,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_m:ssu": {
-   "count": "Сочетаний: 840",
+   "count": "Сочетаний: 763",
    "chips": "Uniqlo crewneck",
    "off": [
     "m:ha1",
@@ -12141,7 +11948,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_m:ssh": {
-   "count": "Сочетаний: 840",
+   "count": "Сочетаний: 763",
    "chips": "Carhartt WIP Hudson",
    "off": [
     "m:ha1",
@@ -12172,7 +11979,6 @@
     "h:b2",
     "h:b3",
     "h:cDi",
-    "o:bgt",
     "o:det2",
     "o:eis",
     "o:tra",
@@ -12206,7 +12012,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_m:ssn": {
-   "count": "Сочетаний: 840",
+   "count": "Сочетаний: 763",
    "chips": "Carhartt WIP Nelson",
    "off": [
     "m:ha1",
@@ -12254,7 +12060,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_m:ssc": {
-   "count": "Сочетаний: 847",
+   "count": "Сочетаний: 770",
    "chips": "Carhartt WIP Chase",
    "off": [
     "m:ha1",
@@ -12322,7 +12128,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -12373,7 +12178,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -12429,7 +12233,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -12484,7 +12287,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:eis",
     "o:rx",
     "o:rxt",
@@ -12518,7 +12320,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_m:tuv": {
-   "count": "Сочетаний: 539",
+   "count": "Сочетаний: 462",
    "chips": "Taion x Universal Works Reversible Down Vest",
    "off": [
     "m:ha1",
@@ -12577,7 +12379,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_b:bw": {
-   "count": "Сочетаний: 2 045",
+   "count": "Сочетаний: 1 924",
    "chips": "Gramicci Winter Twill",
    "off": [
     "b:bd",
@@ -12618,7 +12420,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_b:bn1": {
-   "count": "Сочетаний: 2 045",
+   "count": "Сочетаний: 1 924",
    "chips": "Carhartt WIP Newel",
    "off": [
     "b:bd",
@@ -12676,7 +12478,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_b:bn2": {
-   "count": "Сочетаний: 2 045",
+   "count": "Сочетаний: 1 924",
    "chips": "Carhartt WIP Newel",
    "off": [
     "b:bd",
@@ -12722,7 +12524,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_b:be": {
-   "count": "Сочетаний: 2 045",
+   "count": "Сочетаний: 1 924",
    "chips": "Edwin Loose Tapered",
    "off": [
     "b:bd",
@@ -12784,7 +12586,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_b:bd": {
-   "count": "Сочетаний: 2 045",
+   "count": "Сочетаний: 1 924",
    "chips": "Carhartt WIP Double Knee",
    "off": [
     "b:be",
@@ -12834,7 +12636,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_b:bu": {
-   "count": "Сочетаний: 2 045",
+   "count": "Сочетаний: 1 924",
    "chips": "Universal Works Pleated Track",
    "off": [
     "b:bd",
@@ -12882,7 +12684,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_b:bm": {
-   "count": "Сочетаний: 2 045",
+   "count": "Сочетаний: 1 924",
    "chips": "Muji Corduroy",
    "off": [
     "b:bd",
@@ -12934,7 +12736,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:jor": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "Nike Jordan Era CMFT",
    "off": [
     "s:bl5",
@@ -12992,7 +12794,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:gnyc": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "ASICS GEL-NYC",
    "off": [
     "s:bl5",
@@ -13043,7 +12845,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:n580": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "New Balance 580",
    "off": [
     "s:bl5",
@@ -13099,7 +12901,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:n990n": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "New Balance 990v3",
    "off": [
     "s:bl5",
@@ -13163,7 +12965,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:miz": {
-   "count": "Сочетаний: 1 225",
+   "count": "Сочетаний: 1 148",
    "chips": "Mizuno Wave Rider Beta",
    "off": [
     "s:bl5",
@@ -13213,7 +13015,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:swc": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "Stepney Workers Club Amiel S-Strike",
    "off": [
     "s:bl5",
@@ -13263,7 +13065,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:shp": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "New Balance 2002R Protection Pack",
    "off": [
     "s:bl5",
@@ -13316,7 +13118,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:c90": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "Saucony Cross 90",
    "off": [
     "s:bl5",
@@ -13375,7 +13177,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:tim": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "Timberland Authentic 3-Eye Boat Shoe",
    "off": [
     "s:bl5",
@@ -13413,7 +13215,6 @@
     "m:swf",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:det2",
     "o:eis",
     "o:rx",
@@ -13434,7 +13235,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:bl5": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "Blundstone 585",
    "off": [
     "s:bl7",
@@ -13489,7 +13290,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_s:bl7": {
-   "count": "Сочетаний: 1 309",
+   "count": "Сочетаний: 1 232",
    "chips": "Blundstone 587",
    "off": [
     "s:bl5",
@@ -13535,7 +13336,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_h:b1": {
-   "count": "Сочетаний: 13 475",
+   "count": "Сочетаний: 12 628",
    "chips": "P&Co Deck Beanie",
    "off": [
     "h:b2",
@@ -13607,7 +13408,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_h:b2": {
-   "count": "Сочетаний: 13 475",
+   "count": "Сочетаний: 12 628",
    "chips": "P&Co Deck Beanie",
    "off": [
     "h:b1",
@@ -13667,7 +13468,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_h:b3": {
-   "count": "Сочетаний: 13 475",
+   "count": "Сочетаний: 12 628",
    "chips": "P&Co Deck Beanie",
    "off": [
     "h:b1",
@@ -13698,7 +13499,6 @@
     "m:swf",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:det2",
     "o:eis",
     "o:rx",
@@ -13730,7 +13530,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_h:cDi": {
-   "count": "Сочетаний: 14 315",
+   "count": "Сочетаний: 13 468",
    "chips": "Dickies Williston",
    "off": [
     "h:b1",
@@ -13760,7 +13560,6 @@
     "m:swd",
     "m:swf",
     "m:tuv",
-    "o:bgt",
     "o:det2",
     "o:eis",
     "o:rx",
@@ -13792,7 +13591,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_sc:nosc": {
-   "count": "Сочетаний: 14 315",
+   "count": "Сочетаний: 13 468",
    "chips": "Без шарфа",
    "off": [
     "sc:sc1",
@@ -13873,7 +13672,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_sc:sc1": {
-   "count": "Сочетаний: 13 398",
+   "count": "Сочетаний: 12 551",
    "chips": "Barbour tartan",
    "off": [
     "o:none",
@@ -13908,7 +13707,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_sc:sc2": {
-   "count": "Сочетаний: 13 398",
+   "count": "Сочетаний: 12 551",
    "chips": "Barbour large block-check",
    "off": [
     "o:none",
@@ -13960,7 +13759,7 @@
    "h1": "Зимний гардероб"
   },
   "sel_sc:sc3": {
-   "count": "Сочетаний: 13 398",
+   "count": "Сочетаний: 12 551",
    "chips": "United Colors of Benetton",
    "off": [
     "o:none",
@@ -14020,7 +13819,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14077,7 +13875,6 @@
     "m:swf",
     "m:swl",
     "m:sws",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14121,7 +13918,6 @@
    "count": "Сочетаний: 133",
    "chips": "Taion Military Zip (лайнер)\nNike Jordan Era CMFT",
    "off": [
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14191,7 +13987,6 @@
     "m:swf",
     "m:swl",
     "m:sws",
-    "o:bgt",
     "o:det2",
     "o:eis",
     "o:ma1",
@@ -14240,7 +14035,6 @@
    "chips": "Без верхней одежды\nUniqlo U / AIRism",
    "off": [
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14284,7 +14078,7 @@
    "h1": "Зимний гардероб"
   },
   "combo_s:swc+b:bn1": {
-   "count": "Сочетаний: 187",
+   "count": "Сочетаний: 176",
    "chips": "Carhartt WIP Newel\nStepney Workers Club Amiel S-Strike",
    "off": [
     "b:bd",
@@ -14351,7 +14145,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:eis",
     "o:ma1",
@@ -14424,7 +14217,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14492,7 +14284,6 @@
     "m:swf",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14560,7 +14351,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14628,7 +14418,6 @@
     "m:swf",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14696,7 +14485,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14764,7 +14552,6 @@
     "m:swf",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14832,7 +14619,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:det2",
     "o:eis",
     "o:ma1",
@@ -14900,7 +14686,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -14968,7 +14753,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:eis",
     "o:ma1",
@@ -15036,7 +14820,6 @@
     "m:swf",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -15104,7 +14887,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -15172,7 +14954,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -15240,7 +15021,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:ma1",
@@ -15308,7 +15088,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -15376,7 +15155,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -15444,7 +15222,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:eis",
     "o:ma1",
@@ -15512,7 +15289,6 @@
     "m:swf",
     "m:swl",
     "m:tuv",
-    "o:bgt",
     "o:det2",
     "o:eis",
     "o:ma1",
@@ -15580,7 +15356,6 @@
     "m:swf",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",
@@ -15648,7 +15423,6 @@
     "m:swf",
     "m:swl",
     "m:sws",
-    "o:bgt",
     "o:det2",
     "o:eis",
     "o:ma1",
@@ -15716,7 +15490,6 @@
     "m:swl",
     "m:sws",
     "m:tuv",
-    "o:bgt",
     "o:chd",
     "o:det2",
     "o:eis",

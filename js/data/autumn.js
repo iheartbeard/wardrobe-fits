@@ -141,18 +141,6 @@ const outer = [
     noRain: true,
   },
   {
-    id: 'bgt',
-    group: 'Куртки',
-    name: 'Butter Goods Terrain Insulated Shirt',
-    colorName: 'Stone, нейлон с лёгким утеплителем',
-    hex: '#9DA09A',
-    minTemp: 8,
-    maxOverLight: 15,
-    maxOverHeavy: 15,
-    warmBelow: 8,
-    ban: ['sw', 'hd'],
-  },
-  {
     id: 'vd',
     group: 'Жилетки',
     name: 'Dickies Duck Canvas Gilet',
