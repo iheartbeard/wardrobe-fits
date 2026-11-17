@@ -460,7 +460,13 @@ const bottoms = [
   {id: 'bw', name: 'Gramicci Winter Twill', colorName: 'Deep Olive', hex: '#4B5230', range: [5, 15]},
   {id: 'bn1', name: 'Carhartt WIP Newel', colorName: 'Black Stone Washed', hex: '#232323', range: [5, 15]},
   {id: 'bn2', name: 'Carhartt WIP Newel', colorName: 'Maitland, Blue Stone Bleached', hex: '#6286AE', range: [5, 15]},
-  {id: 'bn3', name: 'Carhartt WIP Newel', colorName: 'Blue Stone Washed, тёмный индиго-деним', hex: '#263F63', range: [5, 15]},
+  {
+    id: 'bn3',
+    name: 'Carhartt WIP Newel',
+    colorName: 'Blue Stone Washed, тёмный индиго-деним',
+    hex: '#263F63',
+    range: [5, 15],
+  },
   {id: 'be', name: 'Edwin Loose Tapered', colorName: 'Blue Rinsed', hex: '#2C4166', range: [5, 15]},
   {
     id: 'bd',
