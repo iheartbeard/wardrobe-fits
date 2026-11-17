@@ -72,7 +72,7 @@ export function winterData() {
     }
   });
 
-  const bottoms = pick(autumn.bottoms, ['bw', 'bn1', 'bn2', 'be', 'bd', 'bu', 'bm']);
+  const bottoms = pick(autumn.bottoms, ['bw', 'bn1', 'bn2', 'bn3', 'be', 'bd', 'bu', 'bm']);
   bottoms.forEach((bottom) => {
     bottom.range = [0, 15];
   });
