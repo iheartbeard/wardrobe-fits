@@ -16,8 +16,8 @@ export const ITEM_COLORS = {
   rxt: ['#EDE6D3', '#26324D', '#B39B84'],
   vd: ['#6B4F3A'],
   vc: ['#A5733F'],
-  tu: ['#C27A5A', '#E9D9C4'],
-  tuv: ['#C27A5A', '#E9D9C4'],
+  tu: ['#C27A5A', '#EBDDC6', '#AE5E2B', '#3B3436'],
+  tuv: ['#C27A5A', '#EBDDC6', '#AE5E2B', '#3B3436'],
 
   /* Свитшоты, регби, овершоты */
   r1: ['#1F2745', '#E9E0C8', '#A8392E'],
