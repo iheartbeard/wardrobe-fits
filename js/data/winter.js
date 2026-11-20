@@ -124,9 +124,8 @@ export function winterData() {
       id: 'shp',
       group: WINTER_SHOES,
       name: 'New Balance 2002R Protection Pack',
-      colorName: 'Shipyard, тон-в-тон серо-бежевый (greige)',
+      colorName: 'Shipyard, GORE-TEX, тон-в-тон серо-бежевый (greige)',
       hex: '#BDB5A6',
-      dry: [8, 15],
       rain: [0, 15],
     },
     {
