@@ -54,7 +54,6 @@ export const ITEM_COLORS = {
   jor: ['#2B3550', '#3E8E55', '#B8333A', '#EDE6D3'],
   n580: ['#EDEBE4', '#2F5E3D', '#D9C58A'],
   n990n: ['#2F3B57', '#9C9EA0', '#EDE6D3'],
-  miz: ['#BFC3C4', '#E3DBCB', '#7A7A55', '#2E8A7A'],
 
   /* Кепки и шарфы */
   cG: ['#8C6C4B', '#CDBFA2'],

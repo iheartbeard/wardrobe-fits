@@ -95,14 +95,6 @@ export function winterData() {
       dry: [0, 15],
     },
     {
-      id: 'miz',
-      group: WINTER_SHOES,
-      name: 'Mizuno Wave Rider Beta',
-      colorName: 'Silver Cloud / White Sand / Cedar',
-      hex: '#BFC3C4',
-      dry: [5, 12],
-    },
-    {
       id: 'swc',
       group: WINTER_SHOES,
       name: 'Stepney Workers Club Amiel S-Strike',
