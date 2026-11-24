@@ -11,7 +11,16 @@ const outer = [
     name: 'Barbour Rokig (mac)',
     colorName: 'Washed Stone & Highland Loch',
     hex: '#B8AE98',
-    wear: {tee: [15, 20], rg: [15, 20], ss: [11, 16], hd: [10, 15], sw: [8, 13], vs: [6, 11], os: [11, 16]},
+    wear: {
+      tee: [15, 20],
+      rg: [15, 20],
+      ss: [11, 16],
+      hd: [10, 15],
+      sw: [8, 13],
+      cd: [8, 13],
+      vs: [6, 11],
+      os: [11, 16],
+    },
   },
   /* Мак с тёплым слоем под ним: непромокаемый верх, а лайнер или жилет греют без лишней массивности */
   {
@@ -20,7 +29,7 @@ const outer = [
     name: 'Barbour Rokig + Taion лайнер',
     colorName: 'Washed Stone & Highland Loch, под ним Taion Military Zip',
     hex: '#B8AE98',
-    wear: {tee: [8, 12], rg: [8, 12], ss: [5, 10], sw: [1, 6]},
+    wear: {tee: [8, 12], rg: [8, 12], ss: [5, 10], sw: [1, 6], cd: [1, 6]},
   },
   {
     id: 'rokv',
@@ -28,7 +37,7 @@ const outer = [
     name: 'Barbour Rokig + Taion x UW жилет',
     colorName: 'Washed Stone & Highland Loch, под ним пуховый жилет',
     hex: '#B8AE98',
-    wear: {ss: [6, 11], sw: [3, 8]},
+    wear: {ss: [6, 11], sw: [3, 8], cd: [3, 8]},
   },
   {
     id: 'tra',
@@ -36,7 +45,7 @@ const outer = [
     name: 'Barbour OS Transport',
     colorName: 'тёмно-зелёный, почти чёрный',
     hex: '#262B22',
-    wear: {tee: [14, 19], rg: [14, 19], ss: [10, 15], sw: [7, 12], vs: [5, 10], os: [10, 15]},
+    wear: {tee: [14, 19], rg: [14, 19], ss: [10, 15], sw: [7, 12], cd: [7, 12], vs: [5, 10], os: [10, 15]},
   },
   {
     id: 'for',
@@ -44,7 +53,16 @@ const outer = [
     name: 'Foret Act Chore',
     colorName: 'хаки и армейский',
     hex: '#6F6A48',
-    wear: {tee: [15, 20], rg: [15, 20], ss: [12, 17], hd: [11, 15], sw: [10, 14], vs: [7, 12], os: [11, 15]},
+    wear: {
+      tee: [15, 20],
+      rg: [15, 20],
+      ss: [12, 17],
+      hd: [11, 15],
+      sw: [10, 14],
+      cd: [10, 14],
+      vs: [7, 12],
+      os: [11, 15],
+    },
   },
   {
     id: 'cov',
@@ -52,7 +70,16 @@ const outer = [
     name: 'Service Works Moleskin Coverall 2.0',
     colorName: 'Moss, молескин 350 г/м²',
     hex: '#66704A',
-    wear: {tee: [14, 19], rg: [14, 19], ss: [11, 16], hd: [10, 14], sw: [9, 13], vs: [6, 11], os: [11, 15]},
+    wear: {
+      tee: [14, 19],
+      rg: [14, 19],
+      ss: [11, 16],
+      hd: [10, 14],
+      sw: [9, 13],
+      cd: [9, 13],
+      vs: [6, 11],
+      os: [11, 15],
+    },
   },
   {
     id: 'ma1',
@@ -60,7 +87,7 @@ const outer = [
     name: 'Alpha Industries MA-1 Heritage',
     colorName: 'Vintage Green',
     hex: '#5F6B4B',
-    wear: {tee: [13, 17], rg: [13, 17], ss: [8, 14], hd: [6, 12], sw: [3, 10]},
+    wear: {tee: [13, 17], rg: [13, 17], ss: [8, 14], hd: [6, 12], sw: [3, 10], cd: [3, 10]},
     /* Жилет Taion под бомбер не надевается */
   },
   {
@@ -69,7 +96,7 @@ const outer = [
     name: 'Dickies Lined Canvas Chore',
     colorName: 'оливково-хаки',
     hex: '#7C7857',
-    wear: {tee: [12, 16], rg: [12, 16], ss: [7, 13], hd: [5, 11], sw: [3, 10], vs: [0, 6]},
+    wear: {tee: [12, 16], rg: [12, 16], ss: [7, 13], hd: [5, 11], sw: [3, 10], cd: [3, 10], vs: [0, 6]},
     /* утеплённая: свитшоты и свитеры под ней до +5 */
   },
   {
@@ -78,7 +105,16 @@ const outer = [
     name: 'Carhartt WIP OG Detroit',
     colorName: 'Hamilton Brown',
     hex: '#8B5E3C',
-    wear: {tee: [15, 19], rg: [15, 19], ss: [11, 16], hd: [10, 14], sw: [8, 13], vs: [5, 10], os: [11, 15]},
+    wear: {
+      tee: [15, 19],
+      rg: [15, 19],
+      ss: [11, 16],
+      hd: [10, 14],
+      sw: [8, 13],
+      cd: [8, 13],
+      vs: [5, 10],
+      os: [11, 15],
+    },
   },
   {
     id: 'tai',
@@ -86,7 +122,7 @@ const outer = [
     name: 'Taion Military Zip (лайнер)',
     colorName: 'Light Mocha',
     hex: '#B39B84',
-    wear: {tee: [12, 16], rg: [12, 16], ss: [10, 14], hd: [8, 12], sw: [7, 11]},
+    wear: {tee: [12, 16], rg: [12, 16], ss: [10, 14], hd: [8, 12], sw: [7, 11], cd: [7, 11]},
     noRain: true,
   },
   {
@@ -95,7 +131,7 @@ const outer = [
     name: 'Dickies Eisenhower',
     colorName: 'чёрный',
     hex: '#1F1F1F',
-    wear: {tee: [13, 17], rg: [13, 17], ss: [9, 14], sw: [6, 11]},
+    wear: {tee: [13, 17], rg: [13, 17], ss: [9, 14], sw: [6, 11], cd: [6, 11]},
     /* носится только поверх свитшотов и свитеров, с ними до +7 */
   },
   /* Переходные вещи: носятся и поздней осенью, и зимой, в тех же диапазонах температур */
@@ -105,7 +141,7 @@ const outer = [
     name: 'Patagonia Classic Retro-X',
     colorName: 'Natural, флис',
     hex: '#EDE6D3',
-    wear: {tee: [8, 13], rg: [8, 13], ss: [4, 10], hd: [3, 9], sw: [0, 7], vs: [-3, 4]},
+    wear: {tee: [8, 13], rg: [8, 13], ss: [4, 10], hd: [3, 9], sw: [0, 7], cd: [0, 7], vs: [-3, 4]},
   },
   {
     id: 'rxt',
@@ -113,7 +149,7 @@ const outer = [
     name: 'Patagonia Retro-X поверх Taion',
     colorName: 'Natural, флис поверх пухового лайнера',
     hex: '#EDE6D3',
-    wear: {ss: [-1, 5], sw: [-4, 3]},
+    wear: {ss: [-1, 5], sw: [-4, 3], cd: [-4, 3]},
     noRain: true,
   },
   {
@@ -122,7 +158,7 @@ const outer = [
     name: 'Dickies Duck Canvas Gilet',
     colorName: 'тёмно-коричневый',
     hex: '#6B4F3A',
-    wear: {tee: [15, 18], rg: [15, 18], ss: [10, 15], hd: [8, 13], sw: [7, 12]},
+    wear: {tee: [15, 18], rg: [15, 18], ss: [10, 15], hd: [8, 13], sw: [7, 12], cd: [7, 12]},
   },
   {
     id: 'vc',
@@ -130,7 +166,7 @@ const outer = [
     name: 'Carhartt WIP Classic Vest',
     colorName: 'H Brown',
     hex: '#A5733F',
-    wear: {tee: [15, 18], rg: [15, 18], ss: [10, 15], hd: [8, 13], sw: [7, 12]},
+    wear: {tee: [15, 18], rg: [15, 18], ss: [10, 15], hd: [8, 13], sw: [7, 12], cd: [7, 12]},
   },
   {
     id: 'tu',
@@ -138,7 +174,7 @@ const outer = [
     name: 'Taion x Universal Works Reversible Down Vest',
     colorName: 'Check, цветной клетчатой стороной наружу, как верхний слой',
     hex: '#C27A5A',
-    wear: {tee: [14, 18], rg: [14, 18], ss: [10, 15], hd: [7, 12], sw: [7, 12]},
+    wear: {tee: [14, 18], rg: [14, 18], ss: [10, 15], hd: [7, 12], sw: [7, 12], cd: [7, 12]},
   },
 ];
 
@@ -340,6 +376,15 @@ const layers = [
     colorName: 'тёмно-зелёный и navy, кремовые полоски',
     hex: '#1E5A3E',
     outer: [16, 21],
+  },
+  {
+    id: 'cdc',
+    kind: 'cd',
+    group: 'Кардиганы',
+    name: 'Frizmworks Wool Deck Zip-Up Cardigan',
+    colorName: 'Choco Brown, ребристая шерстяная смесь, на молнии',
+    hex: '#4A3226',
+    outer: [13, 17],
   },
   {
     id: 'o1',

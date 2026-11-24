@@ -12,6 +12,7 @@ export const WEATHER_FILTERS = [
 export const LAYER_LABELS = {
   tee: 'Футболка',
   sw: 'Свитер',
+  cd: 'Кардиган',
   ss: 'Свитшот',
   hd: 'Худи',
   rg: 'Регби',
