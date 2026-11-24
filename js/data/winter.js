@@ -30,7 +30,7 @@ export function winterData() {
       name: 'Carhartt WIP OG Detroit',
       colorName: 'Air Force Blue / Black, aged canvas',
       hex: '#4A5F78',
-      wear: {tee: [15, 19], rg: [15, 19], ss: [11, 16], hd: [10, 14], sw: [8, 13], vs: [5, 10]},
+      wear: {tee: [15, 19], rg: [15, 19], ss: [11, 16], hd: [10, 14], sw: [8, 13], vs: [5, 10], os: [11, 15]},
     },
     /* Retro-X — переходная вещь между осенью и зимой, описана в осеннем гардеробе */
     ...pick(autumn.outer, ['rx', 'rxt']),
@@ -55,6 +55,7 @@ export function winterData() {
     'ha1',
     'ha2',
     'hv',
+    'wdl',
     'tuv',
   ]);
   layers.forEach((layer) => {

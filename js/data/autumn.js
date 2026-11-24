@@ -11,7 +11,7 @@ const outer = [
     name: 'Barbour Rokig (mac)',
     colorName: 'Washed Stone & Highland Loch',
     hex: '#B8AE98',
-    wear: {tee: [15, 20], rg: [15, 20], ss: [11, 16], hd: [10, 15], sw: [8, 13], vs: [6, 11]},
+    wear: {tee: [15, 20], rg: [15, 20], ss: [11, 16], hd: [10, 15], sw: [8, 13], vs: [6, 11], os: [11, 16]},
   },
   /* Мак с тёплым слоем под ним: непромокаемый верх, а лайнер или жилет греют без лишней массивности */
   {
@@ -36,7 +36,7 @@ const outer = [
     name: 'Barbour OS Transport',
     colorName: 'тёмно-зелёный, почти чёрный',
     hex: '#262B22',
-    wear: {tee: [14, 19], rg: [14, 19], ss: [10, 15], sw: [7, 12], vs: [5, 10]},
+    wear: {tee: [14, 19], rg: [14, 19], ss: [10, 15], sw: [7, 12], vs: [5, 10], os: [10, 15]},
   },
   {
     id: 'for',
@@ -44,7 +44,7 @@ const outer = [
     name: 'Foret Act Chore',
     colorName: 'хаки и армейский',
     hex: '#6F6A48',
-    wear: {tee: [15, 20], rg: [15, 20], ss: [12, 17], hd: [11, 15], sw: [10, 14], vs: [7, 12]},
+    wear: {tee: [15, 20], rg: [15, 20], ss: [12, 17], hd: [11, 15], sw: [10, 14], vs: [7, 12], os: [11, 15]},
   },
   {
     id: 'cov',
@@ -52,7 +52,7 @@ const outer = [
     name: 'Service Works Moleskin Coverall 2.0',
     colorName: 'Moss, молескин 350 г/м²',
     hex: '#66704A',
-    wear: {tee: [14, 19], rg: [14, 19], ss: [11, 16], hd: [10, 14], sw: [9, 13], vs: [6, 11]},
+    wear: {tee: [14, 19], rg: [14, 19], ss: [11, 16], hd: [10, 14], sw: [9, 13], vs: [6, 11], os: [11, 15]},
   },
   {
     id: 'ma1',
@@ -78,7 +78,7 @@ const outer = [
     name: 'Carhartt WIP OG Detroit',
     colorName: 'Hamilton Brown',
     hex: '#8B5E3C',
-    wear: {tee: [15, 19], rg: [15, 19], ss: [11, 16], hd: [10, 14], sw: [8, 13], vs: [5, 10]},
+    wear: {tee: [15, 19], rg: [15, 19], ss: [11, 16], hd: [10, 14], sw: [8, 13], vs: [5, 10], os: [11, 15]},
   },
   {
     id: 'tai',
@@ -349,6 +349,7 @@ const layers = [
     colorName: 'navy',
     hex: '#1F2A45',
     outer: [15, 19],
+    shift: 1,
   },
   {
     id: 'o2',
@@ -358,6 +359,18 @@ const layers = [
     colorName: 'cream',
     hex: '#E9E0C8',
     outer: [15, 19],
+    shift: 1,
+  },
+  {
+    id: 'wdl',
+    kind: 'os',
+    group: 'Шерстяные овершоты',
+    name: 'Barbour Woodlane',
+    colorName:
+      'Shadow Classic Tartan: тёмно-синяя и зелёная клетка, коричневая и бордовая нить; 54% полиэстер, 25% акрил, 21% шерсть, начёс',
+    hex: '#22293A',
+    outer: [14, 18],
+    shift: -1,
   },
   {
     id: 'tuv',

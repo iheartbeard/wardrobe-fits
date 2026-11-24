@@ -6,6 +6,7 @@
 export const ITEM_COLORS = {
   /* Куртки и жилеты */
   rok: ['#B8AE98', '#3F4A4C'],
+  wdl: ['#22293A', '#2E3A2C', '#7A5B3E', '#6B2C38'],
   rokt: ['#B8AE98', '#3F4A4C'],
   rokv: ['#B8AE98', '#3F4A4C'],
   tra: ['#262B22', '#4A2B22'],
