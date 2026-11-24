@@ -351,8 +351,8 @@ export const WINTER_LOOKS = [
     bottom: 'bd',
     shoe: 'miz',
     head: 'b1',
-    scarf: 'sc3',
-    note: 'Detroit цвета Air Force Blue на тёмно-сером худи, молочные Double Knee и светлые Mizuno. Чёрные шапка и шарф.',
+    scarf: null,
+    note: 'Detroit цвета Air Force Blue на тёмно-сером худи, молочные Double Knee и светлые Mizuno. Чёрная шапка.',
   },
   {
     weather: 'dry',

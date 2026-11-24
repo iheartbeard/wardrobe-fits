@@ -3,7 +3,7 @@
  * а её диапазон температур действует внутри сезона.
  */
 
-/* Верхняя одежда. minTemp: нижняя граница; maxOverLight / maxOverHeavy: верхняя граница над лёгким и плотным слоем; warmBelow: ниже этой температуры нужен тёплый слой; kinds / ban: какие слои можно или нельзя надевать под неё */
+/* Верхняя одежда. wear: какие типы слоёв можно под неё и при какой температуре (tee футболка, rg регби, ss свитшот, hd худи, sw свитер, vs жилет); тип, которого нет в wear, под эту куртку не надевается */
 const outer = [
   {
     id: 'rok',
@@ -11,10 +11,7 @@ const outer = [
     name: 'Barbour Rokig (mac)',
     colorName: 'Washed Stone & Highland Loch',
     hex: '#B8AE98',
-    minTemp: 8,
-    maxOverLight: 18,
-    maxOverHeavy: 15,
-    warmBelow: 10,
+    wear: {tee: [15, 20], rg: [15, 20], ss: [11, 16], hd: [10, 15], sw: [8, 13], vs: [6, 11]},
   },
   /* Мак с тёплым слоем под ним: непромокаемый верх, а лайнер или жилет греют без лишней массивности */
   {
@@ -23,11 +20,7 @@ const outer = [
     name: 'Barbour Rokig + Taion лайнер',
     colorName: 'Washed Stone & Highland Loch, под ним Taion Military Zip',
     hex: '#B8AE98',
-    minTemp: 3,
-    maxOverLight: 12,
-    maxOverHeavy: 10,
-    warmBelow: 6,
-    kinds: ['sw', 'ss', 'rg'],
+    wear: {tee: [8, 12], rg: [8, 12], ss: [5, 10], sw: [1, 6]},
   },
   {
     id: 'rokv',
@@ -35,11 +28,7 @@ const outer = [
     name: 'Barbour Rokig + Taion x UW жилет',
     colorName: 'Washed Stone & Highland Loch, под ним пуховый жилет',
     hex: '#B8AE98',
-    minTemp: 4,
-    maxOverLight: 14,
-    maxOverHeavy: 12,
-    warmBelow: 7,
-    kinds: ['sw', 'ss', 'rg'],
+    wear: {ss: [6, 11], sw: [3, 8]},
   },
   {
     id: 'tra',
@@ -47,11 +36,7 @@ const outer = [
     name: 'Barbour OS Transport',
     colorName: 'тёмно-зелёный, почти чёрный',
     hex: '#262B22',
-    minTemp: 5,
-    maxOverLight: 15,
-    maxOverHeavy: 15,
-    warmBelow: 10,
-    ban: ['hd'],
+    wear: {tee: [14, 19], rg: [14, 19], ss: [10, 15], sw: [7, 12], vs: [5, 10]},
   },
   {
     id: 'for',
@@ -59,10 +44,7 @@ const outer = [
     name: 'Foret Act Chore',
     colorName: 'хаки и армейский',
     hex: '#6F6A48',
-    minTemp: 8,
-    maxOverLight: 18,
-    maxOverHeavy: 14,
-    warmBelow: 10,
+    wear: {tee: [15, 20], rg: [15, 20], ss: [12, 17], hd: [11, 15], sw: [10, 14], vs: [7, 12]},
   },
   {
     id: 'cov',
@@ -70,10 +52,7 @@ const outer = [
     name: 'Service Works Moleskin Coverall 2.0',
     colorName: 'Moss, молескин 350 г/м²',
     hex: '#66704A',
-    minTemp: 8,
-    maxOverLight: 16,
-    maxOverHeavy: 14,
-    warmBelow: 10,
+    wear: {tee: [14, 19], rg: [14, 19], ss: [11, 16], hd: [10, 14], sw: [9, 13], vs: [6, 11]},
   },
   {
     id: 'ma1',
@@ -81,12 +60,8 @@ const outer = [
     name: 'Alpha Industries MA-1 Heritage',
     colorName: 'Vintage Green',
     hex: '#5F6B4B',
-    minTemp: 5,
-    maxOverLight: 15,
-    maxOverHeavy: 15,
-    warmBelow: 10,
+    wear: {tee: [13, 17], rg: [13, 17], ss: [8, 14], hd: [6, 12], sw: [3, 10]},
     /* Жилет Taion под бомбер не надевается */
-    ban: ['vs'],
   },
   {
     id: 'chd',
@@ -94,12 +69,8 @@ const outer = [
     name: 'Dickies Lined Canvas Chore',
     colorName: 'оливково-хаки',
     hex: '#7C7857',
-    minTemp: 5,
-    maxOverLight: 12,
-    maxOverHeavy: 12,
-    warmBelow: 10,
+    wear: {tee: [12, 16], rg: [12, 16], ss: [7, 13], hd: [5, 11], sw: [3, 10], vs: [0, 6]},
     /* утеплённая: свитшоты и свитеры под ней до +5 */
-    warmKinds: ['ss', 'sw'],
   },
   {
     id: 'det',
@@ -107,10 +78,7 @@ const outer = [
     name: 'Carhartt WIP OG Detroit',
     colorName: 'Hamilton Brown',
     hex: '#8B5E3C',
-    minTemp: 5,
-    maxOverLight: 15,
-    maxOverHeavy: 15,
-    warmBelow: 10,
+    wear: {tee: [15, 19], rg: [15, 19], ss: [11, 16], hd: [10, 14], sw: [8, 13], vs: [5, 10]},
   },
   {
     id: 'tai',
@@ -118,10 +86,7 @@ const outer = [
     name: 'Taion Military Zip (лайнер)',
     colorName: 'Light Mocha',
     hex: '#B39B84',
-    minTemp: 8,
-    maxOverLight: 15,
-    maxOverHeavy: 15,
-    warmBelow: 10,
+    wear: {tee: [12, 16], rg: [12, 16], ss: [10, 14], hd: [8, 12], sw: [7, 11]},
     noRain: true,
   },
   {
@@ -130,13 +95,8 @@ const outer = [
     name: 'Dickies Eisenhower',
     colorName: 'чёрный',
     hex: '#1F1F1F',
-    minTemp: 7,
-    maxOverLight: 15,
-    maxOverHeavy: 15,
-    warmBelow: 10,
+    wear: {tee: [13, 17], rg: [13, 17], ss: [9, 14], sw: [6, 11]},
     /* носится только поверх свитшотов и свитеров, с ними до +7 */
-    warmKinds: ['ss', 'sw'],
-    kinds: ['ss', 'sw', 'vs'],
   },
   /* Переходные вещи: носятся и поздней осенью, и зимой, в тех же диапазонах температур */
   {
@@ -145,12 +105,7 @@ const outer = [
     name: 'Patagonia Classic Retro-X',
     colorName: 'Natural, флис',
     hex: '#EDE6D3',
-    minTemp: 0,
-    minTempByKind: {sw: 5},
-    maxOverLight: 10,
-    maxOverHeavy: 10,
-    warmBelow: 0,
-    kinds: ['sw', 'vs'],
+    wear: {tee: [8, 13], rg: [8, 13], ss: [4, 10], hd: [3, 9], sw: [0, 7], vs: [-3, 4]},
   },
   {
     id: 'rxt',
@@ -158,11 +113,7 @@ const outer = [
     name: 'Patagonia Retro-X поверх Taion',
     colorName: 'Natural, флис поверх пухового лайнера',
     hex: '#EDE6D3',
-    minTemp: 0,
-    maxOverLight: 8,
-    maxOverHeavy: 8,
-    warmBelow: 0,
-    kinds: ['sw'],
+    wear: {ss: [-1, 5], sw: [-4, 3]},
     noRain: true,
   },
   {
@@ -171,11 +122,7 @@ const outer = [
     name: 'Dickies Duck Canvas Gilet',
     colorName: 'тёмно-коричневый',
     hex: '#6B4F3A',
-    minTemp: 8,
-    maxOverLight: 15,
-    maxOverHeavy: 15,
-    warmBelow: 10,
-    ban: ['vs'],
+    wear: {tee: [15, 18], rg: [15, 18], ss: [10, 15], hd: [8, 13], sw: [7, 12]},
   },
   {
     id: 'vc',
@@ -183,11 +130,7 @@ const outer = [
     name: 'Carhartt WIP Classic Vest',
     colorName: 'H Brown',
     hex: '#A5733F',
-    minTemp: 8,
-    maxOverLight: 15,
-    maxOverHeavy: 15,
-    warmBelow: 10,
-    ban: ['vs'],
+    wear: {tee: [15, 18], rg: [15, 18], ss: [10, 15], hd: [8, 13], sw: [7, 12]},
   },
   {
     id: 'tu',
@@ -195,15 +138,11 @@ const outer = [
     name: 'Taion x Universal Works Reversible Down Vest',
     colorName: 'Check, цветной клетчатой стороной наружу, как верхний слой',
     hex: '#C27A5A',
-    minTemp: 10,
-    maxOverLight: 17,
-    maxOverHeavy: 17,
-    warmBelow: 10,
-    ban: ['vs'],
+    wear: {tee: [14, 18], rg: [14, 18], ss: [10, 15], hd: [7, 12], sw: [7, 12]},
   },
 ];
 
-/* Средний слой. outer: диапазон, когда это верхний слой; under: когда он под курткой; weight: от 0 (лёгкий) до 3 (плотный); warm: можно под куртку даже ниже warmBelow */
+/* Средний слой. outer: диапазон, когда это верхний слой; shift: сдвиг диапазона под курткой (минус — вещь теплее обычной для своего типа, плюс — легче) */
 const layers = [
   {
     id: 'tb',
@@ -213,8 +152,6 @@ const layers = [
     colorName: 'чёрный',
     hex: '#1E1E1E',
     outer: [18, 22],
-    under: [5, 22],
-    weight: 0,
   },
   {
     id: 'tw',
@@ -224,8 +161,6 @@ const layers = [
     colorName: 'белый',
     hex: '#F3F3F0',
     outer: [18, 22],
-    under: [5, 22],
-    weight: 0,
   },
   {
     id: 'tg',
@@ -235,8 +170,6 @@ const layers = [
     colorName: 'светло-серый',
     hex: '#CDCFD0',
     outer: [18, 22],
-    under: [5, 22],
-    weight: 0,
   },
   {
     id: 'tg2',
@@ -246,8 +179,6 @@ const layers = [
     colorName: 'серый',
     hex: '#9A9C9E',
     outer: [18, 22],
-    under: [5, 22],
-    weight: 0,
   },
   {
     id: 'tm',
@@ -257,8 +188,6 @@ const layers = [
     colorName: 'коричневый',
     hex: '#6B4B3A',
     outer: [18, 22],
-    under: [5, 22],
-    weight: 0,
   },
   {
     id: 'swd',
@@ -267,10 +196,7 @@ const layers = [
     name: 'Edwin Dun Textured',
     colorName: 'красный',
     hex: '#A8392E',
-    outer: [14, 16],
-    under: [5, 15],
-    weight: 3,
-    warm: true,
+    outer: [12, 16],
   },
   {
     id: 'swf',
@@ -279,10 +205,8 @@ const layers = [
     name: 'Finisterre Mora',
     colorName: 'Navy',
     hex: '#20304F',
-    outer: [14, 16],
-    under: [5, 15],
-    weight: 3,
-    warm: true,
+    outer: [11, 15],
+    shift: -2,
   },
   {
     id: 'sws',
@@ -291,10 +215,7 @@ const layers = [
     name: 'Uniqlo Soufflé Yarn',
     colorName: 'Light Green',
     hex: '#B8D0A2',
-    outer: [14, 16],
-    under: [5, 15],
-    weight: 3,
-    warm: true,
+    outer: [13, 17],
   },
   {
     id: 'swl',
@@ -303,10 +224,8 @@ const layers = [
     name: 'Uniqlo Lambswool',
     colorName: 'Yellow',
     hex: '#E2B83B',
-    outer: [14, 16],
-    under: [5, 15],
-    weight: 3,
-    warm: true,
+    outer: [15, 19],
+    shift: 2,
   },
   {
     id: 'ssm',
@@ -315,9 +234,8 @@ const layers = [
     name: 'Mango',
     colorName: 'navy',
     hex: '#22304F',
-    outer: [15, 18],
-    under: [10, 15],
-    weight: 2,
+    outer: [16, 20],
+    shift: 1,
   },
   {
     id: 'ssu',
@@ -326,9 +244,8 @@ const layers = [
     name: 'Uniqlo crewneck',
     colorName: 'светло-серый меланж',
     hex: '#C9CACC',
-    outer: [15, 18],
-    under: [10, 15],
-    weight: 2,
+    outer: [16, 20],
+    shift: 1,
   },
   {
     id: 'ssh',
@@ -337,9 +254,7 @@ const layers = [
     name: 'Carhartt WIP Hudson',
     colorName: 'розовый',
     hex: '#E3B8B5',
-    outer: [15, 18],
-    under: [10, 15],
-    weight: 2,
+    outer: [15, 19],
   },
   {
     id: 'ssn',
@@ -348,9 +263,7 @@ const layers = [
     name: 'Carhartt WIP Nelson',
     colorName: 'Black Garment Dyed',
     hex: '#4F4D4C',
-    outer: [15, 18],
-    under: [10, 15],
-    weight: 2,
+    outer: [15, 19],
   },
   {
     id: 'ssc',
@@ -359,9 +272,8 @@ const layers = [
     name: 'Carhartt WIP Chase',
     colorName: 'коричневый',
     hex: '#6D4B36',
-    outer: [12, 15],
-    under: [10, 15],
-    weight: 2,
+    outer: [13, 17],
+    shift: -1,
   },
   {
     id: 'hc',
@@ -370,10 +282,7 @@ const layers = [
     name: 'Camber USA',
     colorName: 'Ash Gray',
     hex: '#B7B8BA',
-    outer: [14, 16],
-    under: [10, 15],
-    weight: 3,
-    warm: true,
+    outer: [13, 17],
   },
   {
     id: 'ha1',
@@ -382,10 +291,8 @@ const layers = [
     name: 'A&F Essential Popover 2.0',
     colorName: 'Mauve',
     hex: '#A98BA8',
-    outer: [15, 18],
-    under: [10, 15],
-    weight: 3,
-    warm: true,
+    outer: [15, 19],
+    shift: 1,
   },
   {
     id: 'ha2',
@@ -394,10 +301,8 @@ const layers = [
     name: 'A&F Essential Popover 2.0',
     colorName: 'Gris Oscuro',
     hex: '#5D6064',
-    outer: [15, 18],
-    under: [10, 15],
-    weight: 3,
-    warm: true,
+    outer: [15, 19],
+    shift: 1,
   },
   {
     id: 'hv',
@@ -406,10 +311,8 @@ const layers = [
     name: 'Velour Garments 450 GSM',
     colorName: 'Jet Black',
     hex: '#191919',
-    outer: [14, 16],
-    under: [10, 15],
-    weight: 3,
-    warm: true,
+    outer: [12, 16],
+    shift: -1,
   },
   {
     id: 'r1',
@@ -418,9 +321,7 @@ const layers = [
     name: 'МЕЧ',
     colorName: 'navy, кремовый и красный',
     hex: '#1F2745',
-    outer: [15, 20],
-    under: [10, 15],
-    weight: 1,
+    outer: [16, 21],
   },
   {
     id: 'r2',
@@ -429,9 +330,7 @@ const layers = [
     name: 'МЕЧ',
     colorName: 'коралловый и кремовый, тонкая чёрная полоса',
     hex: '#C4604F',
-    outer: [15, 20],
-    under: [10, 15],
-    weight: 1,
+    outer: [16, 21],
   },
   {
     id: 'r3',
@@ -440,9 +339,7 @@ const layers = [
     name: 'Uniqlo',
     colorName: 'тёмно-зелёный и navy, кремовые полоски',
     hex: '#1E5A3E',
-    outer: [15, 20],
-    under: [10, 15],
-    weight: 1,
+    outer: [16, 21],
   },
   {
     id: 'o1',
@@ -451,9 +348,7 @@ const layers = [
     name: 'Uniqlo',
     colorName: 'navy',
     hex: '#1F2A45',
-    outer: [13, 15],
-    under: null,
-    weight: 1,
+    outer: [15, 19],
   },
   {
     id: 'o2',
@@ -462,9 +357,7 @@ const layers = [
     name: 'Uniqlo',
     colorName: 'cream',
     hex: '#E9E0C8',
-    outer: [13, 15],
-    under: null,
-    weight: 1,
+    outer: [15, 19],
   },
   {
     id: 'tuv',
@@ -474,9 +367,6 @@ const layers = [
     colorName: 'Check, цветной клетчатой стороной наружу, как средний слой',
     hex: '#C27A5A',
     outer: null,
-    under: [0, 15],
-    weight: 2,
-    warm: true,
   },
 ];
 

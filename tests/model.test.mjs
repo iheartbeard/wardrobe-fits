@@ -57,15 +57,15 @@ for (const key of Object.keys(SEASONS)) {
 }
 
 test('количество сочетаний без выбора совпадает с эталоном', () => {
-  assert.equal(computeAvailability(buildModel('autumn'), stateOf(buildModel('autumn'))).count, 82018);
-  assert.equal(computeAvailability(buildModel('winter'), stateOf(buildModel('winter'))).count, 15055);
+  assert.equal(computeAvailability(buildModel('autumn'), stateOf(buildModel('autumn'))).count, 80977);
+  assert.equal(computeAvailability(buildModel('winter'), stateOf(buildModel('winter'))).count, 16479);
 });
 
 test('выбор вещи отключает несовместимые по температуре', () => {
   const model = buildModel('autumn');
-  const state = stateOf(model, {band: model.scale.mask(18, 22)});
+  const state = stateOf(model, {band: model.scale.mask(20, 22)});
   const {available} = computeAvailability(model, state);
-  assert.ok(!available.o.has('tra'), 'Transport нужен от +5 до +15, жарким днём недоступен');
+  assert.ok(!available.o.has('tra'), 'Transport носится максимум до +19, в +20…+22 недоступен');
   assert.ok(available.o.has('none'));
 });
 

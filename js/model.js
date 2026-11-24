@@ -16,31 +16,16 @@ export function layerMask(scale, jacket, layer) {
   if (!jacket || jacket.isNone) {
     return layer.outerMask;
   }
-  if (jacket.kinds && !jacket.kinds.includes(layer.kind)) {
-    return 0;
-  }
-  if (jacket.ban && jacket.ban.includes(layer.kind)) {
-    return 0;
-  }
-  if (!layer.under) {
-    return 0;
-  }
-  const upper = layer.weight <= 1 ? jacket.maxOverLight : jacket.maxOverHeavy;
-  const override = jacket.minTempByKind && jacket.minTempByKind[layer.kind];
-  const lower = override != null ? override : jacket.minTemp;
   /*
-   * Тёплый слой (warm) или слой, который куртка греет сама (warmKinds, например свитшот под утеплённой курткой),
-   * носится под ней до нижней границы куртки, даже если сам по себе отмечен только от +10.
+   * wear у куртки: какие типы слоёв под неё можно и в каком диапазоне температур.
+   * shift у слоя сдвигает этот диапазон: плотный свитер (-2) греет сильнее, тонкий (+2) слабее.
    */
-  const warmEnough = layer.warm || (jacket.warmKinds && jacket.warmKinds.includes(layer.kind));
-  const layerLow = warmEnough ? Math.min(layer.under[0], lower) : layer.under[0];
-  let result = 0;
-  for (let t = Math.max(lower, layerLow, scale.min); t <= Math.min(upper, layer.under[1], scale.max); t++) {
-    if (t >= jacket.warmBelow || warmEnough) {
-      result |= 1 << (t - scale.min);
-    }
+  const range = jacket.wear && jacket.wear[layer.kind];
+  if (!range) {
+    return 0;
   }
-  return result;
+  const shift = layer.shift || 0;
+  return scale.mask(range[0] + shift, range[1] + shift);
 }
 
 function describeType(item, group) {

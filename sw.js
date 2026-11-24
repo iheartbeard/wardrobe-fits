@@ -1,5 +1,5 @@
 /* Service worker: приложение работает без сети. */
-const CACHE_VERSION = 'garderob-v43';
+const CACHE_VERSION = 'garderob-v44';
 
 const APP_FILES = [
   './',

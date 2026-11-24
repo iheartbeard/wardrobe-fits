@@ -30,10 +30,7 @@ export function winterData() {
       name: 'Carhartt WIP OG Detroit',
       colorName: 'Air Force Blue / Black, aged canvas',
       hex: '#4A5F78',
-      minTemp: 5,
-      maxOverLight: 15,
-      maxOverHeavy: 15,
-      warmBelow: 10,
+      wear: {tee: [15, 19], rg: [15, 19], ss: [11, 16], hd: [10, 14], sw: [8, 13], vs: [5, 10]},
     },
     /* Retro-X — переходная вещь между осенью и зимой, описана в осеннем гардеробе */
     ...pick(autumn.outer, ['rx', 'rxt']),
@@ -63,12 +60,6 @@ export function winterData() {
   layers.forEach((layer) => {
     if (layer.kind === 'tee') {
       layer.outer = null; // зимой футболка не бывает верхним слоем
-    }
-    if (layer.kind === 'sw') {
-      layer.under = [0, 15];
-    }
-    if (layer.kind === 'hd') {
-      layer.under = [5, 15];
     }
   });
 
