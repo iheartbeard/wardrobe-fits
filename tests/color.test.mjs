@@ -39,3 +39,14 @@ test('сочетание из подборки Васо даёт бонус', ()
   const boosted = evaluateColors(parts, palettes);
   assert.equal(boosted.score, plain.score + 2);
 });
+
+test('серый верх к серой обуви получает бонус тон-в-тон, если в образе есть цвет', () => {
+  const olive = {hex: '#6B6B3C', slot: 'b'};
+  const greyShoe = {hex: '#AEB0B3', slot: 's'};
+  const base = evaluateColors([olive, greyShoe]).score;
+  const withGrey = evaluateColors([olive, greyShoe, {hex: '#B7B8BA', slot: 'm'}]);
+  assert.ok(withGrey.reasons.includes('верх тон-в-тон с обувью'));
+  assert.ok(withGrey.score - base >= 1);
+  const allGrey = evaluateColors([{hex: '#8B8E92', slot: 'b'}, greyShoe, {hex: '#B7B8BA', slot: 'm'}]);
+  assert.ok(!allGrey.reasons.includes('верх тон-в-тон с обувью'), 'без цвета в образе бонуса нет');
+});

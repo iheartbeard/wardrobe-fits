@@ -179,6 +179,16 @@ export function evaluateColors(parts, palettes = WADA_PALETTES) {
     reasons.push('цвет обуви повторяется в образе');
   }
 
+  /* Тон-в-тон: серый или чёрный верх к обуви того же нейтрального цвета, если в образе есть хотя бы один цвет */
+  const topFamilies = parts
+    .filter((p) => p.hex && (p.slot === 'o' || p.slot === 'm' || p.slot === 't'))
+    .map((p) => colorFamily(p.hex));
+  const hasColour = families.some((f) => !NEUTRAL_FAMILIES.includes(f));
+  if ((shoeFamily === 'grey' || shoeFamily === 'black') && topFamilies.includes(shoeFamily) && hasColour) {
+    score += 1;
+    reasons.push('верх тон-в-тон с обувью');
+  }
+
   if (hues.length === 1) {
     score += 1;
     reasons.push('один яркий акцент на спокойной базе');
